@@ -1,4 +1,6 @@
 import os
+import requests
+import json
 
 def getEnv():
     env = {}
@@ -24,10 +26,38 @@ def main():
     env = getEnv() # Holds all environment variables 
 
     OBSIDIAN_PATH = env.get("OBSIDIAN_PATH")
-    print(OBSIDIAN_PATH)
-    # print(os.chdir(OBSIDIAN_PATH))
+    DAILY_NOTES_FOLDER = env.get("DAILY_NOTES_FOLDER")
+    GITHUB_PAT = env.get("GITHUB_PAT")
+
+    # DAILY_NOTES_PATH = OBSIDIAN_PATH + "/" + DAILY_NOTES_FOLDER
+
+    # print(DAILY_NOTES_PATH)
+    # print(os.chdir(DAILY_NOTES_PATH))
     # print(os.listdir('.'))
 
+    # Getting stuff from GitHub
+    url = 'https://api.github.com/graphql'
+    json = { 'query' : """
+    { viewer 
+        { repositories(first: 30) 
+            { totalCount pageInfo 
+                { 
+                    hasNextPage endCursor 
+                } 
+                edges {
+                    node {
+                        name 
+                    } 
+                } 
+            } 
+        } 
+    }
+    """ }
+    api_token = GITHUB_PAT
+    headers = {'Authorization': 'token %s' % api_token}
+
+    r = requests.post(url=url, json=json, headers=headers)
+    print (r.text)
 
 if __name__ == "__main__":
     main() 
