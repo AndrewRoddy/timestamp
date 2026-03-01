@@ -27,7 +27,7 @@ Everything we track should be immutable.
     1. If there is no start date, it will pull all data and find it
     2. Then it will put that as the start date
 3. Begin scanning your obsidian for everything after the start date
-    1. If missing a day create a blank file for that day
+    1. If missing a day create a file based on the template for that day
 4. Get all dates from after the start date that don't have the 'key'
 5. (For APIs) Based on the date adjust plan to not go over the limit
 6. Pull all of data on the missing dates since the start date
