@@ -27,11 +27,13 @@ Everything we track should be immutable.
     1. If there is no start date, it will pull all data and find it
     2. Then it will put that as the start date
 3. Begin scanning repository for everything after the start date
+    1. If missing a day create a blank file for that day
 4. Get all dates from after the start date that don't have the 'key'
 5. (For APIs) Based on the date adjust plan to not go over the limit
 6. Pull all of data on the missing dates since the start date
 7. Format the data
 8. Append it to the end of the files that are missing it
+    1. If there is no data still append the key
 9. Repeat back at the template until everythihg is added
 
 Methods of getting data
