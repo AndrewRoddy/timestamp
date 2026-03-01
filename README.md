@@ -1,9 +1,22 @@
 # Timestamp
 
 ### Motivation
+Everyone has my data but me.
+Google knows everything about me, GitHub knows every time I work, Spotify knows every song I have ever listened to, Apple Health knows every time my heart beats.
+But you know who doesn't, me. If these companies are going to keep this data then I am going to use it to create something I enjoy. I want to be able to look back and see every day that I got a steam achievement and every day I commited code.
+
+I think it will be so cool to see that the days I commited more code were the same days I got like no sleep lol. See what days I listened to a lot of music on and played a lot of video games on too.
+
+Basically if everyone has a log of everything I did I want to be able to look at it too.
+
+
+### Installation
+1. Rename the `.env.example` file to `.env`
+2. Fill it out like a form
+3. Then rename the `template.example.md` to `template.md`
+4. You can remove things and edit the order, do not edit the text though
 
 ### Implementation Plan
-
 Everything we track should be immutable. 
     Meaning once the day has passed there should be no way/reason to edit it.
     This is important as once we add it, we don't need to update it.
@@ -26,6 +39,4 @@ Methods of getting data
 1. API Calls (GitHub, Microsoft ToDo)
 2. Requesting data as a zip (YouTube, Spotify)
 3. Exporting the data (Health, Calendar)
-
-### Possible Structure
 
