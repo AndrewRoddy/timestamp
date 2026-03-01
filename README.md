@@ -4,7 +4,7 @@ Create a log of everything you do online, every day. The data already exists, mi
 ### Motivation
 Everyone has my data but me.
 Google knows everything about me, GitHub knows every time I work, Spotify knows every song I have ever listened to, Apple Health knows every time my heart beats.
-But you know who doesn't, me. If these companies are going to keep this data then I am going to use it to create something I enjoy. I want to be able to look back and see every day that I got a steam achievement and every day I commited code.
+But you know who doesn't? Me! If these companies are going to keep this data then I am going to use it to create something I enjoy. I want to be able to look back and see every day that I got a steam achievement and every day I commited code.
 
 I think it will be so cool to see that the days I commited more code were the same days I got like no sleep lol. See what days I listened to a lot of music on and played a lot of video games on too.
 
