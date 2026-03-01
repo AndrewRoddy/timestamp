@@ -67,6 +67,22 @@ def main():
 
     repo_urls = getRepos(env)
     
+    # Prints them all out including the length
+
+
+    repo_url = repo_urls[0]
+
+    GITHUB_PAT = env.get("GITHUB_PAT")
+    headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
+
+    url = repo_url + "/commits?per_page=100"
+    
+    r = requests.get(url=url, headers=headers)
+    for commit in r.json():
+        print(commit["commit"]["author"]["date"], commit["commit"]["message"])
+
+    # Check every day I need
+    # Pull all of the days I need
 
 
 
