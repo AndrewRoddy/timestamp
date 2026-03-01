@@ -35,25 +35,34 @@ def main():
     # print(os.chdir(DAILY_NOTES_PATH))
     # print(os.listdir('.'))
 
+    urls = set()
+
     # Getting stuff from GitHub
-    api_token = GITHUB_PAT
-    headers = {'Authorization': 'token %s' % api_token}
+    headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
 
-    url = 'https://api.github.com/users/AndrewRoddy/repos?type=all?per_page=100'
+    url = 'https://api.github.com/users/AndrewRoddy/repos?type=all&per_page=100'
 
     r = requests.get(url=url, headers=headers)
 
 
     for repo in r.json():
-        print(repo["url"])
-    print()
+        urls.add(repo["url"])
     
-    url = 'https://api.github.com/user/repos?type=all?per_page=100'
+    url = 'https://api.github.com/user/repos?type=all&per_page=100'
 
     r = requests.get(url=url, headers=headers)
 
     for repo in r.json():
-        print(repo["url"])
+        urls.add(repo["url"])
+
+    urls = list(urls)
+
+    urls = sorted(urls)
+
+    for url in urls:
+        print(url)
+
+    print(len(urls))
     
 
 if __name__ == "__main__":
