@@ -20,6 +20,10 @@ Sleep Score :
 
 ##### 👾 GitHub Commits
 
+##### 📁 Notes Created
+
+##### 📂 Notes Mofidied
+
 ##### 🎮 Steam Achievements
 
 ##### 📀 YouTube Watch History
