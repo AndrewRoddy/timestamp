@@ -1,4 +1,5 @@
 # Timestamp
+Create a log of everything you do online, every day. The data already exists, might as well use it.
 
 ### Motivation
 Everyone has my data but me.
@@ -7,14 +8,12 @@ But you know who doesn't, me. If these companies are going to keep this data the
 
 I think it will be so cool to see that the days I commited more code were the same days I got like no sleep lol. See what days I listened to a lot of music on and played a lot of video games on too.
 
-Basically if everyone has a log of everything I did I want to be able to look at it too.
-
-
 ### Installation
 1. Rename the `.env.example` file to `.env`
 2. Fill it out like a form
 3. Then rename the `template.example.md` to `template.md`
 4. You can remove things and edit the order, do not edit the text though
+5. Then run the python file with `uv run` and it should just work
 
 ### Implementation Plan
 Everything we track should be immutable. 
