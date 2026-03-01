@@ -22,5 +22,10 @@ Everything we track should be immutable.
 8. Append it to the end of the files that are missing it
 9. Repeat back at the template until everythihg is added
 
+Methods of getting data
+1. API Calls (GitHub, Microsoft ToDo)
+2. Requesting data as a zip (YouTube, Spotify)
+3. Exporting the data (Health, Calendar)
+
 ### Possible Structure
 
