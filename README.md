@@ -22,14 +22,14 @@ Everything we track should be immutable.
     I only want to append to the files and editing them can cause data loss
 
 'key' : "##### 👾 GitHub Commits"
-1. Checks through the template for the first thing to implement
+1. Checks through the format for the first thing to implement
 2. Checks the start date of task (ex : First day commiting to github)
     1. If there is no start date, it will pull all data and find it
     2. Then it will put that as the start date
-3. Begin scanning your obsidian for everything after the start date
+3. It then checks the last update date. Take precedent over start date of task
+4. Begin scanning your obsidian for everything after the start date
     1. If missing a day create a file based on the template for that day
-4. Get all dates from after the start date that don't have the 'key'
-5. (For APIs) Based on the date adjust plan to not go over the limit
+5. Get all dates from after the start date that don't have the 'key'
 6. Pull all of data on the missing dates since the start date
 7. Format the data
 8. Append it to the end of the files that are missing it
