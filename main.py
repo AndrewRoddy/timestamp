@@ -65,33 +65,17 @@ def getRepos(env):
 def main():
     env = getEnv() # Holds all environment variables 
 
-    OBSIDIAN_PATH = env.get("OBSIDIAN_PATH")
-    DAILY_NOTES_FOLDER = env.get("DAILY_NOTES_FOLDER")
-
-    # DAILY_NOTES_PATH = OBSIDIAN_PATH + "/" + DAILY_NOTES_FOLDER
-
-    # print(DAILY_NOTES_PATH)
-    # print(os.chdir(DAILY_NOTES_PATH))
-    # print(os.listdir('.'))
-
-    # repo_urls = getRepos(env)
-    
-    # Prints them all out including the length
-
-
-    # repo_url = repo_urls[0]
-
     # I should have at least 4099 commits total
-
     GITHUB_PAT = env.get("GITHUB_PAT")
     headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
+    # repo_url = getRepos(env)
 
-    # url = repo_url + "/commits?per_page=100"
+    # print(f"{repo_url[0]=}")
 
     page = 1
     pages = []
     while (True):
-        url = f"https://api.github.com/search/commits?q=author:AndrewRoddy&per_page=100&page={page}"
+        url = "https://api.github.com/repos/AndrewRoddy/timestamp" + "/commits?per_page=100&page={page}"
         r = requests.get(url=url, headers=headers)
 
         print(f"{r.status_code=}")
@@ -100,25 +84,17 @@ def main():
 
         pages.append(r)
         page += 1
+        print(f"{page=}")
 
+    # Switch back to using the repos and pulling all commits from each repo instead.
     i = 0
     with open("data.txt", "a") as file:
         for page in pages:
             print(page.json())
-            for commit in page.json()["items"]:
-                file.write(f"{commit["commit"]["author"]["date"]} | {commit["commit"]["message"]}\n")
-                i += 1
-                print(i)
-                
-
-    # file.write(commit["commit"]["date"], commit["commit"]["message"])
-                # file.write(commit["items"]["commit"]["author"]["date"], commit["commit"]["message"])
-    # print(len(r.json()))
-
-    # Check every day I need
-    # Pull all of the days I need
-
-
+            # for commit in page.json()["items"]:
+                # file.write(f"{commit["commit"]["author"]["date"]} | {commit["commit"]["message"]}\n")
+                # i += 1
+                # print(i)
 
 if __name__ == "__main__":
     main() 
