@@ -1,0 +1,1898 @@
+2025-10-18T22:16:40.000-04:00 | Add executed example result to README
+
+Added an executed example result section with output logs.
+2025-10-18T22:14:55.000-04:00 | Added example2.png
+2025-10-18T22:12:35.000-04:00 | Add reference to example2.png in README
+
+Added another output sample reference in README.
+2025-10-18T22:09:49.000-04:00 | Update README to include sample output reference
+
+Added note about viewing sample output in sample.png
+2025-10-18T20:15:29.000-04:00 | Starts making the producer part work
+2025-10-18T21:59:38.000-04:00 | Finishes explaining the producer code
+2025-10-18T21:59:51.000-04:00 | Explains the consumer code as well
+2025-10-18T21:59:19.000-04:00 | Begins explaining the main function
+2025-10-18T21:58:04.000-04:00 | Explains the data structure part
+2025-10-18T21:58:17.000-04:00 | The producer function explanation
+2025-10-18T21:56:46.000-04:00 | Began writing readme
+2025-10-18T21:57:00.000-04:00 | Added cloning repository section
+2025-10-18T22:04:06.000-04:00 | Fixed typo
+2025-10-18T20:59:36.000-04:00 | Updated code
+2025-10-18T20:59:41.000-04:00 | Added example
+2025-10-18T21:01:33.000-04:00 | Updated formatting on consumer.cpp
+2025-10-18T21:01:42.000-04:00 | Updated formatting on producer.cpp
+2025-10-18T18:22:34.000-04:00 | Initial commit
+2025-10-18T20:56:36.000-04:00 | Finished the producer and consumer code
+2025-10-18T22:05:53.000-04:00 | Added informatin on mapping
+2025-10-18T22:10:13.000-04:00 | Change output image reference in README
+
+Updated output image reference from 'sample.png' to 'example.png'.
+2025-10-18T22:07:06.000-04:00 | Improved Spacing
+2025-10-18T21:57:27.000-04:00 | Added writing the code section
+2025-10-18T21:57:39.000-04:00 | Explains killing the process
+2025-10-18T21:57:52.000-04:00 | Explains the include statements
+2025-10-18T21:58:27.000-04:00 | Added more information to readme
+2025-10-18T21:58:43.000-04:00 | Starts explaining the sleep function
+2025-10-18T21:59:00.000-04:00 | Finishes explaining the sleep function
+2025-10-18T22:00:21.000-04:00 | Fixes formatting issues
+2025-10-18T22:00:06.000-04:00 | Adds thank you section to the end
+2024-04-10T16:46:59.000-04:00 | v0.00.01 Moved over from packs folder
+2024-04-10T16:42:38.000-04:00 | Initial commit
+2025-12-25T17:54:16.000-05:00 | Added blue circle that moves with crown movement
+2025-12-25T18:15:56.000-05:00 | Cleaned up watch face
+2025-12-25T18:10:12.000-05:00 | Makes circles fit entire screen properly
+2025-12-25T15:11:54.000-05:00 | Apple Watch App Boiler Plate
+2025-12-25T15:08:14.000-05:00 | Initial commit
+2026-01-25T01:13:30.000-05:00 | Removed binaries
+2026-01-25T01:10:46.000-05:00 | Removed build from version control and learned how to do everything in vscode
+2023-09-17T08:20:49.000-04:00 | v0.01 Alpha
+2023-09-17T08:03:08.000-04:00 | Initial commit
+2024-09-16T09:20:35.000-04:00 | v0.01.01 How to run
+2025-01-17T18:14:54.000-05:00 | v0.01.10 Added flag logic
+2025-01-28T07:58:30.000-05:00 | v0.01.11 Start creating custom font
+2025-01-30T08:47:53.000-05:00 | v0.01.12 Created Mario Illustrator File, Mastering outlines
+2025-02-11T07:48:57.000-05:00 | v0.01.20 Finished Mario sprite for Mario Font
+2025-03-28T23:36:07.000-04:00 | test
+2025-07-25T11:56:48.000-04:00 | Progress on Mario Font
+2025-08-21T22:23:14.000-04:00 | undid what I did
+2025-08-21T22:27:03.000-04:00 | Removed vscode and archive
+2026-02-11T08:45:26.000-05:00 | Updated pynput for new version
+2026-02-11T08:30:33.000-05:00 | Added requirements.txt
+2026-02-11T09:06:22.000-05:00 | Updated pynput
+2026-02-11T09:22:52.000-05:00 | Updated README
+2026-02-11T09:23:42.000-05:00 | Stopped working on a custom font
+2026-02-14T00:20:27.000-05:00 | Merge branch 'clear-buffer'
+2026-02-14T00:19:47.000-05:00 | Clears buffer and properly prints screen without flicker
+
+Closes #2
+2026-01-23T10:15:42.000-05:00 | Published multiple files
+2026-01-23T09:55:41.000-05:00 | Published multiple files
+2026-01-23T09:51:17.000-05:00 | Published multiple files
+2026-01-16T10:24:02.000-05:00 | Published multiple files
+2026-01-16T10:07:08.000-05:00 | Published multiple files
+2026-01-16T09:58:09.000-05:00 | Published multiple files
+2026-01-16T09:50:44.000-05:00 | Published multiple files
+2026-01-16T09:08:50.000-05:00 | Published multiple files
+2026-01-15T15:23:07.000-05:00 | Published multiple files
+2026-01-15T14:59:10.000-05:00 | Published multiple files
+2026-01-15T14:55:28.000-05:00 | Delete content src/site/notes/PCR/New Service Order.md
+2026-01-15T14:55:26.000-05:00 | Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-15T14:55:24.000-05:00 | Delete content src/site/notes/PCR/Jack Move.md
+2026-01-15T14:55:23.000-05:00 | Delete content src/site/notes/PCR/Jack Create in PCR.md
+2026-01-15T14:55:21.000-05:00 | Published multiple files
+2026-01-15T13:47:50.000-05:00 | Published multiple files
+2026-01-15T13:46:36.000-05:00 | Published multiple files
+2026-01-15T13:12:29.000-05:00 | Published multiple files
+2026-01-15T13:10:49.000-05:00 | Published multiple files
+2026-01-15T10:29:00.000-05:00 | Published multiple files
+2026-01-15T10:21:19.000-05:00 | Published multiple files
+2026-01-13T12:45:59.000-05:00 | Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-13T12:45:51.000-05:00 | Delete content src/site/notes/PCR/PCR.md
+2026-01-13T12:45:50.000-05:00 | Published multiple files
+2026-01-13T09:11:10.000-05:00 | Published multiple files
+2026-01-13T09:09:30.000-05:00 | Published multiple files
+2025-12-12T09:14:47.000-05:00 | Attempts to install font family directly
+2025-12-12T09:10:23.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Network-Technician-Wiki
+2025-12-12T09:10:17.000-05:00 | Update background color and font colors
+2025-12-12T09:02:00.000-05:00 | Update settings
+2025-12-12T08:58:44.000-05:00 | Published multiple files
+2025-12-12T08:55:31.000-05:00 | Published multiple files
+2025-12-12T08:47:01.000-05:00 | Overrides the h1 color instead.
+2025-12-12T08:41:30.000-05:00 | Changed the h1 heading color
+2025-12-06T17:31:44.000-05:00 | Update settings
+2025-12-06T17:30:29.000-05:00 | Delete content src/site/notes/PCR/Jack Create - PCR.md
+2025-12-06T17:30:29.000-05:00 | Delete content src/site/notes/PCR/Jack Activation PCR.md
+2025-12-06T17:30:28.000-05:00 | Published multiple files
+2025-12-06T17:29:01.000-05:00 | Published multiple files
+2025-12-06T17:28:48.000-05:00 | Update settings
+2025-12-06T17:28:31.000-05:00 | Update favicon.svg
+2025-12-06T17:28:30.000-05:00 | Update settings
+2025-12-06T17:27:18.000-05:00 | Update favicon.svg
+2025-12-06T17:27:17.000-05:00 | Update settings
+2025-12-06T17:23:57.000-05:00 | Update settings
+2025-12-06T17:22:12.000-05:00 | Update settings
+2025-12-06T17:19:39.000-05:00 | Published multiple files
+2025-12-06T17:18:59.000-05:00 | Update settings
+2025-12-06T17:18:03.000-05:00 | Delete content src/site/notes/Welcome.md
+2025-12-06T17:18:02.000-05:00 | Delete content src/site/notes/Test-Page.md
+2025-12-06T17:18:01.000-05:00 | Published multiple files
+2025-12-06T17:08:35.000-05:00 | Update favicon.svg
+2025-12-06T17:04:33.000-05:00 | Update favicon.svg
+2025-12-06T17:04:28.000-05:00 | Update settings
+2025-12-06T17:03:35.000-05:00 | Update settings
+2025-12-06T17:02:53.000-05:00 | Update settings
+2025-12-06T17:01:13.000-05:00 | Update favicon.svg
+2025-12-06T17:00:14.000-05:00 | Delete content src/site/notes/TEST PAGE.md
+2025-12-06T17:00:14.000-05:00 | Published multiple files
+2025-12-06T16:58:11.000-05:00 | Update favicon.svg
+2025-12-06T16:57:57.000-05:00 | Update settings
+2025-12-06T16:56:42.000-05:00 | Update settings
+2025-12-06T16:56:35.000-05:00 | Update settings
+2025-12-06T16:55:21.000-05:00 | Update settings
+2025-12-06T16:55:15.000-05:00 | Update favicon.svg
+2025-12-06T16:55:14.000-05:00 | Update settings
+2025-12-06T16:53:16.000-05:00 | Update favicon.svg
+2025-12-06T16:33:11.000-05:00 | Published multiple files
+2025-12-06T16:21:48.000-05:00 | Add content src/site/notes/Welcome.md
+2025-12-06T16:19:34.000-05:00 | Update settings
+2025-12-06T16:19:23.000-05:00 | Update settings
+2025-12-06T16:16:35.000-05:00 | Restore header for Digital Obsidian Garden
+2025-12-06T21:01:43.000Z | Initial commit
+
+Created from https://vercel.com/new
+2026-02-19T22:10:06.000-05:00 | Added main file and other UV stuff
+2026-02-19T22:09:52.000-05:00 | Added UV
+2026-02-26T11:34:18.000-05:00 | Added platform table
+2026-02-26T11:34:12.000-05:00 | Moved sql into different files
+2026-02-26T11:59:30.000-05:00 | Added foreign keys and publisher table and platform table
+2026-02-19T11:19:08.000-05:00 | Created project README
+2025-10-31T17:11:55.000-04:00 | Added Graduation Date
+2025-10-26T15:25:27.000-04:00 | Initial commit
+2025-10-26T15:29:02.000-04:00 | Created first resume file
+2025-10-27T22:46:20.000-04:00 | Uploaded new resumes
+2025-10-27T22:10:08.000-04:00 | Organized resumes
+2025-10-27T22:10:14.000-04:00 | Added cover letter
+2025-10-27T22:10:19.000-04:00 | Made resume in typst
+2025-10-27T22:13:16.000-04:00 | Made font larger
+2025-10-28T17:54:03.000-04:00 | Added older resumes to list
+2025-11-24T10:34:15.000-05:00 | Updated Resume to include Network Technician
+2026-01-20T20:06:18.000-05:00 | Created first draft of CV
+2026-01-20T19:37:27.000-05:00 | Added to do list for updating my resumes
+2026-01-20T19:47:27.000-05:00 | Moved resumes to another folder
+2026-01-14T23:07:59.000-05:00 | Updated PDF
+2026-01-14T23:04:05.000-05:00 | Added All Around Children
+2026-01-14T22:29:54.000-05:00 | Added cover letters to specific folder
+2026-01-14T22:48:38.000-05:00 | Added HacKSU to Resume
+2026-01-14T22:48:31.000-05:00 | Added resume backup
+2025-11-24T08:33:50.000-05:00 | Removed ToDo section
+2025-11-20T18:28:04.000-05:00 | Added test case 1 tracking in completion todo
+2025-11-20T18:26:38.000-05:00 | To do completions completely up to date!
+2025-11-20T18:26:14.000-05:00 | Finished test cases completion!
+2025-11-20T18:26:00.000-05:00 | Added 11/02 to completion
+2025-11-20T18:25:49.000-05:00 | Added 11/06 to do completions
+2025-11-20T18:25:19.000-05:00 | Added 11/04 todo completions
+2025-11-12T22:24:55.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-12T22:24:47.000-05:00 | Changed folder names
+2025-11-06T21:50:34.000-05:00 | Removed .exe files. Updated the main.asm
+2025-11-06T21:45:48.000-05:00 | Creates fully working ASM regular expression parser fully functional only 8.8k lines
+2025-11-06T21:39:27.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T21:39:21.000-05:00 | I have solved the assignment.
+2025-11-06T21:35:57.000-05:00 | Removed $null??
+2025-11-06T21:35:19.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T21:35:00.000-05:00 | Working binaries I am intentionally commiting binaries
+2025-11-06T21:22:20.000-05:00 | Saves .exe intentionally
+2025-11-06T21:21:59.000-05:00 | Converts a C program to assembly code
+2025-11-06T21:21:41.000-05:00 | Uses regex in python
+2025-11-06T20:28:40.000-05:00 | Added funny solution
+2025-11-06T20:24:42.000-05:00 | Removed hardcoded test case main-test
+2025-11-06T20:24:13.000-05:00 | Made Makefile work on all systems
+2025-11-06T20:21:04.000-05:00 | Made bonus test case
+2025-11-06T20:20:59.000-05:00 | Made 9th test case
+2025-11-06T20:20:51.000-05:00 | Made 8th test case
+2025-11-06T20:20:31.000-05:00 | Made 6 7 test case
+2025-11-06T20:20:18.000-05:00 | Made fourth and fifth test case
+2025-11-06T20:20:03.000-05:00 | Made 3rd test case
+2025-11-06T20:19:53.000-05:00 | Made second test case
+2025-11-06T20:18:48.000-05:00 | Created first testcase
+2025-11-06T20:18:33.000-05:00 | Created makefile and test asm that has hardcoded outputs
+2025-11-06T19:15:21.000-05:00 | Adds input and output messages
+2025-11-06T18:53:06.000-05:00 | Reordered the README
+2025-11-06T18:42:56.000-05:00 | Added table to show test cases
+2025-11-06T18:40:17.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T18:38:24.000-05:00 | Update README with detailed TODO
+2025-11-06T17:44:37.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T17:44:31.000-05:00 | Added one line to the README
+2025-11-04T17:57:05.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-04T17:56:58.000-05:00 | Fixed PDF errors
+2025-11-04T17:41:12.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-04T17:41:06.000-05:00 | Added PDF
+2025-11-04T17:30:16.000-05:00 | Initial commit
+2026-02-03T16:45:17.000-05:00 | Update README.md
+2026-02-03T15:20:18.000-05:00 | Merge branch 'aac-date'
+2026-02-03T15:19:56.000-05:00 | Fixed date of AAC to devember (Closes #6)
+2026-02-03T15:19:08.000-05:00 | Created backup
+2025-10-10T23:05:45.000-04:00 | Created concentric circle effect.
+2025-10-10T17:08:40.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Gomodoro
+2025-10-10T17:08:01.000-04:00 | Fixed package.lock
+2025-10-10T17:07:31.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Gomodoro
+2025-10-10T17:07:21.000-04:00 | Made circle go around twice
+2025-10-10T16:51:47.000-04:00 | Created README with plans and todo
+2025-10-10T00:23:32.000-04:00 | Added mode button component
+2025-10-10T00:17:27.000-04:00 | Created working timer
+2025-10-09T17:00:26.000-04:00 | Makes non-working visual of timer circle
+2025-10-09T15:36:26.000-04:00 | Removed .vscode folder
+2025-10-09T15:35:37.000-04:00 | Added ability to hide the timer
+2025-10-09T15:14:10.000-04:00 | Now properly uses components
+2025-10-09T13:24:14.000-04:00 | Made timer work and be centered
+2025-10-09T13:19:05.000-04:00 | Switched to Angular
+2025-10-09T12:26:53.000-04:00 | Update README.md
+2025-10-09T12:20:23.000-04:00 | Begins creating the timer in react
+2025-10-08T18:41:56.000-04:00 | Initial commit
+2024-11-01T20:44:57.000-04:00 | Initial commit
+2024-11-03T19:38:21.000-05:00 | v0.00.05 Image Test Again Again Again
+2024-11-03T19:40:29.000-05:00 | v0.00.06 Images Test
+2024-11-03T19:50:07.000-05:00 | v0.00.10 Adds the Icon
+2024-11-03T19:55:44.000-05:00 | v0.00.11 Rounds off the icon
+2024-11-03T19:58:45.000-05:00 | v0.00.12 Adds version number
+2024-11-03T20:07:59.000-05:00 | v0.00.15 You can move matt around
+2024-11-02T23:20:56.000-04:00 | Create CNAME
+2024-11-02T23:04:04.000-04:00 | v0.00.01 Boilerplate
+2024-11-02T23:24:23.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/drewgo.com
+2024-11-02T23:24:09.000-04:00 | v0.00.02 Image Test
+2024-11-02T23:28:14.000-04:00 | v0.00.04 Image Test Again Again
+2024-11-02T23:25:44.000-04:00 | v0.00.03 Image Test Again
+2024-11-03T21:15:42.000-05:00 | v0.00.50 Added buttons to bottom, added easter egg
+2024-11-03T21:21:57.000-05:00 | v0.00.51 Added "secret"
+2024-11-07T18:56:51.000-05:00 | v0.00.60 More Stuff
+2024-11-15T19:58:28.000-05:00 | v0.01.21 Fixed Mispelling
+2024-11-15T20:07:20.000-05:00 | v0.01.22 Updated margin and flexbox for bottom buttons
+2024-11-15T18:47:41.000-05:00 | v0.01.20 Added Delta Skins Button
+2024-11-14T21:25:42.000-05:00 | v0.01.00 Added the Shrimp Detector
+2024-11-14T21:29:31.000-05:00 | v0.01.01 Maybe fixes the logo
+2024-11-14T21:30:48.000-05:00 | v0.01.02 Again
+2024-11-14T21:33:02.000-05:00 | v0.01.03 Fixed Java
+2024-11-14T21:47:38.000-05:00 | v0.01.05 Fixed
+2024-11-14T21:45:19.000-05:00 | v0.01.04 The Sloppy Duck
+2024-11-14T21:51:17.000-05:00 | v0.01.06 Fixed bottom buttons
+2024-11-14T21:56:16.000-05:00 | v0.01.07 Made eric wider
+2024-11-14T22:05:37.000-05:00 | v0.01.11 Recognition all has things that happen when pressed
+2024-12-08T19:06:11.000-05:00 | v0.01,30 Added Despaired Cat Game!
+2025-01-05T22:25:57.000-05:00 | 0.01.40 Added Geeked vs. Locked in
+2024-12-27T23:54:52.000-05:00 | v0.01.31 Adds pfp image
+2024-12-29T03:18:39.000-05:00 | 0.01.32 Added Carrots or Cats and MANY style changes
+2025-06-06T12:22:52.000-04:00 | 0.01.41 Removed Secret YT
+2025-10-13T10:56:44.000-04:00 | Removed submodule and moved cube clicker to vercel
+2025-10-13T10:59:29.000-04:00 | Added gomodoro timer
+2025-10-13T11:04:39.000-04:00 | Retrying adding gomodoro timer
+2025-06-26T14:13:19.000-04:00 | 0.01.50 Changed Main Logo
+2025-07-10T09:08:23.000-04:00 | 0.01.51 New icon
+2025-07-10T16:00:03.000-04:00 | 0.01.92 Made jumpscared reload the page automatically
+2025-07-10T15:48:31.000-04:00 | 0.01.90 Added Meetures to the website!
+2025-07-10T15:53:06.000-04:00 | 0.01.91 Fixes the images wheel
+2025-07-10T11:51:40.000-04:00 | 0.01.80 Added Jump King skins, Clomp, and reformatted site completely
+2025-08-19T15:32:24.000-04:00 | fixed weebly link
+2025-09-06T11:53:53.000-04:00 | This should fix the repo
+2025-09-06T13:14:24.000-04:00 | Updated despaired cat game
+2025-09-05T13:07:43.000-04:00 | Added cube clicker as a submodule
+2025-09-05T14:18:05.000-04:00 | Added the submodule again as it broke previously
+2025-09-05T14:16:58.000-04:00 | Remove old Cube-Clicker folder from index to allow submodule
+2025-09-05T21:59:08.000-04:00 | Added better link to the cube clicker game
+2025-09-05T12:49:49.000-04:00 | Added Cube Clicker Files
+2025-09-06T00:00:13.000-04:00 | Updated cube clicker
+2025-09-04T10:36:46.000-04:00 | Added cube clicker
+2025-11-09T14:21:52.000-05:00 | Added the two auto checkout bat files
+2025-11-09T14:17:41.000-05:00 | Versioned the first 4 days of svn checkouts
+2025-11-09T14:22:59.000-05:00 | Added the next couple of days of checkouts
+2025-11-09T14:23:16.000-05:00 | Added more checkouts
+2025-11-09T14:23:30.000-05:00 | Added even more checkouts
+2025-11-09T14:23:44.000-05:00 | Added even more checkouts
+2025-11-09T14:23:51.000-05:00 | More Checkouts
+2025-11-09T14:24:03.000-05:00 | More checkouts
+2025-12-03T10:21:24.000-05:00 | Updated 2025-12-03
+2025-12-18T22:35:47.000-05:00 | Updated 2025-12-18
+2026-02-24T09:10:05.000-05:00 | Cleaned up things
+2026-02-24T09:05:44.000-05:00 | Removed relations
+2026-02-24T08:50:21.000-05:00 | Made money decimals
+2026-02-24T08:48:37.000-05:00 | Removed tailing commas
+2026-02-24T08:48:02.000-05:00 | Added semicolons
+2026-02-24T08:47:35.000-05:00 | First attempt at the SQL
+2026-02-24T09:16:11.000-05:00 | Modified how the .py files works
+2026-02-24T09:31:10.000-05:00 | Now runs everything in sql folder
+2026-02-24T12:46:28.000-05:00 | Added relations as comments
+2026-02-24T08:17:48.000-05:00 | Moved HW2 over
+2026-02-23T10:22:59.000-05:00 | Saved Databases Homework
+2026-02-24T16:25:15.000-05:00 | Created ASCII way of visualizing the ER Diagram
+2026-02-24T22:44:04.000-05:00 | Added more foreign keys
+2026-02-24T22:44:49.000-05:00 | Fixed typo
+2026-02-24T22:26:52.000-05:00 | Moved foreign keys down
+2026-02-24T22:10:35.000-05:00 | fixed it right up
+2026-02-24T22:10:28.000-05:00 | Added assignment 1
+2026-02-24T22:40:15.000-05:00 | Created all relations
+2026-02-24T22:52:58.000-05:00 | Added if not exists to everything
+2026-02-24T22:46:56.000-05:00 | Removed name
+2026-02-24T16:31:33.000-05:00 | Perfected my Key
+2026-03-01T16:01:15.000-05:00 | Finished query 1
+2026-03-01T19:36:48.000-05:00 | Finished HW 3
+2026-03-01T19:05:02.000-05:00 | Finished questions 2-5
+2026-03-01T15:23:26.000-05:00 | Added homework 3
+2026-03-01T15:23:18.000-05:00 | Moved readme and gitignore out folders
+2025-01-24T22:50:40.000-05:00 | 0.00.10 Removes starting blocks
+2025-01-24T21:08:11.000-05:00 | Initial commit
+2025-01-24T21:16:08.000-05:00 | 0.00.01 Start
+2025-05-18T18:04:31.000-04:00 | 0.00.50 Nether portal is working
+2025-05-18T21:17:48.000-04:00 | 0.00.60 Animal Teleporting working
+2025-05-16T23:29:40.000-04:00 | 0.00.11 Restarted the process as video capture of the project was bad
+2025-05-17T21:39:35.000-04:00 | 0.00.31 The nether is complicated
+2025-05-17T21:33:38.000-04:00 | 0.00.30 End Portal WORKS!!!!
+2025-05-17T17:20:01.000-04:00 | 0.00.13 Fixed version name
+2025-05-17T17:19:46.000-04:00 | 0.00.12 Started making datapack
+2025-05-17T20:58:09.000-04:00 | 0.00.20 Removes sides, keeps player on, generates some of portal rool
+2025-05-21T00:25:10.000-04:00 | 0.93.00 Improved text and made spawners weaker
+2025-05-20T15:50:37.000-04:00 | 0.10.10 Forgot I don't need to put the version number in the folder name just the zip lol
+2025-05-20T15:49:20.000-04:00 | 0.10.01 Might be release ready?? Time to test it on a few worlds first
+2025-05-27T03:30:35.000-04:00 | 1.01.00 Finished 1.21.0 and started 1.21.2
+2025-05-27T00:12:55.000-04:00 | 0.94.13 Fixed the dragon loop that deletes the portal in the end
+2025-05-27T02:41:31.000-04:00 | 0.95.03 Gave up on respawning the ender dragon
+2025-05-27T02:50:42.000-04:00 | 1.00.00 Updating version number because I complete it
+2025-05-27T02:48:50.000-04:00 | 0.96.00 I think v1.21.1 is COMPLETE, also Updated README
+2025-05-19T17:17:40.000-04:00 | 0.00.70 Barriers working in every dimension
+2025-05-20T17:03:04.000-04:00 | 0.20.00 Fixed dragon respawn, allowed increased render distance in end, fixed stronghold and nether portal generation
+2025-05-20T17:19:53.000-04:00 | 0.30.00 Returned bounds and made hole that leads to ruined portal water so people find it
+2025-05-20T17:20:12.000-04:00 | 0.31.00 Updated initial message
+2025-05-20T17:09:55.000-04:00 | 0.30.00 Returned bounds and made hole that leads to ruined portal water so people find it
+2025-05-20T15:59:42.000-04:00 | 0.11.00 Added water to the ruined portal incase the user spawns on top of it and can't get down
+2025-05-20T22:55:58.000-04:00 | 0.80.00 Hopefully, Actually fixed spawning with a super jenky reload sequence
+2025-05-20T22:34:38.000-04:00 | 0.70.00 Fixed the spawn platform not working properly
+2025-05-20T22:20:24.000-04:00 | 0.61.00 Sets world spawn and teleports the player last to increase chances of not dying off spawn immediately
+2025-05-20T22:15:30.000-04:00 | 0.60.00 Fixed end dimension deletion, fixed removing outside chunks
+2025-05-20T22:41:26.000-04:00 | 0.71.00 Hopefully fixed the spawning again
+2025-05-20T23:28:45.000-04:00 | 0.91.00 I think I might have actually FR
+2025-05-20T23:39:27.000-04:00 | 0.92.01 Just removed the resistance particles
+2025-05-20T23:37:24.000-04:00 | 0.92.00 It didn't delete the starting chunk :( Hopefully I fixed it!!!
+2025-05-20T23:41:48.000-04:00 | 0.92.20 Changed reloading time incase the spawn is cooked
+2025-05-20T23:45:17.000-04:00 | 0.92.21 Fixed introductory text
+2025-05-19T21:40:07.000-04:00 | 0.00.90 Might have finished everything??
+2025-05-26T22:49:44.000-04:00 | 0.94.10 Removed ghasts and fireballs from the mob moving list
+2025-05-26T22:30:35.000-04:00 | 0.94.00 Tested weaker spawners
+2025-05-27T00:17:50.000-04:00 | 0.94.20 Removed dragon loop
+2025-05-27T00:24:55.000-04:00 | 0.94.30 Removed dragon loop added loading message
+2025-05-26T23:20:42.000-04:00 | 0.94.11 Fixed end island not deleting
+2025-05-26T23:31:38.000-04:00 | 0.94.12 Actually fixed end island not deleting
+2025-05-27T00:46:25.000-04:00 | 0.94.40 Stopped arrows being teleported
+2025-05-27T01:50:41.000-04:00 | 0.94.51 Fixes the end remove for all heights
+2025-05-27T02:03:33.000-04:00 | 0.94.52 Hopefully fixes the end remove again
+2025-05-27T01:46:28.000-04:00 | 0.94.50 Now removes the end portal in the end please I hope this worked
+2025-05-27T02:20:14.000-04:00 | 0.95.00 Fully overhauled how removing the end portal happens
+2025-05-27T02:26:32.000-04:00 | 0.95.02 Typo Off by a block
+2025-05-27T02:23:47.000-04:00 | 0.95.01 Fixed setblock typo
+2025-05-27T20:42:33.000-04:00 | 1.02.00 Still creating many more versions
+2025-05-27T22:11:00.000-04:00 | 1.10.00 All versions complete!!
+2024-09-12T13:24:28.000-04:00 | Initial commit
+2024-09-17T11:28:57.000-04:00 | Day 1 of Leetcode
+2024-09-13T23:48:50.000-04:00 | Creating README
+2025-07-22T17:43:08.000-04:00 | Half finished Reverse Integer
+2025-07-22T17:44:37.000-04:00 | Removed all .exe files from repo
+2025-07-23T13:08:48.000-04:00 | Completed Reverse Integer, and improved upon it
+2025-07-24T11:10:06.000-04:00 | Palindrome Complete
+2025-08-28T16:07:02.000-04:00 | Add note for me
+2025-09-17T18:22:01.000-04:00 | Improved my 2023 Leetcode code a bit
+2025-09-17T18:20:27.000-04:00 | Added old leetcode solutions to now
+2025-09-17T18:26:05.000-04:00 | 1935 Completed
+2025-09-17T18:08:43.000-04:00 | Changed naming convention
+2025-09-17T18:31:55.000-04:00 | 2327 Complete
+2025-09-07T17:52:25.000-04:00 | Made complete folder. Removed .vscode folder
+2025-09-07T17:58:45.000-04:00 | Completed 3675
+2025-09-07T18:06:12.000-04:00 | Complete 3674
+2025-09-07T18:29:39.000-04:00 | Finished 1304
+2025-09-11T20:10:48.000-04:00 | Merge pull request #55 from hacksu/Better-Meeting-Opacity
+
+Set past meeting opacity to 1
+2025-09-11T20:09:56.000-04:00 | Set past meeting opacity to 1
+2025-09-27T23:47:41.000-04:00 | Adding previously complete Leetcode Questions
+2025-10-23T23:14:14.000-04:00 | Merge pull request #57 from Monster0506/feature/event-container
+
+Update transparency so cards do not have transparent background
+2025-11-10T08:54:45.000-05:00 | Working on MT2. And generated PDF
+2025-11-09T13:13:27.000-05:00 | Added intro examples
+2025-11-09T13:12:26.000-05:00 | Only hides pdfs in assignments
+2025-11-09T13:14:12.000-05:00 | Added T - confidence intervals and t procedures
+2025-11-09T13:14:21.000-05:00 | Two sample t test examples
+2025-11-09T13:13:36.000-05:00 | Added mean bar graphs and distributions
+2025-11-09T13:13:46.000-05:00 | Added confidence intervals and chi-square tests
+2025-11-09T13:18:17.000-05:00 | Added anova
+2025-11-09T13:18:26.000-05:00 | Added multiple regression
+2025-11-09T13:18:38.000-05:00 | Added regression with matrices and multiple regression
+2025-11-09T13:18:46.000-05:00 | Added simple linear regression
+2025-11-09T12:51:37.000-05:00 | Completed Homework 2
+2025-11-09T12:47:59.000-05:00 | Initial commit
+2025-11-09T12:53:53.000-05:00 | Completed third homework assignment
+2025-11-09T12:53:07.000-05:00 | Completd take home portion of midterm 1
+2025-11-11T15:53:15.000-05:00 | Almost done with mt2
+2023-09-28T10:52:23.000-04:00 | v0.07.10 Adds a games tab
+2023-09-23T21:12:12.000-04:00 | v0.07.04 Iphone Test #3
+2023-09-23T21:07:55.000-04:00 | v0.07.03 Iphone 13 test #2
+2023-09-23T21:04:39.000-04:00 | v0.07.02 Adds Version Indicator
+
+Also changes how version are input into Github.
+2023-09-23T21:00:22.000-04:00 | v0.0701 Iphone 13 Test
+2023-09-23T20:30:04.000-04:00 | v0.07 Adds September to Datapacks of the Month
+2023-09-23T14:48:24.000-04:00 | v0.0601 Fixes columns
+2023-09-23T14:33:49.000-04:00 | v0.060 Adds Column Views
+
+Allows the viewing of 4 columns at a large screen size, 3 columns at a smaller screen size and 2 on mobile.
+2023-09-23T14:12:37.000-04:00 | v0.058 Improves Mobile View
+2023-09-23T13:53:18.000-04:00 | v0.057 CSS Changes
+
+Adds css devices file to better change based on mobile. Fixes the text in divs.
+2023-09-23T11:34:11.000-04:00 | v0.056 Fixes Favicon
+2023-09-23T11:25:23.000-04:00 | v0.055 Fixes Favicon and Nav Bar Text Size
+2023-09-23T10:55:28.000-04:00 | v0.055.1 Fixes Nav Bar
+2023-09-23T10:46:00.000-04:00 | v0.055 Favicon + Nav Bar
+
+Finishes the nav bar and changes the favicon
+2023-09-22T09:19:04.000-04:00 | v0.054 Adds Nav Bar
+2023-09-21T11:28:18.000-04:00 | v0.053 csv desktop support
+2023-09-17T08:01:55.000-04:00 | 0.05.2 Fixes some stuff in csv
+2023-09-08T11:01:15.000-04:00 | v0.05.1 Fixes the top image
+2023-09-07T23:15:32.000-04:00 | v0.05 Creates the favicon and improves the grid
+2023-09-05T21:48:49.000-04:00 | v0.04 Completes 12 Datapacks
+
+Cool :)
+2023-09-05T19:37:30.000-04:00 | v0.03 Completes the containers
+2023-09-04T12:57:10.000-04:00 | v0.02
+
+Creates a grid of the datapacks!
+2023-09-04T11:55:05.000-04:00 | v0.01 One Datapack Section
+
+Creates the idea for a single datapack download thing.
+2023-09-04T10:11:40.000-04:00 | Images Update
+
+Adds images, div, css, and other stuff
+2023-09-04T08:05:44.000-04:00 | Update index.html
+2023-09-03T18:07:17.000-04:00 | Create CNAME
+2023-09-03T18:07:09.000-04:00 | Delete CNAME
+2023-09-03T18:05:54.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/AndrewRoddy.github.io
+2023-09-03T17:53:48.000-04:00 | Create CNAME
+2023-09-03T17:53:42.000-04:00 | Delete CNAME
+2023-09-03T17:50:08.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/AndrewRoddy.github.io
+2023-09-03T17:39:39.000-04:00 | Create CNAME
+2023-09-03T17:39:06.000-04:00 | Testing2
+2023-09-03T17:37:36.000-04:00 | Create index.html
+2023-09-03T17:23:03.000-04:00 | Update README.md
+2023-09-03T17:22:26.000-04:00 | Initial commit
+2023-11-07T22:23:09.000-05:00 | v0.10.00 Overhauls Everything, First 3 Datapacks
+2023-11-16T17:15:55.000-05:00 | v0.10.05 Day5
+2023-11-24T12:36:09.000-05:00 | v0.10.06 Adds more datapacks to homescreen
+2023-12-01T22:14:11.000-05:00 | v0.10.07 Adjusted thumbnails and screensize
+2023-12-03T01:23:55.000-05:00 | v0.10.08 Added new datapack
+2023-12-04T11:43:53.000-05:00 | v0.10.09 Added new datapack
+2023-12-06T08:33:45.000-05:00 | v0.10.09 Added new datapack
+2023-12-07T22:34:52.000-05:00 | v0.10.10 Added new datapack
+2023-12-17T00:28:49.000-05:00 | v0.10.21 Adds Raining Wardens
+2023-12-18T22:40:18.000-05:00 | v0.10.22 Adds XP=Death
+2023-12-18T22:49:55.000-05:00 | Update 23December.html
+2023-12-13T23:01:15.000-05:00 | v0.10.20 Changes Image File Names and adds Random Items
+2023-12-20T11:27:45.000-05:00 | v0.10.22 Adds Patreon
+2024-01-01T03:35:33.000-05:00 | v0.11.00 Adds January
+2024-01-01T03:36:49.000-05:00 | v0.11.01 Fixes January
+2024-01-01T13:13:14.000-05:00 | Update 013 Invisible Mobs.png
+2024-11-03T19:02:16.000-05:00 | Update CNAME
+2025-01-09T22:24:19.000-05:00 | v0.12.00 Replaced everything
+2025-02-13T08:45:45.000-05:00 | 0.13.00 Switches to a two colum layout
+2025-02-04T12:10:49.000-05:00 | 0.12.10 Finalizes cursor glow
+2025-02-03T08:11:59.000-05:00 | 0.12.01 Adds cursor glow
+2025-02-10T09:13:27.000-05:00 | 0.12.20 Made custom cursor
+2025-02-23T20:53:08.000-05:00 | 0.13.01 Thanks message
+2025-04-23T08:47:15.000-04:00 | 0.13.11 Fixed two column format
+2025-04-30T09:16:35.000-04:00 | 0.13.18 Updated icon
+2025-04-22T16:19:27.000-04:00 | 0.13.10 Improves CSS readability
+2025-04-24T08:36:57.000-04:00 | 0.13.12 Slightly Updated Format
+2025-04-24T09:41:46.000-04:00 | 0.13.14 Added extra icons
+2025-04-24T09:41:23.000-04:00 | 0.13.13 Deleted files I don't need
+2025-04-28T08:58:40.000-04:00 | 0.13.16 Make icons white
+2025-04-27T05:37:59.000-04:00 | 0.13.15 Make icons white
+2025-04-29T09:00:23.000-04:00 | 0.13.17 Removed headshot from website
+2025-05-12T21:09:26.000-04:00 | 0.13.19 Added text
+2025-05-13T23:40:59.000-04:00 | 0.13.20 Added Education
+2025-09-01T19:55:16.000-04:00 | Added work experience
+2025-09-14T14:49:29.000-04:00 | Added boiler plate server.js file and created archive folder
+2025-09-14T21:20:48.000-04:00 | Updated README to add guides for code snippet locations
+2025-09-14T20:47:04.000-04:00 | Added public assets, updated readme, updated js and handlebars
+2025-09-14T20:50:30.000-04:00 | Reformatted code blocks
+2025-09-09T18:56:06.000-04:00 | Updated cube clicker again to hopefully allow upgrades
+2025-09-09T18:50:29.000-04:00 | Updated cube clicker
+2025-09-04T21:46:10.000-04:00 | Added projects
+2025-09-06T11:25:35.000-04:00 | Added cube clicker as a submodule AGAIN (it keeps breaking)
+2025-09-06T11:40:50.000-04:00 | Removing private submodule
+2025-09-06T11:41:17.000-04:00 | Removing .gitmodules
+2025-09-06T11:44:21.000-04:00 | Fix Cube-Clicker link path
+2025-09-06T11:44:00.000-04:00 | Add Cube-Clicker as submodule in pages/Cube-Clicker
+2025-09-06T11:08:13.000-04:00 | Update website styling and fix layout consistency
+2025-09-06T11:20:36.000-04:00 | Add the gitmodule Cube-Clicker
+2025-09-06T11:19:49.000-04:00 | Removed cube clicker temporarily to fix it
+2025-09-06T11:24:03.000-04:00 | Removed cube clicker
+2025-09-05T23:59:50.000-04:00 | Added comments and improved right column slide
+2025-09-05T22:44:14.000-04:00 | Improved Look of website!
+2025-09-06T13:15:04.000-04:00 | Added functionality for all of the projects
+2025-09-08T00:19:37.000-04:00 | Added handlebars file and updated the js and repo formatting to allow easy cloning
+2025-09-08T00:26:04.000-04:00 | Included final version in one folder. Also includes package.json
+2025-09-05T13:35:28.000-04:00 | Added Cube Clicker to this repo
+2025-09-05T13:31:51.000-04:00 | Added sube clicker to this website
+2025-09-07T22:58:21.000-04:00 | glitch.com is dead. Added Node.js and Express setup in VS Code to README
+
+Updated README to reflect changes in setup instructions and removed references to glitch.com.
+2025-10-05T22:15:12.000-04:00 | Updated resume added text for icons
+2025-10-12T15:07:23.000-04:00 | Removed Gomodoro for now until I fully figure out how to host it
+2025-10-12T15:07:52.000-04:00 | Fully, fully removed gomodoro
+2025-10-12T14:34:26.000-04:00 | Adds the gomorodo timer to the website
+2025-10-12T14:35:29.000-04:00 | Imporoves gomodoro time button
+2025-10-12T19:59:01.000-04:00 | Correctly added gomodoro :)
+2025-10-12T21:58:30.000-04:00 | Removed submodules, switched to vercel
+2025-10-09T10:14:35.000-04:00 | Update Andrew_Roddy_Resume.pdf
+2025-10-09T16:22:23.000-04:00 | Update Andrew_Roddy_Resume.pdf
+2025-11-17T07:47:24.000-05:00 | Updated resume. Changed resume index formatting
+2025-11-18T18:06:30.000-05:00 | Broke up presentation
+2025-11-18T17:39:39.000-05:00 | Updated presentation
+2025-11-18T17:56:21.000-05:00 | Merge pull request #2 from Monster0506/patch-1
+
+Add dev script for nodemon in package.json
+2025-11-18T17:45:25.000-05:00 | Merge pull request #1 from Monster0506/patch-1
+
+Fix filename typo
+
+
+lgtm
+2026-01-15T16:20:27.000-05:00 | Updated resume
+2026-01-28T14:51:36.000-05:00 | Updated GPA
+2026-01-28T14:51:52.000-05:00 | Reverted GPA change
+2026-01-28T17:05:46.000-05:00 | Fixed adblock (Closes #6)
+2026-01-28T17:17:59.000-05:00 | Updated positions (Closes #2)
+2026-01-28T17:17:04.000-05:00 | Added AAC, KSU NTS, HacKSU
+2026-01-28T17:03:26.000-05:00 | Stop ad block from changing my page
+2026-01-28T16:52:39.000-05:00 | Seperated experience into its own block
+2026-01-28T16:52:28.000-05:00 | Fixed meetures page loading while not in view
+2026-01-28T16:35:36.000-05:00 | Allowed multiple sections in each column. (#10 closed)
+2026-01-28T16:39:20.000-05:00 | Moved GPA section (Closes #10)
+2026-01-28T14:56:25.000-05:00 | Updated GPA (closes #1)
+2026-01-28T14:58:41.000-05:00 | Merge pull request #9 from AndrewRoddy/1-update-education-gpa
+
+Merge pull request #8 from AndrewRoddy/main
+2026-01-28T14:57:58.000-05:00 | Merge pull request #8 from AndrewRoddy/main
+
+Updated GPA (closes #1)
+2026-02-04T16:42:45.000-05:00 | Updated resume
+2026-02-06T11:49:00.000-05:00 | Merge branch 'add-narrow'
+2026-02-06T11:48:42.000-05:00 | Added narr0w to the website
+2026-02-06T11:43:51.000-05:00 | Added image for the narr0w icon
+2026-02-06T11:27:47.000-05:00 | Merge branch 'Add-Prismo'
+2026-02-06T11:27:30.000-05:00 | Finalized prismo icon (Closes #3)
+2026-02-06T11:26:13.000-05:00 | Adds image to the website
+2026-02-06T11:26:05.000-05:00 | Adds Prismo image
+2026-02-06T11:17:55.000-05:00 | Added prismo to website
+2026-02-09T11:30:38.000-05:00 | Merge branch 'add-spiral'
+2026-02-09T11:29:33.000-05:00 | Finalized spiral (Closes #17)
+2026-02-09T11:28:41.000-05:00 | Adds information to Spiral
+2026-02-09T11:20:36.000-05:00 | Added image for spiral
+2026-02-09T11:38:10.000-05:00 | Finalized narr0w (Closes #4)
+2026-02-09T20:22:36.000-05:00 | Merge branch 'column-width'
+2026-02-09T20:15:49.000-05:00 | Fixes two column width with one column (Closes #16)
+2026-02-11T09:27:10.000-05:00 | Merge branch 'terminal-mario'
+2026-02-11T09:26:58.000-05:00 | Added terminal mario (Closes #23)
+2026-02-11T09:08:26.000-05:00 | Added graphic
+2026-02-11T09:31:55.000-05:00 | Merge branch 'image-naming'
+2026-02-11T09:31:44.000-05:00 | Updated naming scheme
+2026-02-11T09:32:22.000-05:00 | Finished naming scheme (Closes #25)
+2026-02-11T08:22:07.000-05:00 | Merge branch 'add-regex'
+2026-02-11T08:21:56.000-05:00 | Added regex engine card
+2026-02-09T22:50:48.000-05:00 | Added image for the regex engine
+2026-02-11T08:22:48.000-05:00 | Finished adding regex engine (Closes #14)
+2026-02-09T19:44:34.000-05:00 | Merge branch 'fix-link-spacing'
+2026-02-09T19:44:02.000-05:00 | Fixes links underline (Closes #12)
+2026-02-09T22:47:56.000-05:00 | Merge branch 'list-parser'
+2026-02-09T22:47:35.000-05:00 | Finished adding Assembly List Parser to the website (Closes #15)
+2026-02-09T22:39:55.000-05:00 | Added Assembly List Parser image
+2026-02-09T22:37:24.000-05:00 | Added comments for future editions
+2026-02-09T22:29:20.000-05:00 | Finalized comment formatting
+2026-02-09T22:11:50.000-05:00 | Reformatted date comments
+2026-02-09T22:11:17.000-05:00 | Re ordered in order of creation, added dates of every project
+2026-02-14T18:09:11.000-05:00 | Attempt to deploy page
+2026-02-14T18:07:59.000-05:00 | Add missing .gitmodules file for Cube-Clicker submodule
+
+This fixes the GitHub Actions error: "No url found for submodule path 'pages/Cube-Clicker'"
+2026-02-12T16:24:39.000-05:00 | Merge branch '24-add-myllama'
+2026-02-12T16:24:21.000-05:00 | Added MyLlama to my website
+2026-02-12T16:17:58.000-05:00 | Added image
+2026-02-12T16:25:48.000-05:00 | Finished myllama (Closes #24)
+2026-02-14T18:00:37.000-05:00 | Merge branch 'fix-images'
+2026-02-14T17:57:55.000-05:00 | renamed names
+2026-02-14T17:56:49.000-05:00 | Moved images
+2026-02-15T01:06:24.000-05:00 | Merge branch 'test-issue'
+2026-02-15T01:05:07.000-05:00 | Test issue complete
+
+Closes #27
+2024-02-08T21:40:39.000-05:00 | v0.00.10 Makes Jumping and Movement smooth
+2024-02-08T20:10:32.000-05:00 | Initial commit
+2024-02-08T20:14:55.000-05:00 | v0.00.01 Sets everything up
+2024-02-09T22:51:47.000-05:00 | v0.00.15 Attempts to add camera
+2024-02-16T16:07:09.000-05:00 | v0.00.18 Added Moving Boxes
+2024-02-14T15:28:57.000-05:00 | v0.00.16 Adds anti-gravity
+2024-03-09T10:52:11.000-05:00 | v0.00.18 Attempts to add 2 player
+2024-11-27T19:11:12.000-05:00 | v0.00.19 Simple kind of bad game
+2024-12-09T12:01:37.000-05:00 | v0.01.01 Updates cat game
+2024-12-07T21:02:25.000-05:00 | v0.01.00 Version 1 of Despaired Cat Game
+2024-12-15T21:32:24.000-05:00 | v0.02.01 Now its vertical so maybe phone?
+2025-03-10T21:35:27.000-04:00 | 0.02.13 Adds quit button
+2025-03-09T21:19:43.000-04:00 | 0.02.12 Adds game over button texture
+2025-03-14T20:59:23.000-04:00 | 0.02.60 Paddle Direction influences ball direction
+2025-03-13T14:13:34.000-04:00 | 0.02.50 Refactored the Window
+2025-03-23T18:25:25.000-04:00 | 0.02.61 Added hypothetical score
+2025-05-11T16:35:00.000-04:00 | 0.02.62 Updated godot game
+2025-09-05T11:55:38.000-04:00 | Moved despaired cat game to its own repo
+2025-09-05T11:58:27.000-04:00 | actually moved it to its own repo now!
+2025-09-05T11:58:43.000-04:00 | updated git igngore so I can still store it here
+2025-09-05T11:42:13.000-04:00 | Added score to despaired cat game and updated .gitignore release handling
+2025-09-05T21:44:22.000-04:00 | Made despaired cat game a submodule which I should have done from the start
+2026-02-28T23:21:49.000-05:00 | Gets all repo names
+2026-02-28T23:07:02.000-05:00 | Gets all public and private repos
+2026-03-01T01:06:51.000-05:00 | Added notes created and notes modified
+2026-02-28T21:34:48.000-05:00 | Made it read from the envirnment variables properly
+2026-02-28T21:24:04.000-05:00 | Made README
+2026-02-28T21:24:00.000-05:00 | Updated to make uv work good
+2026-03-01T00:57:08.000-05:00 | Created possible structure for the future
+2026-02-28T23:41:06.000-05:00 | Get all repos
+2026-02-28T23:59:56.000-05:00 | Can now pull all of the commits
+2026-02-28T19:10:50.000-05:00 | Start of project
+2026-02-28T19:24:42.000-05:00 | Hides environment variables
+2026-02-28T19:20:45.000-05:00 | Started using uv
+2026-02-28T21:18:53.000-05:00 | Created function that gets all of the environment variables
+2026-02-28T22:11:20.000-05:00 | Can pull all current commits
+2026-03-01T11:46:07.000-05:00 | Added tagline
+2026-03-01T11:35:23.000-05:00 | Added methods of getting the data
+2026-03-01T11:42:40.000-05:00 | Added motivation to README
+2026-03-01T12:11:06.000-05:00 | Update README.md
+2026-03-01T12:09:51.000-05:00 | Update README.md
+2026-03-01T11:33:49.000-05:00 | Added order to the README on how the code will operate
+2026-03-01T11:32:51.000-05:00 | Added template to the git ignore
+2026-03-01T11:32:27.000-05:00 | Created example template
+2026-03-01T11:02:18.000-05:00 | Created template file
+2026-03-01T12:03:49.000-05:00 | Updated implementation plan
+2026-03-01T15:08:14.000-05:00 | Fix grammatical errors in README motivation section
+2026-03-01T21:53:00.000-05:00 | Updated implementation plan
+2026-03-01T21:51:43.000-05:00 | Edited environment variable example
+2024-03-20T21:37:32.000-04:00 | Export Presets
+2024-03-20T21:20:19.000-04:00 | Go to: C:\Program Files\Adobe\Adobe Premiere Pro 2024\PlugIns
+2024-01-21T21:16:27.000-05:00 | Creation
+2024-01-21T21:15:14.000-05:00 | Initial commit
+2024-01-21T21:20:18.000-05:00 | 1/21/2024 Updated
+2025-12-27T22:20:30.000-05:00 | Updated 2025-12-27
+2025-12-31T09:54:57.000-05:00 | Updated 2025-12-31
+2026-01-01T21:15:13.000-05:00 | Updated 2026-01-01
+2026-01-01T19:15:11.000-05:00 | Updated 2026-01-01
+2026-01-06T22:59:33.000-05:00 | Updated 2026-01-06
+2026-01-06T18:59:25.000-05:00 | Updated 2026-01-06
+2025-12-30T15:04:37.000-05:00 | Updated 2025-12-30
+2025-12-30T17:04:40.000-05:00 | Updated 2025-12-30
+2026-01-01T13:15:03.000-05:00 | Updated 2026-01-01
+2026-01-08T23:06:27.000-05:00 | Updated 2026-01-08
+2026-01-09T01:06:31.000-05:00 | Updated 2026-01-09
+2025-01-02T01:56:11.000-05:00 | 1 / 2 /  2025
+2025-01-04T20:49:48.000-05:00 | 1 / 3 / 2025
+2025-01-04T21:21:05.000-05:00 | 1 / 4 / 2025
+2025-01-02T01:56:11.000-05:00 | 1 / 2 /  2025
+2025-01-03T09:22:24.000-05:00 | 1 / 3 / 2025
+2025-01-11T16:20:02.000-05:00 | 1 / 11 / 2025
+2024-04-15T07:19:16.000-04:00 | 4.15.24
+2024-03-28T14:51:15.000-04:00 | 3.28.2024
+2024-08-31T16:12:33.000-04:00 | Fixes all the other files. JUST project files
+2024-08-31T16:06:07.000-04:00 | poop mod
+2024-09-17T19:07:22.000-04:00 | :)
+2024-09-23T21:16:34.000-04:00 | 9.23.2024 Laptop
+2024-09-28T22:36:49.000-04:00 | 9.28.24 Laptop
+2024-12-12T07:45:54.000-05:00 | 12 / 12 / 2024
+2024-12-13T09:23:54.000-05:00 | 12-13-2024:9:23
+2024-12-15T15:05:19.000-05:00 | 12 / 15 / 2024
+2024-12-14T21:24:04.000-05:00 | Update Poop Mod.prproj
+2024-12-14T21:23:50.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Premiere-Pro-Programs
+2024-12-14T21:20:27.000-05:00 | 12 / 14 / 2024
+2024-12-01T11:25:02.000-05:00 | 12/1/2024
+2024-11-28T19:51:12.000-05:00 | 11/28/2024
+2024-11-19T14:44:31.000-05:00 | 11/19/2024 2PM
+2024-11-19T15:25:25.000-05:00 | 11/19/2024 3PM
+2024-11-21T23:31:50.000-05:00 | 11/12/24
+2024-11-27T19:09:05.000-05:00 | 11/27/2024
+2024-11-24T14:03:03.000-05:00 | 11/24/2024
+2024-11-22T11:19:44.000-05:00 | 11/22/24 Attempt 2
+2024-11-22T11:13:30.000-05:00 | 11/22/24
+2024-12-24T22:32:43.000-05:00 | 12 / 24 / 2024
+2025-02-12T08:07:45.000-05:00 | 2 / 12 / 2025
+2025-05-22T23:38:30.000-04:00 | 5 / 22 / 2025
+2025-06-03T21:19:47.000-04:00 | 06 / 03 / 2025
+2025-03-20T08:21:29.000-04:00 | 3 / 20 / 2025
+2025-03-21T14:37:20.000-04:00 | 3 / 21 / 2025
+2025-04-17T08:46:26.000-04:00 | 4 / 17 / 2025
+2025-12-26T00:48:03.000-05:00 | Updated 2025-12-26
+2025-12-26T17:49:21.000-05:00 | Updated 2025-12-26
+2025-12-26T15:49:16.000-05:00 | Updated 2025-12-26
+2025-12-24T23:30:48.000-05:00 | Added new project
+2025-12-26T21:49:26.000-05:00 | Updated 2025-12-26
+2025-12-26T19:49:24.000-05:00 | Updated 2025-12-26
+2025-05-30T20:16:11.000-04:00 | 5 / 30 / 2025
+2025-05-24T23:16:57.000-04:00 | 5 / 24 / 2025
+2025-05-25T21:40:16.000-04:00 | 5 / 25 / 2025
+2025-05-31T20:31:50.000-04:00 | 5 / 31 / 2025
+2025-06-01T16:23:00.000-04:00 | 06 / 02 / 2025
+2025-06-04T21:15:31.000-04:00 | 06 / 04 / 2025
+2025-06-05T22:38:58.000-04:00 | 06 / 05 / 2025
+2025-06-06T12:19:57.000-04:00 | 06 / 06 / 2025
+2025-06-09T20:47:17.000-04:00 | 06 / 09 / 2025
+2025-06-08T22:48:43.000-04:00 | 06 / 08 / 2025
+2025-05-24T23:22:52.000-04:00 | 5 / 24 / 2025 Again
+2025-05-23T18:15:01.000-04:00 | 5 / 23 / 2025
+2025-05-28T23:55:42.000-04:00 | 5 / 28 / 2025
+2025-05-29T00:38:45.000-04:00 | 5 / 29 / 2025
+2025-06-08T04:30:47.000-04:00 | 6 / 8 / 2025
+2025-06-10T21:28:42.000-04:00 | 06 / 10 / 2025
+2025-06-12T21:32:43.000-04:00 | 06 / 12 / 2025
+2025-06-11T22:08:44.000-04:00 | 06 / 11 / 2025
+2025-06-15T16:23:00.000-04:00 | 6 / 17 / 2025
+2025-06-13T16:26:00.000-04:00 | 6 / 17 / 2025 2
+2025-06-21T23:34:56.000-04:00 | 06 / 21 / 2025
+2025-06-18T09:42:59.000-04:00 | 06 / 18 / 2025
+2025-07-03T20:53:32.000-04:00 | 07 / 03 / 2025
+2025-07-11T14:22:35.000-04:00 | 07 / 11 / 2025
+2025-07-05T02:12:25.000-04:00 | 07 / 05 / 2025
+2025-07-21T16:22:36.000-04:00 | 07 / 21 / 2025
+2025-07-18T16:11:59.000-04:00 | 07 / 18 / 2025
+2025-07-29T23:33:46.000-04:00 | 07 / 29 / 2025
+2025-08-11T21:06:14.000-04:00 | 08 / 11 / 2025
+2025-08-13T21:55:52.000-04:00 | 08 / 13 / 2025
+2025-08-12T19:23:52.000-04:00 | 08 / 12 / 2025
+2025-08-02T20:10:46.000-04:00 | 08 / 02 / 2025
+2025-08-09T21:46:03.000-04:00 | 08 / 09 / 2025
+2025-08-07T13:03:58.000-04:00 | 08 / 07 / 2025
+2025-08-08T17:30:45.000-04:00 | 08 / 08 / 2025
+2025-08-10T18:46:08.000-04:00 | 08 / 10 / 2025
+2025-08-24T00:22:04.000-04:00 | new backups, new projects
+2025-09-07T17:09:50.000-04:00 | Backing up UK Friendly
+2025-12-18T14:09:07.000-05:00 | Updated 2025-12-18
+2025-12-21T17:33:34.000-05:00 | Updated 2025-12-21
+2025-12-21T21:33:41.000-05:00 | Updated 2025-12-21
+2025-12-21T19:33:39.000-05:00 | Updated 2025-12-21
+2025-12-21T23:33:48.000-05:00 | Updated 2025-12-21
+2025-12-20T10:19:03.000-05:00 | Updated 2025-12-20
+2025-12-20T21:18:32.000-05:00 | Updated 2025-12-20
+2025-12-20T22:09:17.000-05:00 | Updated 2025-12-20
+2025-12-17T15:46:48.000-05:00 | Created snow white one
+2025-12-15T13:11:28.000-05:00 | Updated 2025-12-15
+2025-12-16T11:18:51.000-05:00 | Updated 2025-12-16
+2026-01-04T23:35:42.000-05:00 | Updated 2026-01-04
+2026-01-26T00:44:25.000-05:00 | Updated 2026-01-26
+2026-01-28T08:45:26.000-05:00 | Updated 2026-01-28
+2025-11-04T18:03:16.000-05:00 | Initial commit
+2025-11-04T18:25:34.000-05:00 | CS1, CS2, and CS3 Files
+2025-11-25T15:53:02.000-05:00 | Started making dopey skin
+2025-11-25T15:47:49.000-05:00 | Initial commit
+2025-11-26T17:48:25.000-05:00 | Updated 2025-11-26
+2025-11-26T01:27:13.000-05:00 | Added new DrewGo Skin
+2025-11-26T01:27:27.000-05:00 | Added other strange variants
+2025-11-26T01:27:35.000-05:00 | And other variant
+2025-11-26T01:28:32.000-05:00 | Renamed DrewGo skin
+2025-11-26T01:21:06.000-05:00 | Updated Dopey
+2025-11-26T17:51:15.000-05:00 | Updated 2025-11-26
+2025-12-02T10:16:52.000-05:00 | Updated 2025-12-02
+2025-12-02T10:20:46.000-05:00 | Updated 2025-12-02
+2025-12-02T10:24:38.000-05:00 | Modify content of mytest.txt
+2025-12-02T10:25:25.000-05:00 | Delete mytest.txt
+2025-12-01T13:12:11.000-05:00 | Updated 2025-12-01
+2025-12-23T01:20:00.000-05:00 | Updated 2025-12-23
+2025-12-23T20:18:40.000-05:00 | Updated 2025-12-23
+2025-12-23T14:18:33.000-05:00 | Updated 2025-12-23
+2025-10-18T18:35:00.000-04:00 | initial commit
+2025-10-20T02:05:02.000-04:00 | Added bracket ender and universal runner.
+2025-11-04T17:59:45.000-05:00 | Added UFO plugin
+2025-12-01T12:15:10.000-05:00 | Adds running the program on startup
+2025-12-01T12:04:58.000-05:00 | Added run script to visually run the program. Added more instructions to setup
+2025-12-01T12:01:53.000-05:00 | Uses vbs to run program in the background!
+2025-12-01T12:13:57.000-05:00 | Removed tab
+2025-12-02T11:06:27.000-05:00 | Created README file.
+2025-12-02T10:30:51.000-05:00 | Switch to running every 24 hours
+2025-07-16T12:10:46.000-04:00 | Created title and modpack graphics
+2025-07-12T13:51:35.000-04:00 | Initial commit
+2025-07-12T13:56:50.000-04:00 | 0.00.01 Created boiler plate
+2025-07-12T14:01:33.000-04:00 | 0.00.02 Changing it to functions worked!
+2025-07-14T14:25:14.000-04:00 | Finished creating the datapack
+2025-07-14T14:30:00.000-04:00 | Finished the releases folder
+2025-07-14T13:38:54.000-04:00 | Finished 1.21.4
+2025-07-13T22:04:01.000-04:00 | Finished 1.20.5
+2025-07-13T20:06:40.000-04:00 | Started testing current version
+2025-11-21T17:22:31.000-05:00 | Opens file in class
+2025-11-21T17:30:49.000-05:00 | Added input file
+2025-11-21T18:45:09.000-05:00 | Parses and closes file
+2025-11-21T19:03:01.000-05:00 | Added print function
+2025-11-22T23:25:02.000-05:00 | Reformats the README
+2025-11-22T23:25:46.000-05:00 | Edit image tags
+2025-11-22T23:30:56.000-05:00 | Standard of C++
+2025-11-22T23:27:46.000-05:00 | Fixed spacing in image names
+2025-11-22T23:28:08.000-05:00 | Fixed spacing next to image names
+2025-11-22T23:34:22.000-05:00 | Fixed indentation!
+2025-11-22T23:21:18.000-05:00 | Adds the first image
+2025-11-22T23:21:25.000-05:00 | Adds the second image
+2025-11-22T23:21:40.000-05:00 | Adds the readme file
+2025-11-22T23:26:31.000-05:00 | Edit image embeddings
+2025-11-22T23:23:08.000-05:00 | Explains the Makefile
+2025-11-22T23:23:20.000-05:00 | Explains the first part of the header file
+2025-11-22T23:23:32.000-05:00 | Adds next part of header file
+2025-11-22T23:22:03.000-05:00 | Adds the usage instructions
+2025-11-22T23:22:29.000-05:00 | Adds the input file format
+2025-11-22T23:24:07.000-05:00 | C++ file exp part 3
+2025-11-22T23:24:17.000-05:00 | Finishes explaining C++ file
+2025-11-22T23:24:28.000-05:00 | Explains the make file
+2025-11-22T23:24:40.000-05:00 | Adds example output
+2025-11-22T23:23:46.000-05:00 | C++ file part 1 desc
+2025-11-22T23:23:57.000-05:00 | C++ file explanation part 2
+2025-11-22T23:22:42.000-05:00 | Adds program description section
+2025-11-22T23:22:54.000-05:00 | Adds bankers algorihm explanation
+2025-11-22T23:24:54.000-05:00 | Adds example images and thank you
+2025-11-26T16:55:28.000-05:00 | Initial commit
+2025-11-26T17:13:28.000-05:00 | Ignores files with paths to sync in them
+2025-11-26T18:01:15.000-05:00 | Improved comments
+2025-11-26T17:44:04.000-05:00 | Pulls all repos in list checking for garbage values
+2025-11-26T17:21:01.000-05:00 | Iterates through all lines of file
+2025-11-26T17:57:44.000-05:00 | Commits once a week all changes in repos
+2025-11-21T10:07:09.000-05:00 | Added input file
+2025-11-27T11:42:21.000-05:00 | Now creates file if not found
+2025-11-22T23:35:27.000-05:00 | Fixed indentation again
+2025-11-22T23:41:37.000-05:00 | Adds more detail to the bankers algorithm desc
+2025-11-21T10:04:15.000-05:00 | Added gitignore
+2025-11-21T10:01:21.000-05:00 | Initial commit
+2025-11-22T19:59:20.000-05:00 | Formatted
+2025-11-22T19:51:53.000-05:00 | Program gets correct output
+2025-10-18T22:16:40.000-04:00 | Add executed example result to README
+
+Added an executed example result section with output logs.
+2025-10-18T22:14:55.000-04:00 | Added example2.png
+2025-10-18T22:12:35.000-04:00 | Add reference to example2.png in README
+
+Added another output sample reference in README.
+2025-10-18T22:09:49.000-04:00 | Update README to include sample output reference
+
+Added note about viewing sample output in sample.png
+2025-10-18T20:15:29.000-04:00 | Starts making the producer part work
+2025-10-18T21:59:38.000-04:00 | Finishes explaining the producer code
+2025-10-18T21:59:51.000-04:00 | Explains the consumer code as well
+2025-10-18T21:59:19.000-04:00 | Begins explaining the main function
+2025-10-18T21:58:04.000-04:00 | Explains the data structure part
+2025-10-18T21:58:17.000-04:00 | The producer function explanation
+2025-10-18T21:56:46.000-04:00 | Began writing readme
+2025-10-18T21:57:00.000-04:00 | Added cloning repository section
+2025-10-18T22:04:06.000-04:00 | Fixed typo
+2025-10-18T20:59:36.000-04:00 | Updated code
+2025-10-18T20:59:41.000-04:00 | Added example
+2025-10-18T21:01:33.000-04:00 | Updated formatting on consumer.cpp
+2025-10-18T21:01:42.000-04:00 | Updated formatting on producer.cpp
+2025-10-18T18:22:34.000-04:00 | Initial commit
+2025-10-18T20:56:36.000-04:00 | Finished the producer and consumer code
+2025-10-18T22:05:53.000-04:00 | Added informatin on mapping
+2025-10-18T22:10:13.000-04:00 | Change output image reference in README
+
+Updated output image reference from 'sample.png' to 'example.png'.
+2025-10-18T22:07:06.000-04:00 | Improved Spacing
+2025-10-18T21:57:27.000-04:00 | Added writing the code section
+2025-10-18T21:57:39.000-04:00 | Explains killing the process
+2025-10-18T21:57:52.000-04:00 | Explains the include statements
+2025-10-18T21:58:27.000-04:00 | Added more information to readme
+2025-10-18T21:58:43.000-04:00 | Starts explaining the sleep function
+2025-10-18T21:59:00.000-04:00 | Finishes explaining the sleep function
+2025-10-18T22:00:21.000-04:00 | Fixes formatting issues
+2025-10-18T22:00:06.000-04:00 | Adds thank you section to the end
+2024-04-10T16:46:59.000-04:00 | v0.00.01 Moved over from packs folder
+2024-04-10T16:42:38.000-04:00 | Initial commit
+2025-12-25T17:54:16.000-05:00 | Added blue circle that moves with crown movement
+2025-12-25T18:15:56.000-05:00 | Cleaned up watch face
+2025-12-25T18:10:12.000-05:00 | Makes circles fit entire screen properly
+2025-12-25T15:11:54.000-05:00 | Apple Watch App Boiler Plate
+2025-12-25T15:08:14.000-05:00 | Initial commit
+2026-01-25T01:13:30.000-05:00 | Removed binaries
+2026-01-25T01:10:46.000-05:00 | Removed build from version control and learned how to do everything in vscode
+2023-09-17T08:20:49.000-04:00 | v0.01 Alpha
+2023-09-17T08:03:08.000-04:00 | Initial commit
+2024-09-16T09:20:35.000-04:00 | v0.01.01 How to run
+2025-01-17T18:14:54.000-05:00 | v0.01.10 Added flag logic
+2025-01-28T07:58:30.000-05:00 | v0.01.11 Start creating custom font
+2025-01-30T08:47:53.000-05:00 | v0.01.12 Created Mario Illustrator File, Mastering outlines
+2025-02-11T07:48:57.000-05:00 | v0.01.20 Finished Mario sprite for Mario Font
+2025-03-28T23:36:07.000-04:00 | test
+2025-07-25T11:56:48.000-04:00 | Progress on Mario Font
+2025-08-21T22:23:14.000-04:00 | undid what I did
+2025-08-21T22:27:03.000-04:00 | Removed vscode and archive
+2026-02-11T08:45:26.000-05:00 | Updated pynput for new version
+2026-02-11T08:30:33.000-05:00 | Added requirements.txt
+2026-02-11T09:06:22.000-05:00 | Updated pynput
+2026-02-11T09:22:52.000-05:00 | Updated README
+2026-02-11T09:23:42.000-05:00 | Stopped working on a custom font
+2026-02-14T00:20:27.000-05:00 | Merge branch 'clear-buffer'
+2026-02-14T00:19:47.000-05:00 | Clears buffer and properly prints screen without flicker
+
+Closes #2
+2026-01-23T10:15:42.000-05:00 | Published multiple files
+2026-01-23T09:55:41.000-05:00 | Published multiple files
+2026-01-23T09:51:17.000-05:00 | Published multiple files
+2026-01-16T10:24:02.000-05:00 | Published multiple files
+2026-01-16T10:07:08.000-05:00 | Published multiple files
+2026-01-16T09:58:09.000-05:00 | Published multiple files
+2026-01-16T09:50:44.000-05:00 | Published multiple files
+2026-01-16T09:08:50.000-05:00 | Published multiple files
+2026-01-15T15:23:07.000-05:00 | Published multiple files
+2026-01-15T14:59:10.000-05:00 | Published multiple files
+2026-01-15T14:55:28.000-05:00 | Delete content src/site/notes/PCR/New Service Order.md
+2026-01-15T14:55:26.000-05:00 | Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-15T14:55:24.000-05:00 | Delete content src/site/notes/PCR/Jack Move.md
+2026-01-15T14:55:23.000-05:00 | Delete content src/site/notes/PCR/Jack Create in PCR.md
+2026-01-15T14:55:21.000-05:00 | Published multiple files
+2026-01-15T13:47:50.000-05:00 | Published multiple files
+2026-01-15T13:46:36.000-05:00 | Published multiple files
+2026-01-15T13:12:29.000-05:00 | Published multiple files
+2026-01-15T13:10:49.000-05:00 | Published multiple files
+2026-01-15T10:29:00.000-05:00 | Published multiple files
+2026-01-15T10:21:19.000-05:00 | Published multiple files
+2026-01-13T12:45:59.000-05:00 | Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-13T12:45:51.000-05:00 | Delete content src/site/notes/PCR/PCR.md
+2026-01-13T12:45:50.000-05:00 | Published multiple files
+2026-01-13T09:11:10.000-05:00 | Published multiple files
+2026-01-13T09:09:30.000-05:00 | Published multiple files
+2025-12-12T09:14:47.000-05:00 | Attempts to install font family directly
+2025-12-12T09:10:23.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Network-Technician-Wiki
+2025-12-12T09:10:17.000-05:00 | Update background color and font colors
+2025-12-12T09:02:00.000-05:00 | Update settings
+2025-12-12T08:58:44.000-05:00 | Published multiple files
+2025-12-12T08:55:31.000-05:00 | Published multiple files
+2025-12-12T08:47:01.000-05:00 | Overrides the h1 color instead.
+2025-12-12T08:41:30.000-05:00 | Changed the h1 heading color
+2025-12-06T17:31:44.000-05:00 | Update settings
+2025-12-06T17:30:29.000-05:00 | Delete content src/site/notes/PCR/Jack Create - PCR.md
+2025-12-06T17:30:29.000-05:00 | Delete content src/site/notes/PCR/Jack Activation PCR.md
+2025-12-06T17:30:28.000-05:00 | Published multiple files
+2025-12-06T17:29:01.000-05:00 | Published multiple files
+2025-12-06T17:28:48.000-05:00 | Update settings
+2025-12-06T17:28:31.000-05:00 | Update favicon.svg
+2025-12-06T17:28:30.000-05:00 | Update settings
+2025-12-06T17:27:18.000-05:00 | Update favicon.svg
+2025-12-06T17:27:17.000-05:00 | Update settings
+2025-12-06T17:23:57.000-05:00 | Update settings
+2025-12-06T17:22:12.000-05:00 | Update settings
+2025-12-06T17:19:39.000-05:00 | Published multiple files
+2025-12-06T17:18:59.000-05:00 | Update settings
+2025-12-06T17:18:03.000-05:00 | Delete content src/site/notes/Welcome.md
+2025-12-06T17:18:02.000-05:00 | Delete content src/site/notes/Test-Page.md
+2025-12-06T17:18:01.000-05:00 | Published multiple files
+2025-12-06T17:08:35.000-05:00 | Update favicon.svg
+2025-12-06T17:04:33.000-05:00 | Update favicon.svg
+2025-12-06T17:04:28.000-05:00 | Update settings
+2025-12-06T17:03:35.000-05:00 | Update settings
+2025-12-06T17:02:53.000-05:00 | Update settings
+2025-12-06T17:01:13.000-05:00 | Update favicon.svg
+2025-12-06T17:00:14.000-05:00 | Delete content src/site/notes/TEST PAGE.md
+2025-12-06T17:00:14.000-05:00 | Published multiple files
+2025-12-06T16:58:11.000-05:00 | Update favicon.svg
+2025-12-06T16:57:57.000-05:00 | Update settings
+2025-12-06T16:56:42.000-05:00 | Update settings
+2025-12-06T16:56:35.000-05:00 | Update settings
+2025-12-06T16:55:21.000-05:00 | Update settings
+2025-12-06T16:55:15.000-05:00 | Update favicon.svg
+2025-12-06T16:55:14.000-05:00 | Update settings
+2025-12-06T16:53:16.000-05:00 | Update favicon.svg
+2025-12-06T16:33:11.000-05:00 | Published multiple files
+2025-12-06T16:21:48.000-05:00 | Add content src/site/notes/Welcome.md
+2025-12-06T16:19:34.000-05:00 | Update settings
+2025-12-06T16:19:23.000-05:00 | Update settings
+2025-12-06T16:16:35.000-05:00 | Restore header for Digital Obsidian Garden
+2025-12-06T21:01:43.000Z | Initial commit
+
+Created from https://vercel.com/new
+2026-02-19T22:10:06.000-05:00 | Added main file and other UV stuff
+2026-02-19T22:09:52.000-05:00 | Added UV
+2026-02-26T11:34:18.000-05:00 | Added platform table
+2026-02-26T11:34:12.000-05:00 | Moved sql into different files
+2026-02-26T11:59:30.000-05:00 | Added foreign keys and publisher table and platform table
+2026-02-19T11:19:08.000-05:00 | Created project README
+2025-10-31T17:11:55.000-04:00 | Added Graduation Date
+2025-10-26T15:25:27.000-04:00 | Initial commit
+2025-10-26T15:29:02.000-04:00 | Created first resume file
+2025-10-27T22:46:20.000-04:00 | Uploaded new resumes
+2025-10-27T22:10:08.000-04:00 | Organized resumes
+2025-10-27T22:10:14.000-04:00 | Added cover letter
+2025-10-27T22:10:19.000-04:00 | Made resume in typst
+2025-10-27T22:13:16.000-04:00 | Made font larger
+2025-10-28T17:54:03.000-04:00 | Added older resumes to list
+2025-11-24T10:34:15.000-05:00 | Updated Resume to include Network Technician
+2026-01-20T20:06:18.000-05:00 | Created first draft of CV
+2026-01-20T19:37:27.000-05:00 | Added to do list for updating my resumes
+2026-01-20T19:47:27.000-05:00 | Moved resumes to another folder
+2026-01-14T23:07:59.000-05:00 | Updated PDF
+2026-01-14T23:04:05.000-05:00 | Added All Around Children
+2026-01-14T22:29:54.000-05:00 | Added cover letters to specific folder
+2026-01-14T22:48:38.000-05:00 | Added HacKSU to Resume
+2026-01-14T22:48:31.000-05:00 | Added resume backup
+2025-11-24T08:33:50.000-05:00 | Removed ToDo section
+2025-11-20T18:28:04.000-05:00 | Added test case 1 tracking in completion todo
+2025-11-20T18:26:38.000-05:00 | To do completions completely up to date!
+2025-11-20T18:26:14.000-05:00 | Finished test cases completion!
+2025-11-20T18:26:00.000-05:00 | Added 11/02 to completion
+2025-11-20T18:25:49.000-05:00 | Added 11/06 to do completions
+2025-11-20T18:25:19.000-05:00 | Added 11/04 todo completions
+2025-11-12T22:24:55.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-12T22:24:47.000-05:00 | Changed folder names
+2025-11-06T21:50:34.000-05:00 | Removed .exe files. Updated the main.asm
+2025-11-06T21:45:48.000-05:00 | Creates fully working ASM regular expression parser fully functional only 8.8k lines
+2025-11-06T21:39:27.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T21:39:21.000-05:00 | I have solved the assignment.
+2025-11-06T21:35:57.000-05:00 | Removed $null??
+2025-11-06T21:35:19.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T21:35:00.000-05:00 | Working binaries I am intentionally commiting binaries
+2025-11-06T21:22:20.000-05:00 | Saves .exe intentionally
+2025-11-06T21:21:59.000-05:00 | Converts a C program to assembly code
+2025-11-06T21:21:41.000-05:00 | Uses regex in python
+2025-11-06T20:28:40.000-05:00 | Added funny solution
+2025-11-06T20:24:42.000-05:00 | Removed hardcoded test case main-test
+2025-11-06T20:24:13.000-05:00 | Made Makefile work on all systems
+2025-11-06T20:21:04.000-05:00 | Made bonus test case
+2025-11-06T20:20:59.000-05:00 | Made 9th test case
+2025-11-06T20:20:51.000-05:00 | Made 8th test case
+2025-11-06T20:20:31.000-05:00 | Made 6 7 test case
+2025-11-06T20:20:18.000-05:00 | Made fourth and fifth test case
+2025-11-06T20:20:03.000-05:00 | Made 3rd test case
+2025-11-06T20:19:53.000-05:00 | Made second test case
+2025-11-06T20:18:48.000-05:00 | Created first testcase
+2025-11-06T20:18:33.000-05:00 | Created makefile and test asm that has hardcoded outputs
+2025-11-06T19:15:21.000-05:00 | Adds input and output messages
+2025-11-06T18:53:06.000-05:00 | Reordered the README
+2025-11-06T18:42:56.000-05:00 | Added table to show test cases
+2025-11-06T18:40:17.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T18:38:24.000-05:00 | Update README with detailed TODO
+2025-11-06T17:44:37.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-06T17:44:31.000-05:00 | Added one line to the README
+2025-11-04T17:57:05.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-04T17:56:58.000-05:00 | Fixed PDF errors
+2025-11-04T17:41:12.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Regular-Expressions-in-Assembly
+2025-11-04T17:41:06.000-05:00 | Added PDF
+2025-11-04T17:30:16.000-05:00 | Initial commit
+2026-02-03T16:45:17.000-05:00 | Update README.md
+2026-02-03T15:20:18.000-05:00 | Merge branch 'aac-date'
+2026-02-03T15:19:56.000-05:00 | Fixed date of AAC to devember (Closes #6)
+2026-02-03T15:19:08.000-05:00 | Created backup
+2025-10-10T23:05:45.000-04:00 | Created concentric circle effect.
+2025-10-10T17:08:40.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Gomodoro
+2025-10-10T17:08:01.000-04:00 | Fixed package.lock
+2025-10-10T17:07:31.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Gomodoro
+2025-10-10T17:07:21.000-04:00 | Made circle go around twice
+2025-10-10T16:51:47.000-04:00 | Created README with plans and todo
+2025-10-10T00:23:32.000-04:00 | Added mode button component
+2025-10-10T00:17:27.000-04:00 | Created working timer
+2025-10-09T17:00:26.000-04:00 | Makes non-working visual of timer circle
+2025-10-09T15:36:26.000-04:00 | Removed .vscode folder
+2025-10-09T15:35:37.000-04:00 | Added ability to hide the timer
+2025-10-09T15:14:10.000-04:00 | Now properly uses components
+2025-10-09T13:24:14.000-04:00 | Made timer work and be centered
+2025-10-09T13:19:05.000-04:00 | Switched to Angular
+2025-10-09T12:26:53.000-04:00 | Update README.md
+2025-10-09T12:20:23.000-04:00 | Begins creating the timer in react
+2025-10-08T18:41:56.000-04:00 | Initial commit
+2024-11-01T20:44:57.000-04:00 | Initial commit
+2024-11-03T19:38:21.000-05:00 | v0.00.05 Image Test Again Again Again
+2024-11-03T19:40:29.000-05:00 | v0.00.06 Images Test
+2024-11-03T19:50:07.000-05:00 | v0.00.10 Adds the Icon
+2024-11-03T19:55:44.000-05:00 | v0.00.11 Rounds off the icon
+2024-11-03T19:58:45.000-05:00 | v0.00.12 Adds version number
+2024-11-03T20:07:59.000-05:00 | v0.00.15 You can move matt around
+2024-11-02T23:20:56.000-04:00 | Create CNAME
+2024-11-02T23:04:04.000-04:00 | v0.00.01 Boilerplate
+2024-11-02T23:24:23.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/drewgo.com
+2024-11-02T23:24:09.000-04:00 | v0.00.02 Image Test
+2024-11-02T23:28:14.000-04:00 | v0.00.04 Image Test Again Again
+2024-11-02T23:25:44.000-04:00 | v0.00.03 Image Test Again
+2024-11-03T21:15:42.000-05:00 | v0.00.50 Added buttons to bottom, added easter egg
+2024-11-03T21:21:57.000-05:00 | v0.00.51 Added "secret"
+2024-11-07T18:56:51.000-05:00 | v0.00.60 More Stuff
+2024-11-15T19:58:28.000-05:00 | v0.01.21 Fixed Mispelling
+2024-11-15T20:07:20.000-05:00 | v0.01.22 Updated margin and flexbox for bottom buttons
+2024-11-15T18:47:41.000-05:00 | v0.01.20 Added Delta Skins Button
+2024-11-14T21:25:42.000-05:00 | v0.01.00 Added the Shrimp Detector
+2024-11-14T21:29:31.000-05:00 | v0.01.01 Maybe fixes the logo
+2024-11-14T21:30:48.000-05:00 | v0.01.02 Again
+2024-11-14T21:33:02.000-05:00 | v0.01.03 Fixed Java
+2024-11-14T21:47:38.000-05:00 | v0.01.05 Fixed
+2024-11-14T21:45:19.000-05:00 | v0.01.04 The Sloppy Duck
+2024-11-14T21:51:17.000-05:00 | v0.01.06 Fixed bottom buttons
+2024-11-14T21:56:16.000-05:00 | v0.01.07 Made eric wider
+2024-11-14T22:05:37.000-05:00 | v0.01.11 Recognition all has things that happen when pressed
+2024-12-08T19:06:11.000-05:00 | v0.01,30 Added Despaired Cat Game!
+2025-01-05T22:25:57.000-05:00 | 0.01.40 Added Geeked vs. Locked in
+2024-12-27T23:54:52.000-05:00 | v0.01.31 Adds pfp image
+2024-12-29T03:18:39.000-05:00 | 0.01.32 Added Carrots or Cats and MANY style changes
+2025-06-06T12:22:52.000-04:00 | 0.01.41 Removed Secret YT
+2025-10-13T10:56:44.000-04:00 | Removed submodule and moved cube clicker to vercel
+2025-10-13T10:59:29.000-04:00 | Added gomodoro timer
+2025-10-13T11:04:39.000-04:00 | Retrying adding gomodoro timer
+2025-06-26T14:13:19.000-04:00 | 0.01.50 Changed Main Logo
+2025-07-10T09:08:23.000-04:00 | 0.01.51 New icon
+2025-07-10T16:00:03.000-04:00 | 0.01.92 Made jumpscared reload the page automatically
+2025-07-10T15:48:31.000-04:00 | 0.01.90 Added Meetures to the website!
+2025-07-10T15:53:06.000-04:00 | 0.01.91 Fixes the images wheel
+2025-07-10T11:51:40.000-04:00 | 0.01.80 Added Jump King skins, Clomp, and reformatted site completely
+2025-08-19T15:32:24.000-04:00 | fixed weebly link
+2025-09-06T11:53:53.000-04:00 | This should fix the repo
+2025-09-06T13:14:24.000-04:00 | Updated despaired cat game
+2025-09-05T13:07:43.000-04:00 | Added cube clicker as a submodule
+2025-09-05T14:18:05.000-04:00 | Added the submodule again as it broke previously
+2025-09-05T14:16:58.000-04:00 | Remove old Cube-Clicker folder from index to allow submodule
+2025-09-05T21:59:08.000-04:00 | Added better link to the cube clicker game
+2025-09-05T12:49:49.000-04:00 | Added Cube Clicker Files
+2025-09-06T00:00:13.000-04:00 | Updated cube clicker
+2025-09-04T10:36:46.000-04:00 | Added cube clicker
+2025-11-09T14:21:52.000-05:00 | Added the two auto checkout bat files
+2025-11-09T14:17:41.000-05:00 | Versioned the first 4 days of svn checkouts
+2025-11-09T14:22:59.000-05:00 | Added the next couple of days of checkouts
+2025-11-09T14:23:16.000-05:00 | Added more checkouts
+2025-11-09T14:23:30.000-05:00 | Added even more checkouts
+2025-11-09T14:23:44.000-05:00 | Added even more checkouts
+2025-11-09T14:23:51.000-05:00 | More Checkouts
+2025-11-09T14:24:03.000-05:00 | More checkouts
+2025-12-03T10:21:24.000-05:00 | Updated 2025-12-03
+2025-12-18T22:35:47.000-05:00 | Updated 2025-12-18
+2026-02-24T09:10:05.000-05:00 | Cleaned up things
+2026-02-24T09:05:44.000-05:00 | Removed relations
+2026-02-24T08:50:21.000-05:00 | Made money decimals
+2026-02-24T08:48:37.000-05:00 | Removed tailing commas
+2026-02-24T08:48:02.000-05:00 | Added semicolons
+2026-02-24T08:47:35.000-05:00 | First attempt at the SQL
+2026-02-24T09:16:11.000-05:00 | Modified how the .py files works
+2026-02-24T09:31:10.000-05:00 | Now runs everything in sql folder
+2026-02-24T12:46:28.000-05:00 | Added relations as comments
+2026-02-24T08:17:48.000-05:00 | Moved HW2 over
+2026-02-23T10:22:59.000-05:00 | Saved Databases Homework
+2026-02-24T16:25:15.000-05:00 | Created ASCII way of visualizing the ER Diagram
+2026-02-24T22:44:04.000-05:00 | Added more foreign keys
+2026-02-24T22:44:49.000-05:00 | Fixed typo
+2026-02-24T22:26:52.000-05:00 | Moved foreign keys down
+2026-02-24T22:10:35.000-05:00 | fixed it right up
+2026-02-24T22:10:28.000-05:00 | Added assignment 1
+2026-02-24T22:40:15.000-05:00 | Created all relations
+2026-02-24T22:52:58.000-05:00 | Added if not exists to everything
+2026-02-24T22:46:56.000-05:00 | Removed name
+2026-02-24T16:31:33.000-05:00 | Perfected my Key
+2026-03-01T16:01:15.000-05:00 | Finished query 1
+2026-03-01T19:36:48.000-05:00 | Finished HW 3
+2026-03-01T19:05:02.000-05:00 | Finished questions 2-5
+2026-03-01T15:23:26.000-05:00 | Added homework 3
+2026-03-01T15:23:18.000-05:00 | Moved readme and gitignore out folders
+2025-01-24T22:50:40.000-05:00 | 0.00.10 Removes starting blocks
+2025-01-24T21:08:11.000-05:00 | Initial commit
+2025-01-24T21:16:08.000-05:00 | 0.00.01 Start
+2025-05-18T18:04:31.000-04:00 | 0.00.50 Nether portal is working
+2025-05-18T21:17:48.000-04:00 | 0.00.60 Animal Teleporting working
+2025-05-16T23:29:40.000-04:00 | 0.00.11 Restarted the process as video capture of the project was bad
+2025-05-17T21:39:35.000-04:00 | 0.00.31 The nether is complicated
+2025-05-17T21:33:38.000-04:00 | 0.00.30 End Portal WORKS!!!!
+2025-05-17T17:20:01.000-04:00 | 0.00.13 Fixed version name
+2025-05-17T17:19:46.000-04:00 | 0.00.12 Started making datapack
+2025-05-17T20:58:09.000-04:00 | 0.00.20 Removes sides, keeps player on, generates some of portal rool
+2025-05-21T00:25:10.000-04:00 | 0.93.00 Improved text and made spawners weaker
+2025-05-20T15:50:37.000-04:00 | 0.10.10 Forgot I don't need to put the version number in the folder name just the zip lol
+2025-05-20T15:49:20.000-04:00 | 0.10.01 Might be release ready?? Time to test it on a few worlds first
+2025-05-27T03:30:35.000-04:00 | 1.01.00 Finished 1.21.0 and started 1.21.2
+2025-05-27T00:12:55.000-04:00 | 0.94.13 Fixed the dragon loop that deletes the portal in the end
+2025-05-27T02:41:31.000-04:00 | 0.95.03 Gave up on respawning the ender dragon
+2025-05-27T02:50:42.000-04:00 | 1.00.00 Updating version number because I complete it
+2025-05-27T02:48:50.000-04:00 | 0.96.00 I think v1.21.1 is COMPLETE, also Updated README
+2025-05-19T17:17:40.000-04:00 | 0.00.70 Barriers working in every dimension
+2025-05-20T17:03:04.000-04:00 | 0.20.00 Fixed dragon respawn, allowed increased render distance in end, fixed stronghold and nether portal generation
+2025-05-20T17:19:53.000-04:00 | 0.30.00 Returned bounds and made hole that leads to ruined portal water so people find it
+2025-05-20T17:20:12.000-04:00 | 0.31.00 Updated initial message
+2025-05-20T17:09:55.000-04:00 | 0.30.00 Returned bounds and made hole that leads to ruined portal water so people find it
+2025-05-20T15:59:42.000-04:00 | 0.11.00 Added water to the ruined portal incase the user spawns on top of it and can't get down
+2025-05-20T22:55:58.000-04:00 | 0.80.00 Hopefully, Actually fixed spawning with a super jenky reload sequence
+2025-05-20T22:34:38.000-04:00 | 0.70.00 Fixed the spawn platform not working properly
+2025-05-20T22:20:24.000-04:00 | 0.61.00 Sets world spawn and teleports the player last to increase chances of not dying off spawn immediately
+2025-05-20T22:15:30.000-04:00 | 0.60.00 Fixed end dimension deletion, fixed removing outside chunks
+2025-05-20T22:41:26.000-04:00 | 0.71.00 Hopefully fixed the spawning again
+2025-05-20T23:28:45.000-04:00 | 0.91.00 I think I might have actually FR
+2025-05-20T23:39:27.000-04:00 | 0.92.01 Just removed the resistance particles
+2025-05-20T23:37:24.000-04:00 | 0.92.00 It didn't delete the starting chunk :( Hopefully I fixed it!!!
+2025-05-20T23:41:48.000-04:00 | 0.92.20 Changed reloading time incase the spawn is cooked
+2025-05-20T23:45:17.000-04:00 | 0.92.21 Fixed introductory text
+2025-05-19T21:40:07.000-04:00 | 0.00.90 Might have finished everything??
+2025-05-26T22:49:44.000-04:00 | 0.94.10 Removed ghasts and fireballs from the mob moving list
+2025-05-26T22:30:35.000-04:00 | 0.94.00 Tested weaker spawners
+2025-05-27T00:17:50.000-04:00 | 0.94.20 Removed dragon loop
+2025-05-27T00:24:55.000-04:00 | 0.94.30 Removed dragon loop added loading message
+2025-05-26T23:20:42.000-04:00 | 0.94.11 Fixed end island not deleting
+2025-05-26T23:31:38.000-04:00 | 0.94.12 Actually fixed end island not deleting
+2025-05-27T00:46:25.000-04:00 | 0.94.40 Stopped arrows being teleported
+2025-05-27T01:50:41.000-04:00 | 0.94.51 Fixes the end remove for all heights
+2025-05-27T02:03:33.000-04:00 | 0.94.52 Hopefully fixes the end remove again
+2025-05-27T01:46:28.000-04:00 | 0.94.50 Now removes the end portal in the end please I hope this worked
+2025-05-27T02:20:14.000-04:00 | 0.95.00 Fully overhauled how removing the end portal happens
+2025-05-27T02:26:32.000-04:00 | 0.95.02 Typo Off by a block
+2025-05-27T02:23:47.000-04:00 | 0.95.01 Fixed setblock typo
+2025-05-27T20:42:33.000-04:00 | 1.02.00 Still creating many more versions
+2025-05-27T22:11:00.000-04:00 | 1.10.00 All versions complete!!
+2024-09-12T13:24:28.000-04:00 | Initial commit
+2024-09-17T11:28:57.000-04:00 | Day 1 of Leetcode
+2024-09-13T23:48:50.000-04:00 | Creating README
+2025-07-22T17:43:08.000-04:00 | Half finished Reverse Integer
+2025-07-22T17:44:37.000-04:00 | Removed all .exe files from repo
+2025-07-23T13:08:48.000-04:00 | Completed Reverse Integer, and improved upon it
+2025-07-24T11:10:06.000-04:00 | Palindrome Complete
+2025-08-28T16:07:02.000-04:00 | Add note for me
+2025-09-17T18:22:01.000-04:00 | Improved my 2023 Leetcode code a bit
+2025-09-17T18:20:27.000-04:00 | Added old leetcode solutions to now
+2025-09-17T18:26:05.000-04:00 | 1935 Completed
+2025-09-17T18:08:43.000-04:00 | Changed naming convention
+2025-09-17T18:31:55.000-04:00 | 2327 Complete
+2025-09-07T17:52:25.000-04:00 | Made complete folder. Removed .vscode folder
+2025-09-07T17:58:45.000-04:00 | Completed 3675
+2025-09-07T18:06:12.000-04:00 | Complete 3674
+2025-09-07T18:29:39.000-04:00 | Finished 1304
+2025-09-11T20:10:48.000-04:00 | Merge pull request #55 from hacksu/Better-Meeting-Opacity
+
+Set past meeting opacity to 1
+2025-09-11T20:09:56.000-04:00 | Set past meeting opacity to 1
+2025-09-27T23:47:41.000-04:00 | Adding previously complete Leetcode Questions
+2025-10-23T23:14:14.000-04:00 | Merge pull request #57 from Monster0506/feature/event-container
+
+Update transparency so cards do not have transparent background
+2025-11-10T08:54:45.000-05:00 | Working on MT2. And generated PDF
+2025-11-09T13:13:27.000-05:00 | Added intro examples
+2025-11-09T13:12:26.000-05:00 | Only hides pdfs in assignments
+2025-11-09T13:14:12.000-05:00 | Added T - confidence intervals and t procedures
+2025-11-09T13:14:21.000-05:00 | Two sample t test examples
+2025-11-09T13:13:36.000-05:00 | Added mean bar graphs and distributions
+2025-11-09T13:13:46.000-05:00 | Added confidence intervals and chi-square tests
+2025-11-09T13:18:17.000-05:00 | Added anova
+2025-11-09T13:18:26.000-05:00 | Added multiple regression
+2025-11-09T13:18:38.000-05:00 | Added regression with matrices and multiple regression
+2025-11-09T13:18:46.000-05:00 | Added simple linear regression
+2025-11-09T12:51:37.000-05:00 | Completed Homework 2
+2025-11-09T12:47:59.000-05:00 | Initial commit
+2025-11-09T12:53:53.000-05:00 | Completed third homework assignment
+2025-11-09T12:53:07.000-05:00 | Completd take home portion of midterm 1
+2025-11-11T15:53:15.000-05:00 | Almost done with mt2
+2023-09-28T10:52:23.000-04:00 | v0.07.10 Adds a games tab
+2023-09-23T21:12:12.000-04:00 | v0.07.04 Iphone Test #3
+2023-09-23T21:07:55.000-04:00 | v0.07.03 Iphone 13 test #2
+2023-09-23T21:04:39.000-04:00 | v0.07.02 Adds Version Indicator
+
+Also changes how version are input into Github.
+2023-09-23T21:00:22.000-04:00 | v0.0701 Iphone 13 Test
+2023-09-23T20:30:04.000-04:00 | v0.07 Adds September to Datapacks of the Month
+2023-09-23T14:48:24.000-04:00 | v0.0601 Fixes columns
+2023-09-23T14:33:49.000-04:00 | v0.060 Adds Column Views
+
+Allows the viewing of 4 columns at a large screen size, 3 columns at a smaller screen size and 2 on mobile.
+2023-09-23T14:12:37.000-04:00 | v0.058 Improves Mobile View
+2023-09-23T13:53:18.000-04:00 | v0.057 CSS Changes
+
+Adds css devices file to better change based on mobile. Fixes the text in divs.
+2023-09-23T11:34:11.000-04:00 | v0.056 Fixes Favicon
+2023-09-23T11:25:23.000-04:00 | v0.055 Fixes Favicon and Nav Bar Text Size
+2023-09-23T10:55:28.000-04:00 | v0.055.1 Fixes Nav Bar
+2023-09-23T10:46:00.000-04:00 | v0.055 Favicon + Nav Bar
+
+Finishes the nav bar and changes the favicon
+2023-09-22T09:19:04.000-04:00 | v0.054 Adds Nav Bar
+2023-09-21T11:28:18.000-04:00 | v0.053 csv desktop support
+2023-09-17T08:01:55.000-04:00 | 0.05.2 Fixes some stuff in csv
+2023-09-08T11:01:15.000-04:00 | v0.05.1 Fixes the top image
+2023-09-07T23:15:32.000-04:00 | v0.05 Creates the favicon and improves the grid
+2023-09-05T21:48:49.000-04:00 | v0.04 Completes 12 Datapacks
+
+Cool :)
+2023-09-05T19:37:30.000-04:00 | v0.03 Completes the containers
+2023-09-04T12:57:10.000-04:00 | v0.02
+
+Creates a grid of the datapacks!
+2023-09-04T11:55:05.000-04:00 | v0.01 One Datapack Section
+
+Creates the idea for a single datapack download thing.
+2023-09-04T10:11:40.000-04:00 | Images Update
+
+Adds images, div, css, and other stuff
+2023-09-04T08:05:44.000-04:00 | Update index.html
+2023-09-03T18:07:17.000-04:00 | Create CNAME
+2023-09-03T18:07:09.000-04:00 | Delete CNAME
+2023-09-03T18:05:54.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/AndrewRoddy.github.io
+2023-09-03T17:53:48.000-04:00 | Create CNAME
+2023-09-03T17:53:42.000-04:00 | Delete CNAME
+2023-09-03T17:50:08.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/AndrewRoddy.github.io
+2023-09-03T17:39:39.000-04:00 | Create CNAME
+2023-09-03T17:39:06.000-04:00 | Testing2
+2023-09-03T17:37:36.000-04:00 | Create index.html
+2023-09-03T17:23:03.000-04:00 | Update README.md
+2023-09-03T17:22:26.000-04:00 | Initial commit
+2023-11-07T22:23:09.000-05:00 | v0.10.00 Overhauls Everything, First 3 Datapacks
+2023-11-16T17:15:55.000-05:00 | v0.10.05 Day5
+2023-11-24T12:36:09.000-05:00 | v0.10.06 Adds more datapacks to homescreen
+2023-12-01T22:14:11.000-05:00 | v0.10.07 Adjusted thumbnails and screensize
+2023-12-03T01:23:55.000-05:00 | v0.10.08 Added new datapack
+2023-12-04T11:43:53.000-05:00 | v0.10.09 Added new datapack
+2023-12-06T08:33:45.000-05:00 | v0.10.09 Added new datapack
+2023-12-07T22:34:52.000-05:00 | v0.10.10 Added new datapack
+2023-12-17T00:28:49.000-05:00 | v0.10.21 Adds Raining Wardens
+2023-12-18T22:40:18.000-05:00 | v0.10.22 Adds XP=Death
+2023-12-18T22:49:55.000-05:00 | Update 23December.html
+2023-12-13T23:01:15.000-05:00 | v0.10.20 Changes Image File Names and adds Random Items
+2023-12-20T11:27:45.000-05:00 | v0.10.22 Adds Patreon
+2024-01-01T03:35:33.000-05:00 | v0.11.00 Adds January
+2024-01-01T03:36:49.000-05:00 | v0.11.01 Fixes January
+2024-01-01T13:13:14.000-05:00 | Update 013 Invisible Mobs.png
+2024-11-03T19:02:16.000-05:00 | Update CNAME
+2025-01-09T22:24:19.000-05:00 | v0.12.00 Replaced everything
+2025-02-13T08:45:45.000-05:00 | 0.13.00 Switches to a two colum layout
+2025-02-04T12:10:49.000-05:00 | 0.12.10 Finalizes cursor glow
+2025-02-03T08:11:59.000-05:00 | 0.12.01 Adds cursor glow
+2025-02-10T09:13:27.000-05:00 | 0.12.20 Made custom cursor
+2025-02-23T20:53:08.000-05:00 | 0.13.01 Thanks message
+2025-04-23T08:47:15.000-04:00 | 0.13.11 Fixed two column format
+2025-04-30T09:16:35.000-04:00 | 0.13.18 Updated icon
+2025-04-22T16:19:27.000-04:00 | 0.13.10 Improves CSS readability
+2025-04-24T08:36:57.000-04:00 | 0.13.12 Slightly Updated Format
+2025-04-24T09:41:46.000-04:00 | 0.13.14 Added extra icons
+2025-04-24T09:41:23.000-04:00 | 0.13.13 Deleted files I don't need
+2025-04-28T08:58:40.000-04:00 | 0.13.16 Make icons white
+2025-04-27T05:37:59.000-04:00 | 0.13.15 Make icons white
+2025-04-29T09:00:23.000-04:00 | 0.13.17 Removed headshot from website
+2025-05-12T21:09:26.000-04:00 | 0.13.19 Added text
+2025-05-13T23:40:59.000-04:00 | 0.13.20 Added Education
+2025-09-01T19:55:16.000-04:00 | Added work experience
+2025-09-14T14:49:29.000-04:00 | Added boiler plate server.js file and created archive folder
+2025-09-14T21:20:48.000-04:00 | Updated README to add guides for code snippet locations
+2025-09-14T20:47:04.000-04:00 | Added public assets, updated readme, updated js and handlebars
+2025-09-14T20:50:30.000-04:00 | Reformatted code blocks
+2025-09-09T18:56:06.000-04:00 | Updated cube clicker again to hopefully allow upgrades
+2025-09-09T18:50:29.000-04:00 | Updated cube clicker
+2025-09-04T21:46:10.000-04:00 | Added projects
+2025-09-06T11:25:35.000-04:00 | Added cube clicker as a submodule AGAIN (it keeps breaking)
+2025-09-06T11:40:50.000-04:00 | Removing private submodule
+2025-09-06T11:41:17.000-04:00 | Removing .gitmodules
+2025-09-06T11:44:21.000-04:00 | Fix Cube-Clicker link path
+2025-09-06T11:44:00.000-04:00 | Add Cube-Clicker as submodule in pages/Cube-Clicker
+2025-09-06T11:08:13.000-04:00 | Update website styling and fix layout consistency
+2025-09-06T11:20:36.000-04:00 | Add the gitmodule Cube-Clicker
+2025-09-06T11:19:49.000-04:00 | Removed cube clicker temporarily to fix it
+2025-09-06T11:24:03.000-04:00 | Removed cube clicker
+2025-09-05T23:59:50.000-04:00 | Added comments and improved right column slide
+2025-09-05T22:44:14.000-04:00 | Improved Look of website!
+2025-09-06T13:15:04.000-04:00 | Added functionality for all of the projects
+2025-09-08T00:19:37.000-04:00 | Added handlebars file and updated the js and repo formatting to allow easy cloning
+2025-09-08T00:26:04.000-04:00 | Included final version in one folder. Also includes package.json
+2025-09-05T13:35:28.000-04:00 | Added Cube Clicker to this repo
+2025-09-05T13:31:51.000-04:00 | Added sube clicker to this website
+2025-09-07T22:58:21.000-04:00 | glitch.com is dead. Added Node.js and Express setup in VS Code to README
+
+Updated README to reflect changes in setup instructions and removed references to glitch.com.
+2025-10-05T22:15:12.000-04:00 | Updated resume added text for icons
+2025-10-12T15:07:23.000-04:00 | Removed Gomodoro for now until I fully figure out how to host it
+2025-10-12T15:07:52.000-04:00 | Fully, fully removed gomodoro
+2025-10-12T14:34:26.000-04:00 | Adds the gomorodo timer to the website
+2025-10-12T14:35:29.000-04:00 | Imporoves gomodoro time button
+2025-10-12T19:59:01.000-04:00 | Correctly added gomodoro :)
+2025-10-12T21:58:30.000-04:00 | Removed submodules, switched to vercel
+2025-10-09T10:14:35.000-04:00 | Update Andrew_Roddy_Resume.pdf
+2025-10-09T16:22:23.000-04:00 | Update Andrew_Roddy_Resume.pdf
+2025-11-17T07:47:24.000-05:00 | Updated resume. Changed resume index formatting
+2025-11-18T18:06:30.000-05:00 | Broke up presentation
+2025-11-18T17:39:39.000-05:00 | Updated presentation
+2025-11-18T17:56:21.000-05:00 | Merge pull request #2 from Monster0506/patch-1
+
+Add dev script for nodemon in package.json
+2025-11-18T17:45:25.000-05:00 | Merge pull request #1 from Monster0506/patch-1
+
+Fix filename typo
+
+
+lgtm
+2026-01-15T16:20:27.000-05:00 | Updated resume
+2026-01-28T14:51:36.000-05:00 | Updated GPA
+2026-01-28T14:51:52.000-05:00 | Reverted GPA change
+2026-01-28T17:05:46.000-05:00 | Fixed adblock (Closes #6)
+2026-01-28T17:17:59.000-05:00 | Updated positions (Closes #2)
+2026-01-28T17:17:04.000-05:00 | Added AAC, KSU NTS, HacKSU
+2026-01-28T17:03:26.000-05:00 | Stop ad block from changing my page
+2026-01-28T16:52:39.000-05:00 | Seperated experience into its own block
+2026-01-28T16:52:28.000-05:00 | Fixed meetures page loading while not in view
+2026-01-28T16:35:36.000-05:00 | Allowed multiple sections in each column. (#10 closed)
+2026-01-28T16:39:20.000-05:00 | Moved GPA section (Closes #10)
+2026-01-28T14:56:25.000-05:00 | Updated GPA (closes #1)
+2026-01-28T14:58:41.000-05:00 | Merge pull request #9 from AndrewRoddy/1-update-education-gpa
+
+Merge pull request #8 from AndrewRoddy/main
+2026-01-28T14:57:58.000-05:00 | Merge pull request #8 from AndrewRoddy/main
+
+Updated GPA (closes #1)
+2026-02-04T16:42:45.000-05:00 | Updated resume
+2026-02-06T11:49:00.000-05:00 | Merge branch 'add-narrow'
+2026-02-06T11:48:42.000-05:00 | Added narr0w to the website
+2026-02-06T11:43:51.000-05:00 | Added image for the narr0w icon
+2026-02-06T11:27:47.000-05:00 | Merge branch 'Add-Prismo'
+2026-02-06T11:27:30.000-05:00 | Finalized prismo icon (Closes #3)
+2026-02-06T11:26:13.000-05:00 | Adds image to the website
+2026-02-06T11:26:05.000-05:00 | Adds Prismo image
+2026-02-06T11:17:55.000-05:00 | Added prismo to website
+2026-02-09T11:30:38.000-05:00 | Merge branch 'add-spiral'
+2026-02-09T11:29:33.000-05:00 | Finalized spiral (Closes #17)
+2026-02-09T11:28:41.000-05:00 | Adds information to Spiral
+2026-02-09T11:20:36.000-05:00 | Added image for spiral
+2026-02-09T11:38:10.000-05:00 | Finalized narr0w (Closes #4)
+2026-02-09T20:22:36.000-05:00 | Merge branch 'column-width'
+2026-02-09T20:15:49.000-05:00 | Fixes two column width with one column (Closes #16)
+2026-02-11T09:27:10.000-05:00 | Merge branch 'terminal-mario'
+2026-02-11T09:26:58.000-05:00 | Added terminal mario (Closes #23)
+2026-02-11T09:08:26.000-05:00 | Added graphic
+2026-02-11T09:31:55.000-05:00 | Merge branch 'image-naming'
+2026-02-11T09:31:44.000-05:00 | Updated naming scheme
+2026-02-11T09:32:22.000-05:00 | Finished naming scheme (Closes #25)
+2026-02-11T08:22:07.000-05:00 | Merge branch 'add-regex'
+2026-02-11T08:21:56.000-05:00 | Added regex engine card
+2026-02-09T22:50:48.000-05:00 | Added image for the regex engine
+2026-02-11T08:22:48.000-05:00 | Finished adding regex engine (Closes #14)
+2026-02-09T19:44:34.000-05:00 | Merge branch 'fix-link-spacing'
+2026-02-09T19:44:02.000-05:00 | Fixes links underline (Closes #12)
+2026-02-09T22:47:56.000-05:00 | Merge branch 'list-parser'
+2026-02-09T22:47:35.000-05:00 | Finished adding Assembly List Parser to the website (Closes #15)
+2026-02-09T22:39:55.000-05:00 | Added Assembly List Parser image
+2026-02-09T22:37:24.000-05:00 | Added comments for future editions
+2026-02-09T22:29:20.000-05:00 | Finalized comment formatting
+2026-02-09T22:11:50.000-05:00 | Reformatted date comments
+2026-02-09T22:11:17.000-05:00 | Re ordered in order of creation, added dates of every project
+2026-02-14T18:09:11.000-05:00 | Attempt to deploy page
+2026-02-14T18:07:59.000-05:00 | Add missing .gitmodules file for Cube-Clicker submodule
+
+This fixes the GitHub Actions error: "No url found for submodule path 'pages/Cube-Clicker'"
+2026-02-12T16:24:39.000-05:00 | Merge branch '24-add-myllama'
+2026-02-12T16:24:21.000-05:00 | Added MyLlama to my website
+2026-02-12T16:17:58.000-05:00 | Added image
+2026-02-12T16:25:48.000-05:00 | Finished myllama (Closes #24)
+2026-02-14T18:00:37.000-05:00 | Merge branch 'fix-images'
+2026-02-14T17:57:55.000-05:00 | renamed names
+2026-02-14T17:56:49.000-05:00 | Moved images
+2026-02-15T01:06:24.000-05:00 | Merge branch 'test-issue'
+2026-02-15T01:05:07.000-05:00 | Test issue complete
+
+Closes #27
+2024-02-08T21:40:39.000-05:00 | v0.00.10 Makes Jumping and Movement smooth
+2024-02-08T20:10:32.000-05:00 | Initial commit
+2024-02-08T20:14:55.000-05:00 | v0.00.01 Sets everything up
+2024-02-09T22:51:47.000-05:00 | v0.00.15 Attempts to add camera
+2024-02-16T16:07:09.000-05:00 | v0.00.18 Added Moving Boxes
+2024-02-14T15:28:57.000-05:00 | v0.00.16 Adds anti-gravity
+2024-03-09T10:52:11.000-05:00 | v0.00.18 Attempts to add 2 player
+2024-11-27T19:11:12.000-05:00 | v0.00.19 Simple kind of bad game
+2024-12-09T12:01:37.000-05:00 | v0.01.01 Updates cat game
+2024-12-07T21:02:25.000-05:00 | v0.01.00 Version 1 of Despaired Cat Game
+2024-12-15T21:32:24.000-05:00 | v0.02.01 Now its vertical so maybe phone?
+2025-03-10T21:35:27.000-04:00 | 0.02.13 Adds quit button
+2025-03-09T21:19:43.000-04:00 | 0.02.12 Adds game over button texture
+2025-03-14T20:59:23.000-04:00 | 0.02.60 Paddle Direction influences ball direction
+2025-03-13T14:13:34.000-04:00 | 0.02.50 Refactored the Window
+2025-03-23T18:25:25.000-04:00 | 0.02.61 Added hypothetical score
+2025-05-11T16:35:00.000-04:00 | 0.02.62 Updated godot game
+2025-09-05T11:55:38.000-04:00 | Moved despaired cat game to its own repo
+2025-09-05T11:58:27.000-04:00 | actually moved it to its own repo now!
+2025-09-05T11:58:43.000-04:00 | updated git igngore so I can still store it here
+2025-09-05T11:42:13.000-04:00 | Added score to despaired cat game and updated .gitignore release handling
+2025-09-05T21:44:22.000-04:00 | Made despaired cat game a submodule which I should have done from the start
+2026-02-28T23:21:49.000-05:00 | Gets all repo names
+2026-02-28T23:07:02.000-05:00 | Gets all public and private repos
+2026-03-01T01:06:51.000-05:00 | Added notes created and notes modified
+2026-02-28T21:34:48.000-05:00 | Made it read from the envirnment variables properly
+2026-02-28T21:24:04.000-05:00 | Made README
+2026-02-28T21:24:00.000-05:00 | Updated to make uv work good
+2026-03-01T00:57:08.000-05:00 | Created possible structure for the future
+2026-02-28T23:41:06.000-05:00 | Get all repos
+2026-02-28T23:59:56.000-05:00 | Can now pull all of the commits
+2026-02-28T19:10:50.000-05:00 | Start of project
+2026-02-28T19:24:42.000-05:00 | Hides environment variables
+2026-02-28T19:20:45.000-05:00 | Started using uv
+2026-02-28T21:18:53.000-05:00 | Created function that gets all of the environment variables
+2026-02-28T22:11:20.000-05:00 | Can pull all current commits
+2026-03-01T11:46:07.000-05:00 | Added tagline
+2026-03-01T11:35:23.000-05:00 | Added methods of getting the data
+2026-03-01T11:42:40.000-05:00 | Added motivation to README
+2026-03-01T12:11:06.000-05:00 | Update README.md
+2026-03-01T12:09:51.000-05:00 | Update README.md
+2026-03-01T11:33:49.000-05:00 | Added order to the README on how the code will operate
+2026-03-01T11:32:51.000-05:00 | Added template to the git ignore
+2026-03-01T11:32:27.000-05:00 | Created example template
+2026-03-01T11:02:18.000-05:00 | Created template file
+2026-03-01T12:03:49.000-05:00 | Updated implementation plan
+2026-03-01T15:08:14.000-05:00 | Fix grammatical errors in README motivation section
+2026-03-01T21:53:00.000-05:00 | Updated implementation plan
+2026-03-01T21:51:43.000-05:00 | Edited environment variable example
+2024-03-20T21:37:32.000-04:00 | Export Presets
+2024-03-20T21:20:19.000-04:00 | Go to: C:\Program Files\Adobe\Adobe Premiere Pro 2024\PlugIns
+2024-01-21T21:16:27.000-05:00 | Creation
+2024-01-21T21:15:14.000-05:00 | Initial commit
+2024-01-21T21:20:18.000-05:00 | 1/21/2024 Updated
+2025-12-27T22:20:30.000-05:00 | Updated 2025-12-27
+2025-12-31T09:54:57.000-05:00 | Updated 2025-12-31
+2026-01-01T21:15:13.000-05:00 | Updated 2026-01-01
+2026-01-01T19:15:11.000-05:00 | Updated 2026-01-01
+2026-01-06T22:59:33.000-05:00 | Updated 2026-01-06
+2026-01-06T18:59:25.000-05:00 | Updated 2026-01-06
+2025-12-30T15:04:37.000-05:00 | Updated 2025-12-30
+2025-12-30T17:04:40.000-05:00 | Updated 2025-12-30
+2026-01-01T13:15:03.000-05:00 | Updated 2026-01-01
+2026-01-08T23:06:27.000-05:00 | Updated 2026-01-08
+2026-01-09T01:06:31.000-05:00 | Updated 2026-01-09
+2025-01-02T01:56:11.000-05:00 | 1 / 2 /  2025
+2025-01-04T20:49:48.000-05:00 | 1 / 3 / 2025
+2025-01-04T21:21:05.000-05:00 | 1 / 4 / 2025
+2025-01-02T01:56:11.000-05:00 | 1 / 2 /  2025
+2025-01-03T09:22:24.000-05:00 | 1 / 3 / 2025
+2025-01-11T16:20:02.000-05:00 | 1 / 11 / 2025
+2024-04-15T07:19:16.000-04:00 | 4.15.24
+2024-03-28T14:51:15.000-04:00 | 3.28.2024
+2024-08-31T16:12:33.000-04:00 | Fixes all the other files. JUST project files
+2024-08-31T16:06:07.000-04:00 | poop mod
+2024-09-17T19:07:22.000-04:00 | :)
+2024-09-23T21:16:34.000-04:00 | 9.23.2024 Laptop
+2024-09-28T22:36:49.000-04:00 | 9.28.24 Laptop
+2024-12-12T07:45:54.000-05:00 | 12 / 12 / 2024
+2024-12-13T09:23:54.000-05:00 | 12-13-2024:9:23
+2024-12-15T15:05:19.000-05:00 | 12 / 15 / 2024
+2024-12-14T21:24:04.000-05:00 | Update Poop Mod.prproj
+2024-12-14T21:23:50.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/Premiere-Pro-Programs
+2024-12-14T21:20:27.000-05:00 | 12 / 14 / 2024
+2024-12-01T11:25:02.000-05:00 | 12/1/2024
+2024-11-28T19:51:12.000-05:00 | 11/28/2024
+2024-11-19T14:44:31.000-05:00 | 11/19/2024 2PM
+2024-11-19T15:25:25.000-05:00 | 11/19/2024 3PM
+2024-11-21T23:31:50.000-05:00 | 11/12/24
+2024-11-27T19:09:05.000-05:00 | 11/27/2024
+2024-11-24T14:03:03.000-05:00 | 11/24/2024
+2024-11-22T11:19:44.000-05:00 | 11/22/24 Attempt 2
+2024-11-22T11:13:30.000-05:00 | 11/22/24
+2024-12-24T22:32:43.000-05:00 | 12 / 24 / 2024
+2025-02-12T08:07:45.000-05:00 | 2 / 12 / 2025
+2025-05-22T23:38:30.000-04:00 | 5 / 22 / 2025
+2025-06-03T21:19:47.000-04:00 | 06 / 03 / 2025
+2025-03-20T08:21:29.000-04:00 | 3 / 20 / 2025
+2025-03-21T14:37:20.000-04:00 | 3 / 21 / 2025
+2025-04-17T08:46:26.000-04:00 | 4 / 17 / 2025
+2025-12-26T00:48:03.000-05:00 | Updated 2025-12-26
+2025-12-26T17:49:21.000-05:00 | Updated 2025-12-26
+2025-12-26T15:49:16.000-05:00 | Updated 2025-12-26
+2025-12-24T23:30:48.000-05:00 | Added new project
+2025-12-26T21:49:26.000-05:00 | Updated 2025-12-26
+2025-12-26T19:49:24.000-05:00 | Updated 2025-12-26
+2025-05-30T20:16:11.000-04:00 | 5 / 30 / 2025
+2025-05-24T23:16:57.000-04:00 | 5 / 24 / 2025
+2025-05-25T21:40:16.000-04:00 | 5 / 25 / 2025
+2025-05-31T20:31:50.000-04:00 | 5 / 31 / 2025
+2025-06-01T16:23:00.000-04:00 | 06 / 02 / 2025
+2025-06-04T21:15:31.000-04:00 | 06 / 04 / 2025
+2025-06-05T22:38:58.000-04:00 | 06 / 05 / 2025
+2025-06-06T12:19:57.000-04:00 | 06 / 06 / 2025
+2025-06-09T20:47:17.000-04:00 | 06 / 09 / 2025
+2025-06-08T22:48:43.000-04:00 | 06 / 08 / 2025
+2025-05-24T23:22:52.000-04:00 | 5 / 24 / 2025 Again
+2025-05-23T18:15:01.000-04:00 | 5 / 23 / 2025
+2025-05-28T23:55:42.000-04:00 | 5 / 28 / 2025
+2025-05-29T00:38:45.000-04:00 | 5 / 29 / 2025
+2025-06-08T04:30:47.000-04:00 | 6 / 8 / 2025
+2025-06-10T21:28:42.000-04:00 | 06 / 10 / 2025
+2025-06-12T21:32:43.000-04:00 | 06 / 12 / 2025
+2025-06-11T22:08:44.000-04:00 | 06 / 11 / 2025
+2025-06-15T16:23:00.000-04:00 | 6 / 17 / 2025
+2025-06-13T16:26:00.000-04:00 | 6 / 17 / 2025 2
+2025-06-21T23:34:56.000-04:00 | 06 / 21 / 2025
+2025-06-18T09:42:59.000-04:00 | 06 / 18 / 2025
+2025-07-03T20:53:32.000-04:00 | 07 / 03 / 2025
+2025-07-11T14:22:35.000-04:00 | 07 / 11 / 2025
+2025-07-05T02:12:25.000-04:00 | 07 / 05 / 2025
+2025-07-21T16:22:36.000-04:00 | 07 / 21 / 2025
+2025-07-18T16:11:59.000-04:00 | 07 / 18 / 2025
+2025-07-29T23:33:46.000-04:00 | 07 / 29 / 2025
+2025-08-11T21:06:14.000-04:00 | 08 / 11 / 2025
+2025-08-13T21:55:52.000-04:00 | 08 / 13 / 2025
+2025-08-12T19:23:52.000-04:00 | 08 / 12 / 2025
+2025-08-02T20:10:46.000-04:00 | 08 / 02 / 2025
+2025-08-09T21:46:03.000-04:00 | 08 / 09 / 2025
+2025-08-07T13:03:58.000-04:00 | 08 / 07 / 2025
+2025-08-08T17:30:45.000-04:00 | 08 / 08 / 2025
+2025-08-10T18:46:08.000-04:00 | 08 / 10 / 2025
+2025-08-24T00:22:04.000-04:00 | new backups, new projects
+2025-09-07T17:09:50.000-04:00 | Backing up UK Friendly
+2025-12-18T14:09:07.000-05:00 | Updated 2025-12-18
+2025-12-21T17:33:34.000-05:00 | Updated 2025-12-21
+2025-12-21T21:33:41.000-05:00 | Updated 2025-12-21
+2025-12-21T19:33:39.000-05:00 | Updated 2025-12-21
+2025-12-21T23:33:48.000-05:00 | Updated 2025-12-21
+2025-12-20T10:19:03.000-05:00 | Updated 2025-12-20
+2025-12-20T21:18:32.000-05:00 | Updated 2025-12-20
+2025-12-20T22:09:17.000-05:00 | Updated 2025-12-20
+2025-12-17T15:46:48.000-05:00 | Created snow white one
+2025-12-15T13:11:28.000-05:00 | Updated 2025-12-15
+2025-12-16T11:18:51.000-05:00 | Updated 2025-12-16
+2026-01-04T23:35:42.000-05:00 | Updated 2026-01-04
+2026-01-26T00:44:25.000-05:00 | Updated 2026-01-26
+2026-01-28T08:45:26.000-05:00 | Updated 2026-01-28
+2025-11-04T18:03:16.000-05:00 | Initial commit
+2025-11-04T18:25:34.000-05:00 | CS1, CS2, and CS3 Files
+2025-11-25T15:53:02.000-05:00 | Started making dopey skin
+2025-11-25T15:47:49.000-05:00 | Initial commit
+2025-11-26T17:48:25.000-05:00 | Updated 2025-11-26
+2025-11-26T01:27:13.000-05:00 | Added new DrewGo Skin
+2025-11-26T01:27:27.000-05:00 | Added other strange variants
+2025-11-26T01:27:35.000-05:00 | And other variant
+2025-11-26T01:28:32.000-05:00 | Renamed DrewGo skin
+2025-11-26T01:21:06.000-05:00 | Updated Dopey
+2025-11-26T17:51:15.000-05:00 | Updated 2025-11-26
+2025-12-02T10:16:52.000-05:00 | Updated 2025-12-02
+2025-12-02T10:20:46.000-05:00 | Updated 2025-12-02
+2025-12-02T10:24:38.000-05:00 | Modify content of mytest.txt
+2025-12-02T10:25:25.000-05:00 | Delete mytest.txt
+2025-12-01T13:12:11.000-05:00 | Updated 2025-12-01
+2025-12-23T01:20:00.000-05:00 | Updated 2025-12-23
+2025-12-23T20:18:40.000-05:00 | Updated 2025-12-23
+2025-12-23T14:18:33.000-05:00 | Updated 2025-12-23
+2025-10-18T18:35:00.000-04:00 | initial commit
+2025-10-20T02:05:02.000-04:00 | Added bracket ender and universal runner.
+2025-11-04T17:59:45.000-05:00 | Added UFO plugin
+2025-12-01T12:15:10.000-05:00 | Adds running the program on startup
+2025-12-01T12:04:58.000-05:00 | Added run script to visually run the program. Added more instructions to setup
+2025-12-01T12:01:53.000-05:00 | Uses vbs to run program in the background!
+2025-12-01T12:13:57.000-05:00 | Removed tab
+2025-12-02T11:06:27.000-05:00 | Created README file.
+2025-12-02T10:30:51.000-05:00 | Switch to running every 24 hours
+2025-07-16T12:10:46.000-04:00 | Created title and modpack graphics
+2025-07-12T13:51:35.000-04:00 | Initial commit
+2025-07-12T13:56:50.000-04:00 | 0.00.01 Created boiler plate
+2025-07-12T14:01:33.000-04:00 | 0.00.02 Changing it to functions worked!
+2025-07-14T14:25:14.000-04:00 | Finished creating the datapack
+2025-07-14T14:30:00.000-04:00 | Finished the releases folder
+2025-07-14T13:38:54.000-04:00 | Finished 1.21.4
+2025-07-13T22:04:01.000-04:00 | Finished 1.20.5
+2025-07-13T20:06:40.000-04:00 | Started testing current version
+2025-11-21T17:22:31.000-05:00 | Opens file in class
+2025-11-21T17:30:49.000-05:00 | Added input file
+2025-11-21T18:45:09.000-05:00 | Parses and closes file
+2025-11-21T19:03:01.000-05:00 | Added print function
+2025-11-22T23:25:02.000-05:00 | Reformats the README
+2025-11-22T23:25:46.000-05:00 | Edit image tags
+2025-11-22T23:30:56.000-05:00 | Standard of C++
+2025-11-22T23:27:46.000-05:00 | Fixed spacing in image names
+2025-11-22T23:28:08.000-05:00 | Fixed spacing next to image names
+2025-11-22T23:34:22.000-05:00 | Fixed indentation!
+2025-11-22T23:21:18.000-05:00 | Adds the first image
+2025-11-22T23:21:25.000-05:00 | Adds the second image
+2025-11-22T23:21:40.000-05:00 | Adds the readme file
+2025-11-22T23:26:31.000-05:00 | Edit image embeddings
+2025-11-22T23:23:08.000-05:00 | Explains the Makefile
+2025-11-22T23:23:20.000-05:00 | Explains the first part of the header file
+2025-11-22T23:23:32.000-05:00 | Adds next part of header file
+2025-11-22T23:22:03.000-05:00 | Adds the usage instructions
+2025-11-22T23:22:29.000-05:00 | Adds the input file format
+2025-11-22T23:24:07.000-05:00 | C++ file exp part 3
+2025-11-22T23:24:17.000-05:00 | Finishes explaining C++ file
+2025-11-22T23:24:28.000-05:00 | Explains the make file
+2025-11-22T23:24:40.000-05:00 | Adds example output
+2025-11-22T23:23:46.000-05:00 | C++ file part 1 desc
+2025-11-22T23:23:57.000-05:00 | C++ file explanation part 2
+2025-11-22T23:22:42.000-05:00 | Adds program description section
+2025-11-22T23:22:54.000-05:00 | Adds bankers algorihm explanation
+2025-11-22T23:24:54.000-05:00 | Adds example images and thank you
+2025-11-26T16:55:28.000-05:00 | Initial commit
+2025-11-26T17:13:28.000-05:00 | Ignores files with paths to sync in them
+2025-11-26T18:01:15.000-05:00 | Improved comments
+2025-11-26T17:44:04.000-05:00 | Pulls all repos in list checking for garbage values
+2025-11-26T17:21:01.000-05:00 | Iterates through all lines of file
+2025-11-26T17:57:44.000-05:00 | Commits once a week all changes in repos
+2025-11-21T10:07:09.000-05:00 | Added input file
+2025-11-27T11:42:21.000-05:00 | Now creates file if not found
+2025-11-22T23:35:27.000-05:00 | Fixed indentation again
+2025-11-22T23:41:37.000-05:00 | Adds more detail to the bankers algorithm desc
+2025-11-21T10:04:15.000-05:00 | Added gitignore
+2025-11-21T10:01:21.000-05:00 | Initial commit
+2025-11-22T19:59:20.000-05:00 | Formatted
+2025-11-22T19:51:53.000-05:00 | Program gets correct output
+2025-11-22T20:03:59.000-05:00 | Seperated into multiple files
+2025-11-22T20:22:19.000-05:00 | Created makefile
+2025-11-22T20:38:41.000-05:00 | Updated the makefile
+2025-11-22T20:38:55.000-05:00 | Added .o files to the gitignore
+2025-11-22T20:39:09.000-05:00 | Removed Algorithm from the header file
+2025-11-22T16:35:45.000-05:00 | Now able to calculate need on construction
+2025-11-22T16:36:12.000-05:00 | Fixed void constructor
+2025-11-22T16:42:33.000-05:00 | Made allocatable function
+2025-11-22T13:38:28.000-05:00 | Calculates need
+2025-12-15T13:15:34.000-05:00 | Updates the powershell names to be less confusing
+2025-12-27T20:05:59.000-05:00 | Changed everything to 2 hours
+2025-09-05T23:57:41.000-04:00 | Added properly updating score and everything like that. Its pretty nice!
+2025-09-05T22:44:03.000-04:00 | Removed debug abilities
+2025-09-05T21:56:03.000-04:00 | Added back button to return to index 0
+2025-09-02T20:01:43.000-04:00 | started working on cube clicker
+2025-09-02T20:00:02.000-04:00 | Initial commit
+2025-09-09T18:49:54.000-04:00 | Made the game work perfectly, forever
+2025-09-09T18:55:42.000-04:00 | Added test message
+2025-10-12T21:47:10.000-04:00 | Adds vercel to gitignore
+2025-10-12T22:00:23.000-04:00 | Makes back button function on all websites
+2025-11-04T18:00:01.000-05:00 | Reformatted styles.css very slightly
+2025-09-05T11:55:20.000-04:00 | Moved to its own repository!!
+2025-09-05T11:53:06.000-04:00 | Initial commit
+2025-08-14T17:39:08.000-04:00 | Initial commit
+2025-08-14T17:40:01.000-04:00 | Making baseplate
+2023-09-29T22:16:43.000-04:00 | v0.10.03 Begins to make it work in tkinter
+2023-09-28T11:57:41.000-04:00 | v0.10.02 Prints album data
+2023-09-28T11:27:41.000-04:00 | v0.10.01 Adds Tkinter
+2023-09-28T10:58:51.000-04:00 | v0.10.00 Spotify Popularity Finder without UI
+2023-09-25T18:27:55.000-04:00 | Initial commit
+2024-11-27T19:10:08.000-05:00 | v0.03.62 Test Scirpt
+2024-12-02T08:08:34.000-05:00 | v0.03.70 Vectors practice
+2024-12-02T10:49:47.000-05:00 | v0.03.99 Moves around files
+2024-12-02T10:46:58.000-05:00 | v0.03.90 Odd vector practice
+2024-12-02T10:25:25.000-05:00 | v0.03.80 Vectors practice
+2024-12-02T11:08:15.000-05:00 | v0.04.10 Re-sorts all files
+2024-12-02T11:07:09.000-05:00 | v0.04.00 Vectors odd sum complete
+2024-10-29T11:29:43.000-04:00 | v0.02.24 Complete Average IO
+2024-10-31T12:08:21.000-04:00 | v0.02.60 Lab 26 Complete
+2024-09-24T12:22:52.000-04:00 | v0.07.00 Fibonacci
+2024-09-24T12:03:53.000-04:00 | v0.06.01 changed formatting
+2024-09-24T11:16:31.000-04:00 | v0.06.00 isPrime
+2024-09-24T11:16:15.000-04:00 | v0.05.00 isEven - chaged version styling based on drill completion
+2024-09-23T13:54:46.000-04:00 | v0.01.02 Just for context ( this used to be a part of Llama then I accidentally deleted This from MyLlama when seperating the repositories.
+2024-09-23T13:53:53.000-04:00 | v0.01.01 Example 1 Drill
+2024-09-23T10:19:13.000-04:00 | v0.01.00 7 Minute Drills
+2024-09-23T10:17:38.000-04:00 | Initial commit
+2024-10-07T13:55:20.000-04:00 | v0.09.05 Lab 5 fully complete
+2024-10-07T13:34:08.000-04:00 | v0.09.04 Completed Lab 5 Part 1
+2024-10-07T17:42:18.000-04:00 | v0.09.06 ALL LABS FINISHED (labs on desktop not downloaded)
+2024-10-07T18:19:34.000-04:00 | v0.09.07 Finished Example Exam Question
+2024-10-07T11:47:46.000-04:00 | v0.09.03 Completed Lab4.1
+2024-10-06T20:16:52.000-04:00 | v0.09.02 Completed some labs but forgot to commit from desktop yesterday :(
+2024-10-02T22:16:45.000-04:00 | v0.09.01 Completes Lab 1 and part of 2
+2024-10-01T14:16:41.000-04:00 | v0.09.00 Reverse + Print
+2024-10-08T07:44:17.000-04:00 | v0.09.08 Completed library based problems
+2024-10-08T08:21:39.000-04:00 | v0.09.09 Adds three more 7 minute drills
+2024-10-08T08:23:07.000-04:00 | v0.01.50 Changes version convention ex: v0.00.10 is drill 1 complete v1.00.00 is drill 1,000 complete
+2024-10-08T18:32:16.000-04:00 | v0.01.60 Insert Drill
+2024-10-11T22:17:11.000-04:00 | v0.01.61 Labs from desktop YAY
+2024-10-17T08:33:22.000-04:00 | v0.01.80 Finished Full Name
+2024-10-18T10:53:46.000-04:00 | v0.01.90 Finished Book
+2024-10-20T12:15:37.000-04:00 | v0.02.00 20 Drills Complete Finished Rectangle
+2024-10-21T21:47:27.000-04:00 | v0.02.10 Finished Shapes
+2024-10-16T11:52:23.000-04:00 | v0.01.66 Branches merged
+2024-10-16T11:52:03.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2024-10-16T11:51:52.000-04:00 | v0.01.65 Adds new drill prompts for OOP
+2024-10-16T12:05:58.000-04:00 | v0.01.70 Finished Set And Get
+2024-11-19T09:39:27.000-05:00 | v0.03.20 Lab  32 Complete
+2024-11-19T10:49:18.000-05:00 | v0.03.60 Lab  36 Complete
+2024-11-14T11:45:53.000-05:00 | v0.02.80 Lab 28 Complete
+2024-11-19T13:37:45.000-05:00 | v0.03.61 Retried some
+2024-11-05T21:31:03.000-05:00 | v0.02.61 More Drills!
+2024-10-27T20:03:14.000-04:00 | v0.02.2 Shapes drill
+2024-10-28T10:14:34.000-04:00 | v0.02.21 Complete Rocket Exercise
+2024-12-03T08:53:00.000-05:00 | v0.04.11 Vector Primes
+2024-12-11T10:43:24.000-05:00 | v0.05.39 Did like 3 labs
+2024-12-11T10:53:15.000-05:00 | v0.05.40 2d arrays
+2024-12-10T20:09:06.000-05:00 | v0.05.20 Big 33333333
+2024-12-10T20:36:05.000-05:00 | v0.05.30 Weird Big 3
+2024-12-10T17:48:16.000-05:00 | v0.04.80 Deconstructor
+2024-12-10T14:48:02.000-05:00 | v0.04.70 File in and out
+2024-12-10T14:20:40.000-05:00 | v0.04.40 2 More easy labs complete
+2024-12-10T15:51:16.000-05:00 | v0.04.77 Make more lab practice
+2024-12-10T14:31:09.000-05:00 | v0.04.50 Vowels
+2024-12-10T15:22:19.000-05:00 | v0.04.75 Made more practice
+2024-12-10T16:37:52.000-05:00 | v0.04.79 Recompleted lab 10
+2024-12-11T09:16:09.000-05:00 | v0.05.32 Did big 3 again
+2024-12-11T08:35:16.000-05:00 | v0.05.31 Creates a test file
+2024-12-12T23:42:41.000-05:00 | v0.05.42 Ignore svn missing
+2024-12-12T23:40:47.000-05:00 | v0.05.41 Deleted Test
+2024-12-07T15:06:34.000-05:00 | v0.04.20 Sum average lab done
+2024-12-05T08:15:16.000-05:00 | v0.04.18 Created 10 new prompts that should cover everything in CS1B
+2025-01-10T21:19:54.000-05:00 | v0.05.45 Updated drill
+2025-01-23T07:44:20.000-05:00 | v0.05.48 More in class practice
+2025-01-29T07:52:27.000-05:00 | v0.05.49 More Practice in lab
+2025-01-16T08:37:44.000-05:00 | v0.05.47 In class practice
+2025-01-31T21:22:26.000-05:00 | v0.05.50 Set ADT
+2025-02-04T07:46:40.000-05:00 | v0.05.51 Set ADTv2
+2025-02-19T14:16:42.000-05:00 | v0.07.41 :(
+2025-02-22T19:42:37.000-05:00 | v0.05.43 Long int
+2025-02-21T10:47:29.000-05:00 | v0.07.43 Second dyanic
+2025-02-24T09:04:58.000-05:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2025-02-24T09:04:49.000-05:00 | v0.07.70 Learning template
+2025-02-24T09:05:33.000-05:00 | v0.07.71 Learning template
+2025-02-25T07:37:10.000-05:00 | v0.07.72 More Array Template
+2025-02-26T12:58:00.000-05:00 | v0.07.73 Dynamic Mem
+2025-02-14T16:42:28.000-05:00 | v0.05.60 String ADT v2
+2025-02-18T08:57:58.000-05:00 | v0.06.41 Keeps working on >> overloading
+2025-02-18T14:49:11.000-05:00 | v0.07.40 Finishes many 7 minute drills and adds bigint to repo
+2025-02-17T21:19:11.000-05:00 | v0.06.40 Finished 10 7 minute drills today
+2025-02-17T20:32:26.000-05:00 | v0.05.90 Finished 5 drills
+2025-02-17T17:26:01.000-05:00 | v0.05.63 Dynamic Array ADT
+2025-02-17T14:18:07.000-05:00 | v0.05.62 Deleted old drills
+2025-02-16T22:09:51.000-05:00 | v0.05.61 String fixes
+2025-02-20T08:58:59.000-05:00 | v0.07.42 First Dynamic
+2025-02-09T14:15:18.000-05:00 | v0.05.56 HacKSU Flask
+2025-02-08T14:25:22.000-05:00 | v0.05.55 FileIO v2
+2025-02-05T14:03:29.000-05:00 | v0.05.52 String ADT
+2025-02-07T11:04:21.000-05:00 | v0.05.53 FileIO Commit
+2025-02-06T08:46:38.000-05:00 | v0.05.53 String ADT Updates
+2025-02-27T07:48:22.000-05:00 | v0.07.74 Stack code
+2025-02-27T07:46:25.000-05:00 | v0.07.73 Fortnite extension
+2025-03-19T14:10:33.000-04:00 | v0.07.82 Renamed and moves files
+2025-03-19T00:49:34.000-04:00 | v0.07.81 Learned more about shell
+2025-03-17T15:02:13.000-04:00 | v0.07.80 Deleted all .exe files
+2025-03-04T19:17:34.000-05:00 | v0.07.76 Array
+2025-03-05T12:12:53.000-05:00 | v0.07.77 Towers
+2025-02-28T15:35:04.000-05:00 | v0.07.75 Infix and prefix
+2025-03-06T21:15:07.000-05:00 | v0.07.78 Queue
+2025-03-07T23:04:40.000-05:00 | v0.07.79 Fixed folder structure
+2025-03-21T13:48:15.000-04:00 | v0.07.83 Queue and Dlist
+2025-03-24T09:17:32.000-04:00 | v0.07.84 Fixed folder naming
+2025-03-30T00:25:41.000-04:00 | v0.09.41 Template Darray
+2025-03-30T00:32:33.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2025-03-28T00:30:53.000-04:00 | v0.09.41 Template Darray
+2025-03-30T00:36:38.000-04:00 | v0.09.42 Btree
+2025-03-30T00:38:12.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2025-03-29T00:37:30.000-04:00 | v0.09.42 Btree
+2025-03-25T08:18:21.000-04:00 | v0.09.10 So Many 7 Minute Drills
+2025-03-25T14:26:39.000-04:00 | v0.09.40 I better get 100% on this CS2 Exam 2 man. I've been working hard lol
+2025-03-27T11:17:48.000-04:00 | v0.09.41 Java Lesson
+2025-04-02T13:18:19.000-04:00 | v0.09.46 BrainF Language
+2025-04-01T07:55:01.000-04:00 | v0.09.44 Btree Cont
+2025-04-01T07:56:30.000-04:00 | v0.09.45 Queue
+2025-03-31T07:53:07.000-04:00 | v0.09.43 String Added
+2025-04-03T07:58:19.000-04:00 | v0.09.47 Btree
+2025-04-16T15:06:57.000-04:00 | v0.09.5 STL Examples
+2025-04-04T16:22:14.000-04:00 | v0.09.48 Btreev2
+2025-04-16T09:53:43.000-04:00 | v0.09.54 Map.txt
+2025-05-08T00:49:35.000-04:00 | v0.12.40 Finished BtreeV1 just hope BtreeV2 isn't on the exam!
+2025-05-05T21:52:36.000-04:00 | v0.09.65 Remove Pointers
+2025-05-06T10:29:02.000-04:00 | v0.09.66 Removed fileIO
+2025-05-06T14:50:23.000-04:00 | v0.09.67 Preparing for final exam studying CS2 FINAL
+2025-05-06T17:23:22.000-04:00 | v0.09.68 Finished Stack
+2025-05-08T18:21:11.000-04:00 | v0.12.60 The final didn't go great
+2025-05-07T15:10:44.000-04:00 | v0.10.50 Finshed LL Stack Pop function
+2025-05-07T15:46:14.000-04:00 | v0.10.70 Finshed LL Stack Copy Constructor
+2025-05-07T17:29:28.000-04:00 | v0.11.40 Finished Linked List Queue Deconstructor
+2025-05-07T17:20:30.000-04:00 | v0.11.20 Finshed LL Queue Enqueue Function
+2025-05-04T21:27:02.000-04:00 | v0.09.64 Starting to sort for FINALS
+2025-04-24T07:55:00.000-04:00 | v0.09.58 Updated old shapes
+2025-04-25T13:33:41.000-04:00 | v0.09.59 More Shape
+2025-04-26T15:20:08.000-04:00 | v0.09.60 Word Processor
+2025-04-06T21:50:27.000-04:00 | v0.09.49 Moved Darray
+2025-04-06T21:53:44.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2025-04-05T07:54:48.000-04:00 | v0.09.49 Moved Darray
+2025-04-12T15:35:22.000-04:00 | v0.09.53 Map hpp
+2025-04-10T22:19:09.000-04:00 | v0.09.51 Map
+2025-04-11T18:46:35.000-04:00 | v0.09.52 Map cpp
+2025-04-07T14:15:10.000-04:00 | v0.09.50 Multiple more tries
+2025-04-19T19:54:12.000-04:00 | v0.09.57 Updated Btree
+2025-04-20T02:21:59.000-04:00 | v0.09.58 Updated Main
+2025-04-18T16:23:00.000-04:00 | v0.09.56 Mode old btree
+2025-05-01T07:58:24.000-04:00 | v0.09.61 Errors Code
+2025-05-03T15:00:01.000-04:00 | v0.09.63 C++ Features
+2025-05-02T21:49:01.000-04:00 | v0.09.62 Smart Pointers
+2025-05-09T22:49:35.000-04:00 | v0.12.61 Deleted the Final studying area
+2025-08-22T17:22:09.000-04:00 | Reformatted folders
+2025-08-22T17:32:23.000-04:00 | Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Practice
+2025-08-22T17:32:11.000-04:00 | deleted .vscode file
+2025-08-22T17:30:40.000-04:00 | Update README.md
+2025-08-22T17:27:14.000-04:00 | Editing prompts
+2025-08-27T10:34:10.000-04:00 | Finished 136,137, and 138
+2025-08-26T22:17:12.000-04:00 | R files and 1st hacksu lesson
+2025-08-27T00:02:43.000-04:00 | Completed drill 128-130
+2025-08-27T00:14:08.000-04:00 | Finished frill 131
+2025-08-27T00:26:57.000-04:00 | Finished Drill 132
+2025-08-27T09:18:00.000-04:00 | Finished 133-135
+2025-09-17T11:25:27.000-04:00 | Assembly and R programming
+2025-09-18T17:53:05.000-04:00 | Finished Hello in assembly
+2025-09-18T18:00:29.000-04:00 | Completed addition in Assembly
+2025-09-19T23:57:19.000-04:00 | Continued work on Computer Org HW and DMUU HW
+2025-08-27T12:40:54.000-04:00 | Removed odd R files and did super R drill
+2025-09-20T01:48:26.000-04:00 | Continued R homework
+2025-09-24T19:40:51.000-04:00 | Completed R Homework
+2025-09-11T17:52:29.000-04:00 | Moved assembly files
+2025-09-09T19:27:20.000-04:00 | Moved everything around
+2025-09-07T22:33:47.000-04:00 | Added in assemlby code and began testing express.js lesson
+2025-09-04T17:47:52.000-04:00 | Began working on Assembly code

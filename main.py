@@ -3,6 +3,7 @@ import requests
 import json
 
 def getEnv():
+    DEBUG = False
     env = {}
 
     # Opens the file
@@ -15,7 +16,15 @@ def getEnv():
 
             line = line.split("=") # Splits into key and value
             key = line[0]
+            if (DEBUG): print("key :", key)
+            if (len(line) == 1):
+                env[key] = ""
+                if (DEBUG): print("value : Skipped")
+                break 
+            
             value = line[1]
+            if (DEBUG): print("value :", value, "\n")
+
             
             value = value[1:-1] # Removes quotes
             env[key] = value # Sets it in the dictionary
@@ -65,21 +74,46 @@ def main():
     # print(os.chdir(DAILY_NOTES_PATH))
     # print(os.listdir('.'))
 
-    repo_urls = getRepos(env)
+    # repo_urls = getRepos(env)
     
     # Prints them all out including the length
 
 
-    repo_url = repo_urls[0]
+    # repo_url = repo_urls[0]
+
+    # I should have at least 4099 commits total
 
     GITHUB_PAT = env.get("GITHUB_PAT")
     headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
 
-    url = repo_url + "/commits?per_page=100"
-    
-    r = requests.get(url=url, headers=headers)
-    for commit in r.json():
-        print(commit["commit"]["author"]["date"], commit["commit"]["message"])
+    # url = repo_url + "/commits?per_page=100"
+
+    page = 1
+    pages = []
+    while (True):
+        url = f"https://api.github.com/search/commits?q=author:AndrewRoddy&per_page=100&page={page}"
+        r = requests.get(url=url, headers=headers)
+
+        print(f"{r.status_code=}")
+        if (r.status_code == 422 or r.status_code == 403):
+            break
+
+        pages.append(r)
+        page += 1
+
+    i = 0
+    with open("data.txt", "a") as file:
+        for page in pages:
+            print(page.json())
+            for commit in page.json()["items"]:
+                file.write(f"{commit["commit"]["author"]["date"]} | {commit["commit"]["message"]}\n")
+                i += 1
+                print(i)
+                
+
+    # file.write(commit["commit"]["date"], commit["commit"]["message"])
+                # file.write(commit["items"]["commit"]["author"]["date"], commit["commit"]["message"])
+    # print(len(r.json()))
 
     # Check every day I need
     # Pull all of the days I need
