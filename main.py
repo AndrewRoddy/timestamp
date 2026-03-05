@@ -75,11 +75,13 @@ def main():
     page = 1
     pages = []
     while (True):
-        url = "https://api.github.com/repos/AndrewRoddy/timestamp" + "/commits?per_page=100&page={page}"
+        url = "https://api.github.com/repos/AndrewRoddy/timestamp" + "/commits?per_page=100&page=" + str(page)
         r = requests.get(url=url, headers=headers)
-
+        # print(url)
+        print(r.json())
+        # print(type(r))
         print(f"{r.status_code=}")
-        if (r.status_code == 422 or r.status_code == 403):
+        if (r.status_code == 422 or r.status_code == 403 or len(r) == 0):
             break
 
         pages.append(r)
