@@ -2,6 +2,10 @@ import os
 import requests
 import json
 
+def utcToZone():
+    print("implement using datetime and zoneinfo")
+    print("factor in daylight savings time as well")
+
 def getEnv():
     DEBUG = False
     env = {}
@@ -67,10 +71,7 @@ def main():
 
     # I should have at least 4099 commits total
     GITHUB_PAT = env.get("GITHUB_PAT")
-    headers = {
-        'Authorization': f'Bearer {GITHUB_PAT}',
-        "Time-Zone" : "America/Atikokan"
-    }  
+    headers = { 'Authorization': f'Bearer {GITHUB_PAT}' }  
     # repo_url = getRepos(env)
 
     # print(f"{repo_url[0]=}")
@@ -94,7 +95,8 @@ def main():
         for page in pages:
             for commit in page.json():
                 date = commit["commit"]["author"]["date"]
-                file.write(f"{date}\n")
+                msg = commit["commit"]["message"]
+                file.write(f"{date} {msg}\n")
 
 if __name__ == "__main__":
     main() 
