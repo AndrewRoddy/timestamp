@@ -79,15 +79,11 @@ def main():
     pages = []
     while (True):
         # Builds the URL and makes the request
-        url = "https://api.github.com/repos/AndrewRoddy/timestamp" + "/commits?per_page=100&page=" + str(page)
+        url = "https://api.github.com/repos/AndrewRoddy/timestamp" + f"/commits?per_page=100&page={page}"
         r = requests.get(url=url, headers=headers)
-
-        # Tries to get first value, if the response it empty it will end the loop
-        try: print(r.json()[0]["sha"])
-        except: break
         
         # Checks the status code, if we are good, doesn't break
-        if (r.status_code == 422 or r.status_code == 403):
+        if (r.status_code == 422 or r.status_code == 403 or not r.json()):
             break
 
         pages.append(r)
