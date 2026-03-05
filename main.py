@@ -75,28 +75,27 @@ def main():
     page = 1
     pages = []
     while (True):
+        # Builds the URL and makes the request
         url = "https://api.github.com/repos/AndrewRoddy/timestamp" + "/commits?per_page=100&page=" + str(page)
         r = requests.get(url=url, headers=headers)
-        # print(url)
-        print(r.json())
-        # print(type(r))
-        print(f"{r.status_code=}")
-        if (r.status_code == 422 or r.status_code == 403 or len(r) == 0):
+
+        # Tries to get first value, if the response it empty it will end the loop
+        try: print(r.json()[0]["sha"])
+        except: break
+        
+        # Checks the status code, if we are good, doesn't break
+        if (r.status_code == 422 or r.status_code == 403):
             break
 
         pages.append(r)
         page += 1
-        print(f"{page=}")
 
     # Switch back to using the repos and pulling all commits from each repo instead.
-    i = 0
-    with open("data.txt", "a") as file:
+    with open("commits.txt", "a") as file:
         for page in pages:
-            print(page.json())
-            # for commit in page.json()["items"]:
-                # file.write(f"{commit["commit"]["author"]["date"]} | {commit["commit"]["message"]}\n")
-                # i += 1
-                # print(i)
+            for commit in page.json():
+                date = commit["commit"]["author"]["date"]
+                file.write(f"{date}\n")
 
 if __name__ == "__main__":
     main() 
