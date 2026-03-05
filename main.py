@@ -67,7 +67,10 @@ def main():
 
     # I should have at least 4099 commits total
     GITHUB_PAT = env.get("GITHUB_PAT")
-    headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
+    headers = {
+        'Authorization': f'Bearer {GITHUB_PAT}',
+        "Time-Zone" : "America/Atikokan"
+    }  
     # repo_url = getRepos(env)
 
     # print(f"{repo_url[0]=}")
