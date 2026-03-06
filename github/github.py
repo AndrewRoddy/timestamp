@@ -2,8 +2,19 @@ import os
 import requests
 import json
 
-def utcToZone(ENV, date):
-    return date
+from zoneinfo import ZoneInfo
+from datetime import datetime, timedelta
+
+def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
+    # Converts from iso to datetime
+    dt = datetime.fromisoformat(date)
+
+    # Converts to my zone
+    zoned_iso = dt.astimezone(ZoneInfo(zone))
+
+    # Converts to the year and hour format
+    converted = zoned_iso.strftime("%Y-%m-%d %H:%M:%S")
+    return converted
 
 def getRepos(ENV):
     repo_urls = set()
@@ -63,7 +74,7 @@ def getRepoCommits(ENV, repo_url):
                 ]: continue
 
                 date = commit["commit"]["author"]["date"]
-                formatted_date = utcToZone(ENV, date)
+                formatted_date = utcToZone(ENV["TIME_ZONE"], date)
 
                 msg = commit["commit"]["message"]
                 print(f"{formatted_date} {msg}")

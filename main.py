@@ -1,4 +1,4 @@
-from github import *
+from github import getRepoCommits, getRepos
 from general import getEnv
 
 # 2023(1585) + 2024(550) + 2025(1076) + 2026(920) - 1557
@@ -9,8 +9,7 @@ def main():
 
     repos = getRepos(ENV)
     # for repo in repos:
-    print(repos[1])
-    getRepoCommits(ENV, repos[0])
+    getRepoCommits(ENV, "https://api.github.com/repos/AndrewRoddy/timestamp")
 
 if __name__ == "__main__":
     main()

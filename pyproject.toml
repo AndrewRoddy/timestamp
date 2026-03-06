@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "pytest>=9.0.2",
+    "pytz>=2026.1.post1",
     "requests>=2.32.5",
+    "tzdata>=2025.3",
 ]
