@@ -64,24 +64,29 @@ def getRepoCommits(ENV, repo_url):
         page += 1
 
     # Switch back to using the repos and pulling all commits from each repo instead.
-    with open("commits.txt", "a", encoding='utf-8') as file:
-        for page in pages:
-            for commit in page.json():
+    commits = []
+    for page in pages:
+        for commit in page.json():
 
-                # If it's not ur email, it not ur commit
-                if ENV["GITHUB_EMAIL"] not in [
-                    commit["commit"]["author"]["email"],
-                    commit["commit"]["committer"]["email"]
-                ]: continue
+            # If it's not ur email, it not ur commit
+            if ENV["GITHUB_EMAIL"] not in [
+                commit["commit"]["author"]["email"],
+                commit["commit"]["committer"]["email"]
+            ]: 
+                print(commit["commit"]["author"]["email"])
+                print(commit["commit"]["committer"]["email"])
+                continue
 
-                date = commit["commit"]["author"]["date"]
-                formatted_date = utcToZone(ENV["TIME_ZONE"], date)
+            date = commit["commit"]["author"]["date"]
+            formatted_date = utcToZone(ENV["TIME_ZONE"], date)
 
-                msg = commit["commit"]["message"]
-                first_line = msg.split("\n")[0]
-                
-                if len(first_line) > 60:
-                    first_line = first_line[:60]
-                    first_line += "..."
+            msg = commit["commit"]["message"]
+            first_line = msg.split("\n")[0]
+            
+            if len(first_line) > 60:
+                first_line = first_line[:60]
+                first_line += "..."
 
-                print(f"{formatted_date} {first_line}")
+            commits.append(f"{formatted_date} {first_line}")
+
+    return commits
