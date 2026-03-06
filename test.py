@@ -1,3 +1,3 @@
-from github.test import test_func
+from github.test import utcToZone
 
-test_func()
+utcToZone()

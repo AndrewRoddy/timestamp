@@ -1,5 +1,5 @@
-from .github import func
+from .github import utcToZone
 import test
 
-__all__ = ["func", "test"]
+__all__ = ["utcToZone", "test"]
 
