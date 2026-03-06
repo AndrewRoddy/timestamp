@@ -69,12 +69,13 @@ def getRepoCommits(ENV, repo_url):
         for commit in page.json():
 
             # If it's not ur email, it not ur commit
-            if ENV["GITHUB_EMAIL"] not in [
-                commit["commit"]["author"]["email"],
-                commit["commit"]["committer"]["email"]
-            ]: 
-                print(commit["commit"]["author"]["email"])
-                print(commit["commit"]["committer"]["email"])
+            # Checks for your github name in #########+GITHUBNAME@users.noreply.github.com email
+            if (
+                ENV["GITHUB_EMAIL"]    not in commit["commit"]["author"]["email"] and
+                ENV["GITHUB_EMAIL"]    not in commit["commit"]["committer"]["email"] and
+                ENV["GITHUB_USERNAME"] not in commit["commit"]["author"]["email"] and
+                ENV["GITHUB_USERNAME"] not in commit["commit"]["committer"]["email"]
+                ):
                 continue
 
             date = commit["commit"]["author"]["date"]
