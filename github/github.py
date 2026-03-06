@@ -14,7 +14,7 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 
     # Converts to the year and hour format
     converted = zoned_iso.strftime("%Y-%m-%d %H:%M:%S")
-    
+
     return converted
 
 def getRepos(ENV):
@@ -78,4 +78,10 @@ def getRepoCommits(ENV, repo_url):
                 formatted_date = utcToZone(ENV["TIME_ZONE"], date)
 
                 msg = commit["commit"]["message"]
-                print(f"{formatted_date} {msg}")
+                first_line = msg.split("\n")[0]
+                
+                if len(first_line) > 60:
+                    first_line = first_line[:60]
+                    first_line += "..."
+
+                print(f"{formatted_date} {first_line}")

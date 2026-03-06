@@ -7,7 +7,7 @@ from general import getEnv
 def main():
     ENV = getEnv() # Holds all environment variables 
 
-    repos = getRepos(ENV)
+    # repos = getRepos(ENV)
     # for repo in repos:
     getRepoCommits(ENV, "https://api.github.com/repos/AndrewRoddy/timestamp")
 
