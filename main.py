@@ -4,8 +4,6 @@ from general import getEnv
 def main():
     ENV = getEnv() # Holds all environment variables 
 
-    
-
     # Broken
     # https://api.github.com/repos/HappyCoderHackathons/.github
     # https://api.github.com/repos/HappyCoderHackathons/geese

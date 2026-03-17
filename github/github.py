@@ -55,7 +55,7 @@ def isContributor(
     }  
     page = 0
     url = REPO_URL + f"/contributors?per_page=100&page={page}"
-    
+
     return True
 
 def getRepoCommits(
@@ -72,6 +72,8 @@ def getRepoCommits(
         'Authorization': f'Bearer {GITHUB_PAT}',
         'User-Agent' : 'request'
     }  
+    s = requests.Session()  # Establishes the session
+    s.headers = headers # Sets the headers
 
     page = 1
     pages = []
@@ -80,17 +82,8 @@ def getRepoCommits(
         url = REPO_URL + f"/commits?per_page=100&page={page}"
         
         # Does the request
-        s = requests.Session()  # Establishes the session
-        s.headers = headers # Sets the headers
-
         req = requests.Request('GET', url) # Sets get request
-
-        # Request needs to be prepared so it can
-            # Access external organization repos (idk why)
-        # prep_req = req.prepare()  # Prepares request
-        # r = s.send(prep_req) # Sends the request
         r = s.get(url)  # Prepares request
-
         
         # Prints the status code to see if broken repo
         if DEBUG_PRINT and r.status_code != 200:
