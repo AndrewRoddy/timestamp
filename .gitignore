@@ -3,3 +3,4 @@ __pycache__
 .env
 template/template.md
 .pytest_cache
+commits.txt
