@@ -1,3 +1,6 @@
+
+##### 🗓️ Calendar
+
 ##### 🫀 Health
 Steps : 
 Max Heart Rate : 
@@ -8,18 +11,26 @@ Sleep Score :
 
 ##### 💪 Workouts
 
-##### 🗓️ Calendar
-
 ##### 📋 To Do List Tasks
 
 ##### 👾 GitHub Commits
+
+##### 🎮 Steam Achievements
+
+##### 🕹️ Retro Achievments
+
+##### ⛏️ Minecraft Speedrun Ranked
 
 ##### 📁 Notes Created
 
 ##### 📂 Notes Mofidied
 
-##### 🎮 Steam Achievements
+##### 📺 Netflix Movies Watched
 
-##### 📀 YouTube Watch History
+##### 📺 HBO Movies Watched
+
+##### 📀 YouTube Uploads
+
+##### 💿 YouTube Watch History
 
 ##### 🎵 Spotify Listen History
