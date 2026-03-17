@@ -1,12 +1,14 @@
 from .github import utcToZone
 from .github import getRepos
 from .github import getRepoCommits
-import test
+from .github import isContributor
+from . import test
 
 __all__ = [
-    "test",
     "utcToZone",
     "getRepos",
-    "getRepoCommits"
+    "getRepoCommits",
+    "isContributor",
+    "test"
 ]
 

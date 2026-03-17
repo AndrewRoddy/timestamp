@@ -17,11 +17,10 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 
     return converted
 
-def getRepos(ENV):
+def getRepos(GITHUB_PAT):
     repo_urls = set()
 
     # Getting stuff from GitHub
-    GITHUB_PAT = ENV.get("GITHUB_PAT")
     headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
 
     urls = [
@@ -44,20 +43,70 @@ def getRepos(ENV):
 
     return repo_urls
 
-def getRepoCommits(ENV, repo_url):
-    # I should have at least 4099 commits total
-    GITHUB_PAT = ENV.get("GITHUB_PAT")
-    headers = { 'Authorization': f'Bearer {GITHUB_PAT}' }  
+def isContributor(
+    GITHUB_PAT,
+    GITHUB_USERNAME,
+    REPO_URL
+    ):
+    DEBUG_PRINT = False
+    headers = { 
+        'Authorization': f'Bearer {GITHUB_PAT}',
+        'User-Agent' : 'request'
+    }  
+    page = 0
+    url = REPO_URL + f"/contributors?per_page=100&page={page}"
+    
+    return True
+
+def getRepoCommits(
+    GITHUB_PAT,
+    GITHUB_EMAIL,
+    GITHUB_USERNAME,
+    TIME_ZONE,
+    REPO_URL
+    ):
+
+    DEBUG_PRINT = False
+
+    headers = { 
+        'Authorization': f'Bearer {GITHUB_PAT}',
+        'User-Agent' : 'request'
+    }  
 
     page = 1
     pages = []
     while (True):
         # Builds the URL and makes the request
-        url = repo_url + f"/commits?per_page=100&page={page}"
-        r = requests.get(url=url, headers=headers)
+        url = REPO_URL + f"/commits?per_page=100&page={page}"
+        
+        # Does the request
+        s = requests.Session()  # Establishes the session
+        s.headers = headers # Sets the headers
+
+        req = requests.Request('GET', url) # Sets get request
+
+        # Request needs to be prepared so it can
+            # Access external organization repos (idk why)
+        # prep_req = req.prepare()  # Prepares request
+        # r = s.send(prep_req) # Sends the request
+        r = s.get(url)  # Prepares request
+
+        
+        # Prints the status code to see if broken repo
+        if DEBUG_PRINT and r.status_code != 200:
+            print(f"Status Code {r.status_code}")
+            if r.status_code == 403:
+                print(f"{r.headers.get('X-RateLimit-Limit')=}")
+                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
+                print(f"{r.headers.get('X-RateLimit-Reset')=}")
+                print(f"{r.json().get('message')=}")
         
         # Checks the status code, if we are good, doesn't break
-        if (r.status_code == 422 or r.status_code == 403 or not r.json()):
+        if (
+            r.status_code == 422 or
+            r.status_code == 403 or
+            r.status_code == 404 or
+            not r.json()):
             break
 
         pages.append(r)
@@ -67,19 +116,18 @@ def getRepoCommits(ENV, repo_url):
     commits = []
     for page in pages:
         for commit in page.json():
-
             # If it's not ur email, it not ur commit
             # Checks for your github name in #########+GITHUBNAME@users.noreply.github.com email
             if (
-                ENV["GITHUB_EMAIL"]    not in commit["commit"]["author"]["email"] and
-                ENV["GITHUB_EMAIL"]    not in commit["commit"]["committer"]["email"] and
-                ENV["GITHUB_USERNAME"] not in commit["commit"]["author"]["email"] and
-                ENV["GITHUB_USERNAME"] not in commit["commit"]["committer"]["email"]
+                GITHUB_EMAIL    not in commit["commit"]["author"]["email"] and
+                GITHUB_EMAIL    not in commit["commit"]["committer"]["email"] and
+                GITHUB_USERNAME not in commit["commit"]["author"]["email"] and
+                GITHUB_USERNAME not in commit["commit"]["committer"]["email"]
                 ):
                 continue
 
             date = commit["commit"]["author"]["date"]
-            formatted_date = utcToZone(ENV["TIME_ZONE"], date)
+            formatted_date = utcToZone(TIME_ZONE, date)
 
             msg = commit["commit"]["message"]
             first_line = msg.split("\n")[0]

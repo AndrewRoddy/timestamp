@@ -4,6 +4,8 @@ from general import getEnv
 def main():
     ENV = getEnv() # Holds all environment variables 
 
+    
+
     # Broken
     # https://api.github.com/repos/HappyCoderHackathons/.github
     # https://api.github.com/repos/HappyCoderHackathons/geese
@@ -13,11 +15,21 @@ def main():
     # https://api.github.com/repos/hacksu/godot-tutorial
     # https://api.github.com/repos/rbostap1/ISSO
 
-    repos = getRepos(ENV)
+    repos = getRepos(ENV["GITHUB_PAT"])
+    
+    # repos = ["https://api.github.com/repos/HappyCoderHackathons/prismo"]
     commits_list = []
     count = 0 
     for repo in repos:
-        commits = getRepoCommits(ENV, repo)
+        # if "t3chatclone" in repo:
+        #     print("========NO======")
+
+        # print(repo.split("/")[-1]) # Gets name after last slash
+    
+        commits = getRepoCommits(
+            ENV["GITHUB_PAT"], ENV["GITHUB_EMAIL"], 
+            ENV["GITHUB_USERNAME"], ENV["TIME_ZONE"], repo
+            )
         commits_list.extend(commits)
         count += len(commits)
 
@@ -27,8 +39,8 @@ def main():
             print(f"{count:04d} total;", end=" ")
             print(f"{len(commits):03d} commits;", end=" ")
 
-            # repo_name = repo.split("/")[-1] # Gets name after last slash
-            print(f"{repo}")
+            repo_name = repo.split("/")[-1] # Gets name after last slash
+            print(repo_name)
 
     commits_sorted = sorted(commits_list)
 
@@ -36,9 +48,6 @@ def main():
         for commit in commits_sorted:
             commit_endl = commit + "\n"
             file.write(commit_endl)
-    
-    # getRepoCommits(ENV, "https://api.github.com/repos/AndrewRoddy/timestamp")
-
 
 if __name__ == "__main__":
     main()

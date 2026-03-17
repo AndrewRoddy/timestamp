@@ -15,6 +15,13 @@ I think it will be so cool to see that the days I commited more code were the sa
 4. You can remove things and edit the order, do not edit the text though
 5. Then run the python file with `uv run` and it should just work
 
+### FAQ
+##### 👾 GitHub
+**Problem** : The 'OrgName' organization forbids access via a fine-grained personal access tokens if the token's lifetime is greater than 366 days
+Set maximum lifetimes for personal access tokens
+**Solution 1** : Go to the organization settings and uncheck `Fine-grained personal access tokens must expire; Select a maximum lifetime for fine-grained personal access tokens to be allowed to access your organizations.`
+**Solution 2** : Change your fine-grained personal access token to be expire in less than 366 days
+
 ### Implementation Plan
 Everything we track should be immutable. 
     Meaning once the day has passed there should be no way/reason to edit it.
