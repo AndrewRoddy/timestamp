@@ -97,14 +97,9 @@ def isContributor(
     r = s.get(url)
     
 
-    # 
-    # I think the typeerror being at the end is wrong in some way
-    # 
-    # 
-    # 
     # This is a solution for not being able to get the contributor list
         # This should basically just not matter because if its in your list you are probably a contributor at that point as these large repos aren't usually in orgs so checking if you are a contributor matters less
-    # TypeError -> Repo to large to check if person is a contributor
+    # TypeError -> There isn't an error in the repo so just skip this check
     # ConnectionError/JSONDecodeError -> For when repo is archived or something
     try:
         if "The history or contributor list is too large" in r.json()["message"]:
