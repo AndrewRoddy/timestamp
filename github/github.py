@@ -46,6 +46,7 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
     return repo_urls
 
+
 def isContributor(
     GITHUB_PAT,
     GITHUB_USERNAME,
