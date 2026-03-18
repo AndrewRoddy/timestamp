@@ -16,10 +16,11 @@ def main():
     repos = getRepos(ENV["GITHUB_PAT"], ENV["GITHUB_USERNAME"])
     
     # repos = ["https://api.github.com/repos/HappyCoderHackathons/prismo"]
-    commits_list = []
-    count = 0 
-    for repo in repos:
-        print(repo)
+    # commits_list = []
+    # count = 0 
+    # for repo in repos:
+        # repo_url = repo["url"]
+        # print(repo_url.split("/")[-2], repo_url.split("/")[-1])
         # if "t3chatclone" in repo:
         #     print("========NO======")
 

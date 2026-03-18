@@ -20,39 +20,69 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 def getRepos(GITHUB_PAT, GITHUB_USERNAME):
     repo_urls = set()
 
+    DEBUG_PRINT = True
+
     # Getting stuff from GitHub
-    headers = {'Authorization': f'Bearer {GITHUB_PAT}'}
+    headers = { 
+        'Authorization': f'Bearer {GITHUB_PAT}',
+        'User-Agent' : 'request'
+    }
 
     urls = [
-        # All Public Repositories
-        'https://api.github.com/users/AndrewRoddy/repos?type=all&per_page=100',
-
-        # All private repositories
-        'https://api.github.com/user/repos?type=all&per_page=100'
+        'https://api.github.com/users/AndrewRoddy/repos?type=all&per_page=100', # public repos
+        'https://api.github.com/user/repos?type=all&per_page=100' # private repos
     ]
     
     # Does the request on both URLs
     for url in urls:
-        r = requests.get(url=url, headers=headers)
-        for repo in r.json():
-            repo_name = repo["url"]
-            # Skips over repos where the user is not a contributor
-            if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo_name):
-                repo_urls.add(repo_name)
+
+        page = 1
+        while (True):
+            # Sets page then iterates it
+            url_page = url + f"&page={page}"
+            page += 1
+
+            r = requests.get(url=url_page, headers=headers)
+
+            # Prints the status code to see if broken repo
+            if DEBUG_PRINT:
+                if r.status_code == 403:
+                    print(f"{r.headers.get('X-RateLimit-Limit')=}")
+                    print(f"{r.headers.get('X-RateLimit-Remaining')=}")
+                    print(f"{r.headers.get('X-RateLimit-Reset')=}")
+                    print(f"{r.json().get('message')=}")
+            
+            # Checks the status code, if we are good, doesn't break
+            if (
+                r.status_code == 422 or
+                r.status_code == 403 or
+                r.status_code == 404 or
+                not r.json()):
+                break
+
+            for repo in r.json():
+                repo_name = repo["url"]
+                # Skips over repos where the user is not a contributor
+                if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo_name):
+                    repo_urls.add(repo_name)
+                    if DEBUG_PRINT:
+                        print("🟢", repo_name.split("/")[-2], repo_name.split("/")[-1])
+                else:
+                    if DEBUG_PRINT:
+                        print("🔴", repo_name.split("/")[-2], repo_name.split("/")[-1])
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
-    repo_urls = sorted(repo_urls)
+    repo_urls_sorted = sorted(repo_urls)
 
-    return repo_urls
-
+    return repo_urls_sorted
 
 def isContributor(
     GITHUB_PAT,
     GITHUB_USERNAME,
     REPO_URL
     ):
-    DEBUG_PRINT = True
+    DEBUG_PRINT = False
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
         'User-Agent' : 'request'
@@ -66,18 +96,25 @@ def isContributor(
 
     req = requests.Request('GET', url)
     r = s.get(url)
+    
 
+    # 
+    # I think the typeerror being at the end is wrong in some way
+    # 
+    # 
+    # 
     # This is a solution for not being able to get the contributor list
         # This should basically just not matter because if its in your list you are probably a contributor at that point as these large repos aren't usually in orgs so checking if you are a contributor matters less
-    if not r.json():
-        return False
-    
+    # TypeError -> Repo to large to check if person is a contributor
+    # ConnectionError/JSONDecodeError -> For when repo is archived or something
     try:
         if "The history or contributor list is too large" in r.json()["message"]:
             print("Repo too large to check, assuming you are a contributor.")
             return True
-    except TypeError:
+    except (TypeError):
         pass
+    except (requests.exceptions.ConnectionError, json.decoder.JSONDecodeError):
+        return False
     
 
     # Checks for our user in user list
