@@ -20,7 +20,7 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 def getRepos(GITHUB_PAT, GITHUB_USERNAME):
     repo_urls = set()
 
-    DEBUG_PRINT = True
+    DEBUG_PRINT = False
 
     # Getting stuff from GitHub
     headers = { 
@@ -67,9 +67,8 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
                     repo_urls.add(repo_name)
                     if DEBUG_PRINT:
                         print("🟢", repo_name.split("/")[-2], repo_name.split("/")[-1])
-                else:
-                    if DEBUG_PRINT:
-                        print("🔴", repo_name.split("/")[-2], repo_name.split("/")[-1])
+                elif DEBUG_PRINT:
+                    print("🔴", repo_name.split("/")[-2], repo_name.split("/")[-1])
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
