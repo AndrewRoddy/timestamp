@@ -1,0 +1,2050 @@
+2023-09-03 17:22:26 Initial commit
+2023-09-03 17:23:03 Update README.md
+2023-09-03 17:37:36 Create index.html
+2023-09-03 17:39:06 Testing2
+2023-09-03 17:39:39 Create CNAME
+2023-09-03 17:50:08 Merge branch 'main' of https://github.com/AndrewRoddy/Andrew...
+2023-09-03 17:53:42 Delete CNAME
+2023-09-03 17:53:48 Create CNAME
+2023-09-03 18:05:54 Merge branch 'main' of https://github.com/AndrewRoddy/Andrew...
+2023-09-03 18:07:09 Delete CNAME
+2023-09-03 18:07:17 Create CNAME
+2023-09-04 08:05:44 Update index.html
+2023-09-04 10:11:40 Images Update
+2023-09-04 11:55:05 v0.01 One Datapack Section
+2023-09-04 12:57:10 v0.02
+2023-09-05 19:37:30 v0.03 Completes the containers
+2023-09-05 21:48:49 v0.04 Completes 12 Datapacks
+2023-09-07 23:15:32 v0.05 Creates the favicon and improves the grid
+2023-09-08 11:01:15 v0.05.1 Fixes the top image
+2023-09-17 08:01:55 0.05.2 Fixes some stuff in csv
+2023-09-17 08:03:08 Initial commit
+2023-09-17 08:20:49 v0.01 Alpha
+2023-09-21 11:28:18 v0.053 csv desktop support
+2023-09-22 09:19:04 v0.054 Adds Nav Bar
+2023-09-23 10:46:00 v0.055 Favicon + Nav Bar
+2023-09-23 10:55:28 v0.055.1 Fixes Nav Bar
+2023-09-23 11:25:23 v0.055 Fixes Favicon and Nav Bar Text Size
+2023-09-23 11:34:11 v0.056 Fixes Favicon
+2023-09-23 13:53:18 v0.057 CSS Changes
+2023-09-23 14:12:37 v0.058 Improves Mobile View
+2023-09-23 14:33:49 v0.060 Adds Column Views
+2023-09-23 14:48:24 v0.0601 Fixes columns
+2023-09-23 20:30:04 v0.07 Adds September to Datapacks of the Month
+2023-09-23 21:00:22 v0.0701 Iphone 13 Test
+2023-09-23 21:04:39 v0.07.02 Adds Version Indicator
+2023-09-23 21:07:55 v0.07.03 Iphone 13 test #2
+2023-09-23 21:12:12 v0.07.04 Iphone Test #3
+2023-09-25 18:23:46 Initial commit
+2023-09-25 18:27:55 Initial commit
+2023-09-28 10:52:23 v0.07.10 Adds a games tab
+2023-09-28 10:58:51 v0.10.00 Spotify Popularity Finder without UI
+2023-09-28 11:27:41 v0.10.01 Adds Tkinter
+2023-09-28 11:57:41 v0.10.02 Prints album data
+2023-09-29 12:29:48 Initial commit
+2023-09-29 12:33:06 v0.10.00 Imports the connect 4 game I made 10 months ago
+2023-09-29 15:24:13 v0.10.01 Changing functions to 2D arrays
+2023-09-29 21:49:31 v0.20.00 Connect 4  running with 2D arrays
+2023-09-29 21:59:41 v0.20.01 Adds comments
+2023-09-29 22:15:54 v0.20.02 Adds a to-do list
+2023-09-29 22:16:43 v0.10.03 Begins to make it work in tkinter
+2023-09-30 10:00:43 v0.30.02 Makes a rough GUI using pygame
+2023-10-01 09:39:24 v0.30.02 Works on a main menu and CPUs
+2023-10-01 19:21:44 v0.40.00 Complete Base Game with GUI
+2023-10-01 19:40:19 v0.50.10 Start switching to OOP
+2023-10-02 16:44:00 v0.50.11 UNSTABLE oop pt2
+2023-10-03 16:58:46 v0.50.20 UNSTABLE oop pt3
+2023-10-03 20:29:50 v0.50.20 UNSTABLE Fixing Draw_Board
+2023-10-05 14:36:56 v0.50.30 Adds better assets
+2023-10-05 22:02:19 v0.51.00 A Stable Version with new assets
+2023-10-05 22:02:49 v0.51.01 Deletes Old Assets
+2023-10-06 13:36:39 v0.52.00 Separates Functions
+2023-10-13 20:07:18 v0.53.00 Makes Game Completely Playable
+2023-10-14 08:23:26 v0.54.00 Centers The Game On Fullscreen
+2023-10-22 22:17:23 v0.54.01 Tinkering Tried to turn game into exe for a sec the...
+2023-10-25 21:49:38 v0.55.00 The screen only updates after a new move
+2023-10-25 22:03:22 f0.55.00 Failiure to make Screen a global variable
+2023-10-25 22:06:49 f0.55.00 Failiure to make Screen a global variable Again?
+2023-10-25 22:08:28 f0.55.00 Failiure to make Screen a global variable Again? AG...
+2023-10-25 22:08:37 Revert "v0.55.00 The screen only updates after a new move"
+2023-10-25 22:09:11 v0.55.01 Ok I think I fixed it
+2023-10-25 23:30:54 v0.59.00 Adds menus for future algorithms
+2023-10-26 00:13:11 Merge branch 'main' of https://github.com/AndrewRoddy/Connec...
+2023-10-27 01:06:27 v0.59.01 Reduced Lag
+2023-10-28 17:02:15 v0.59.20 Easy mode is ALMOST Working
+2023-11-01 22:43:00 v0.59.21 Easy mode is closer :)
+2023-11-07 22:23:09 v0.10.00 Overhauls Everything, First 3 Datapacks
+2023-11-11 00:33:08 v0.59.22 I broke easy mode again, I think it has something t...
+2023-11-11 00:33:42 v0.59.23 Forgot to save
+2023-11-16 17:15:55 v0.10.05 Day5
+2023-11-24 12:36:09 v0.10.06 Adds more datapacks to homescreen
+2023-12-01 22:14:11 v0.10.07 Adjusted thumbnails and screensize
+2023-12-03 01:23:55 v0.10.08 Added new datapack
+2023-12-04 11:43:53 v0.10.09 Added new datapack
+2023-12-04 13:22:48 Initial commit
+2023-12-04 14:21:09 v0.01.00 Creates the No Pickaxes Datapack
+2023-12-05 15:24:52 v0.01.10 Finalizes the pickaxe Datapack
+2023-12-06 08:25:21 v0.01.20 Creates the Invisible Datapack
+2023-12-06 08:33:45 v0.10.09 Added new datapack
+2023-12-06 17:46:36 v0.01.30 Finalizes the TNT Rain Datapack
+2023-12-07 22:20:48 v0.01.31 Finalizes the TNT Rain Datapack For real this time
+2023-12-07 22:34:52 v0.10.10 Added new datapack
+2023-12-10 15:21:59 Create README.md
+2023-12-13 23:01:15 v0.10.20 Changes Image File Names and adds Random Items
+2023-12-13 23:20:48 v0.01.32 Start working in structures datapack
+2023-12-15 20:46:20 v0.01.40 Adds one slot inventory pack
+2023-12-16 02:42:36 v0.10.00 Completes the Gravity on Every Object Datapack
+2023-12-17 00:28:49 v0.10.21 Adds Raining Wardens
+2023-12-18 22:40:18 v0.10.22 Adds XP=Death
+2023-12-18 22:49:55 Update 23December.html
+2023-12-19 13:10:31 v0.10.10 Adds Snowstorm Datapack
+2023-12-20 10:57:06 v0.10.20 Finalizes Invisible Mobs datapack
+2023-12-20 11:27:45 v0.10.22 Adds Patreon
+2023-12-20 23:22:32 v0.10.01 Improves Invisible Mobs Datapack
+2023-12-20 23:22:50 Merge branch 'main' of https://github.com/AndrewRoddy/Datapa...
+2023-12-21 22:37:07 v0.10.02 Adds images to datapacks and improves them
+2023-12-22 08:08:38 v0.10.21 I dont remember
+2023-12-22 08:11:38 Merge branch 'main' of https://github.com/AndrewRoddy/Datapa...
+2023-12-22 08:53:09 v0.10.50 Adds EULA's Everywhere
+2023-12-22 18:21:04 v0.10.70 Updates Datapack Versions
+2023-12-22 18:21:17 Merge branch 'main' of https://github.com/AndrewRoddy/Datapa...
+2023-12-22 18:56:27 v0.10.71 Rezips invisible mobs
+2024-01-01 03:29:37 v0.10.80 Made all air thing
+2024-01-01 03:35:33 v0.11.00 Adds January
+2024-01-01 03:36:49 v0.11.01 Fixes January
+2024-01-01 13:13:14 Update 013 Invisible Mobs.png
+2024-01-03 09:30:04 X0.10.71 Adds some of the unzipped files
+2024-01-03 12:51:58 v0.10.80 Adds _blankResPack
+2024-01-03 12:52:04 Merge branch 'main' of https://github.com/AndrewRoddy/Datapa...
+2024-01-04 00:49:36 v0.10.90 Works on Dirt Replacer
+2024-01-04 11:58:34 v0.10.90 Finishes the Dirt Everything Pack
+2024-01-05 00:31:14 v0.10.95 Works on Dirt Pack
+2024-01-05 03:24:18 v0.10.99 Almost Finishes the dirt resource pack
+2024-01-05 17:16:54 v0.11.00 Completes the Dirt Everything Datapack
+2024-01-09 00:43:53 v0.12.00 Jump Multiplier Datapack COMPLETE
+2024-01-09 00:47:04 v0.9.00 Packs Complete Changes how I name the packs
+2024-01-17 18:22:05 v0.9.00 I ACCIDENTALLY DELETED EVERYTHIHNG!!
+2024-01-17 18:24:27 v0.9.01 I will actually start saving now :)
+2024-01-17 20:02:52 v0.9.02 I FIXED THE RANDOM BLOCKS PACK
+2024-01-17 21:00:44 v0.9.03 More backups
+2024-01-17 21:19:33 v0.9.10 ITS ALMOST DONE YAY
+2024-01-17 21:54:27 v0.9.11 Bug Fixes
+2024-01-17 22:07:05 0.9.11 More Bug Fixes
+2024-01-18 14:36:42 0.9.12 Makes new Random potion effect datapack
+2024-01-21 21:02:48 0.9.13 Makes and completes the Random Potions datapack
+2024-01-21 21:15:14 Initial commit
+2024-01-21 21:16:27 Creation
+2024-01-21 21:20:18 1/21/2024 Updated
+2024-01-25 09:14:41 0.9.14 More Pack Images
+2024-01-25 11:03:23 0.9.20 More Pack Images
+2024-02-03 18:40:47 Initial commit
+2024-02-03 18:41:07 Create resource_pack_maker.py
+2024-02-04 00:13:05 v01.00.00 The AI Works!!
+2024-02-04 00:57:26 0.9.20 Fixes the folder name
+2024-02-04 02:08:44 .9.21 HI
+2024-02-04 02:10:21 v0.9.22 Fixes filenames
+2024-02-04 02:11:44 v01.00.00 The Filename changing worksish
+2024-02-06 16:15:21 v01.00.02 Generated the First Attempt
+2024-02-06 21:55:41 v01.00.05 Beginning Work on a final draft
+2024-02-06 23:12:22 v01.00.07 Sorting Time
+2024-02-07 11:36:51 v01.00.09 Sorted Some more images
+2024-02-07 11:37:45 Initial commit
+2024-02-08 20:10:32 Initial commit
+2024-02-08 20:14:55 v0.00.01 Sets everything up
+2024-02-08 21:40:39 v0.00.10 Makes Jumping and Movement smooth
+2024-02-09 00:06:33 v01.00.10 Sorted Some more images
+2024-02-09 09:09:26 v01.00.12 Sorted Some more images
+2024-02-09 22:51:47 v0.00.15 Attempts to add camera
+2024-02-14 15:28:57 v0.00.16 Adds anti-gravity
+2024-02-16 16:07:09 v0.00.18 Added Moving Boxes
+2024-02-26 09:13:53 hi
+2024-03-02 17:32:31 Initial commit
+2024-03-02 17:47:01 v0.00.0 The Server
+2024-03-02 23:02:46 v0.00.1 1.20.4  server
+2024-03-03 12:14:34 v0.00.2 a1.2.6 server downloaded
+2024-03-03 12:48:30 oukk
+2024-03-06 19:54:17 v0.00.03 Fixed Server Ping
+2024-03-09 10:49:25 v0.00.04 Working on automatic back up system
+2024-03-09 10:52:11 v0.00.18 Attempts to add 2 player
+2024-03-09 10:52:33 jajaja
+2024-03-18 21:14:45 v0.9.50 Attempted to make the Youtube Stats finder work
+2024-03-18 22:04:26 v0.9.52 Make the tkinter work and THIS WORKS YIPEE
+2024-03-19 16:40:06 v0.9.53 Adds goal
+2024-03-19 19:15:24 v0.10.00 BANG Complete the tkinter thing
+2024-03-20 07:53:48 Create laptop.py
+2024-03-20 21:20:19 Go to: C:\Program Files\Adobe\Adobe Premiere Pro 2024\PlugIn...
+2024-03-20 21:37:32 Export Presets
+2024-03-21 15:54:55 v0.00.05 Backs up server
+2024-03-28 14:51:15 3.28.2024
+2024-04-03 19:44:59 v0.00.06 idk i think it works
+2024-04-03 19:52:31 v0.00.06.1 idk i think it works more
+2024-04-09 20:56:32 v0.10.01 Updates the Python Script
+2024-04-09 20:57:56 Initial commit
+2024-04-09 21:03:18 v0.00.01 Moved into its own repository
+2024-04-10 16:36:44 v0.00.02 Commited the final project
+2024-04-10 16:42:38 Initial commit
+2024-04-10 16:46:59 v0.00.01 Moved over from packs folder
+2024-04-10 16:53:47 v0.10.02 I moved all the resource packs
+2024-04-12 11:01:04 v0.10.02 Straight Line
+2024-04-12 20:38:40 v0.10.03 Added portal
+2024-04-12 21:32:41 v0.10.04 Make the walls work better
+2024-04-15 07:19:16 4.15.24
+2024-05-20 11:07:35 Initial commit
+2024-05-20 11:30:19 v0.10.00 Move to Github
+2024-07-03 08:25:50 v0.10.01 Added shells for NES, SNES, N64, GBC
+2024-07-03 08:29:15 Initial commit
+2024-07-03 08:35:52 v0.10.04 Full switch back to Skeletons Only
+2024-07-03 09:07:16 v0.00.01 Installed Electron (i gitignored it)
+2024-07-03 12:04:46 v0.00.02 Installed Electron with electron-lite
+2024-07-03 12:32:11 v0.00.03 19:41m into tutorial (in desc)
+2024-07-03 13:10:35 v0.00.04 23:28 in video
+2024-07-03 13:10:59 v0.10.05 Updated Skellys Only
+2024-07-07 17:40:02 v0.00.01 Using a different video now (link in desc)
+2024-07-07 17:41:46 v0.10.06 Remove unused files
+2024-07-08 09:10:51 v0.10.07 Made a deprecated folder
+2024-07-08 11:36:10 v0.10.08 Fixed TNT Rain, Hotbar Only, One Slot, and Invis Mo...
+2024-07-08 11:38:24 v0.00.02 Like 10m into video
+2024-07-08 12:24:02 Add laptop workspace file
+2024-07-08 12:24:28 v0.00.03 25:27 in video
+2024-07-10 12:19:28 v0.00.04 Changing some stuff
+2024-07-10 14:29:51 v0.00.05 Div creation button centered dot
+2024-07-11 03:40:32 v0.00.06 tasks can be created and deleted
+2024-07-12 20:31:04 v0.00.07 Puts the add button to the bottom
+2024-07-12 22:58:40 v0.00.08 Made Tasks scrollable and added a +
+2024-07-13 14:21:36 v0.00.09 Task Inputs and Task Bar are Working
+2024-07-15 22:16:51 v0.10.02 More NES Skins
+2024-07-16 16:35:54 v0.10.09 Just changing around workspace files lol
+2024-07-16 16:36:31 v0.10.10 Skeletons Only v1
+2024-07-16 17:12:23 v0.10.11 Added Some Mob Heads
+2024-07-17 14:25:51 -
+2024-07-21 10:35:53 Update Datapacks-by-DrewGo.code-workspace
+2024-07-21 20:48:34 v0.00.10 Full Converted to Expo!
+2024-07-24 14:03:34 Initial commit
+2024-07-24 22:59:26 v0.00.01 The Template is done!
+2024-07-24 23:02:19 v0.00.02 14:43 into Tutorial
+2024-07-25 14:19:48 v0.00.03 Finished Video 1 and 2
+2024-07-25 14:58:17 v0.00.04 Makes Crud and Yuck
+2024-07-26 01:18:01 v0.00.05 Adds poop to Just Crud
+2024-07-26 21:41:53 v0.00.06 Added sound effects, fixed directory, NEVER DO THIS...
+2024-07-29 09:13:18 v0.00.07 Everything works except for exporting :(
+2024-07-29 12:24:02 v0.00.08 Fixing The Crap mod. Right before ./gradlew genSour...
+2024-07-29 17:18:31 v0.00.09 Crap Mod ALMOST Works
+2024-07-29 17:28:33 v0.00.10 Makes the texture work
+2024-07-29 18:04:32 v0.00.11 The Mod Works Completely
+2024-07-29 20:58:26 v0.01.00 The first version of the poop mod.
+2024-07-29 21:02:17 v0.01.01 Adds liscense
+2024-07-30 21:44:22 v0.01.02 Makes you poop every hour
+2024-08-04 17:52:18 v0.01.04 Deleted Some Gitignore Please fix all problems
+2024-08-14 09:24:06 v0.01.05 Makes it work again
+2024-08-15 19:46:20 v0.01.06 Slowly remaking the Crap Mod
+2024-08-17 12:32:11 v0.01.07 Fully Remade the mod + Poop Nuggets!
+2024-08-19 09:58:21 v0.01.30 Poop, Poop Nugget, and Poop Block added.
+2024-08-19 10:42:38 v0.01.50 Moved to 1.21.1
+2024-08-19 10:43:23 v0.01.51 Also Added Packed Poop
+2024-08-26 21:00:26 v0.01.60 Added the Creative Mode Tab
+2024-08-28 11:05:56 v0.01.70 Adds ALL Recipies
+2024-08-28 20:07:07 v0.01.80 Blocks drop, new Honey sound, fast breaks
+2024-08-31 15:55:30 v0.02.00 Fully working poop timer
+2024-08-31 16:06:07 poop mod
+2024-08-31 16:12:33 Fixes all the other files. JUST project files
+2024-08-31 16:13:11 v0.10.03 idk
+2024-09-02 20:22:43 Initial commit
+2024-09-02 20:38:48 v0.00.00 New Repo
+2024-09-02 21:20:19 v0.01.00 Connect 4 Working
+2024-09-02 21:20:44 Delete pong.cpp
+2024-09-05 13:12:44 Makes llama_cpp work
+2024-09-05 13:59:13 7min drill + python llama
+2024-09-05 18:24:37 llama works now :)
+2024-09-06 12:05:25 LLAMA WORKS FRFR
+2024-09-10 13:16:02 More work on llama
+2024-09-12 13:24:28 Initial commit
+2024-09-13 23:48:50 Creating README
+2024-09-15 20:34:57 v0.02.00 Converts repository to focus on Llama.cpp
+2024-09-15 20:48:16 v0.02.01 Name changes
+2024-09-15 21:17:18 v0.02.02 Changes readme
+2024-09-15 21:21:52 v0.02.03 README changes again
+2024-09-16 09:20:35 v0.01.01 How to run
+2024-09-16 09:26:03 Update README.txt
+2024-09-16 09:27:44 v0.10.05 Changes Delta GBA skins
+2024-09-16 13:21:36 v0.02.04 Made the library easier to use
+2024-09-17 11:28:57 Day 1 of Leetcode
+2024-09-17 19:06:57 v0.02.05 Begins creating header file
+2024-09-17 19:07:22 :)
+2024-09-18 12:03:04 v0.02.06 Removes .hpp before retrying
+2024-09-19 08:13:08 Initial commit
+2024-09-19 08:23:27 v0.00.01 Starting C++ File
+2024-09-19 08:24:26 v0.00.02 Made drawBoard function
+2024-09-19 09:53:50 v0.00.03 Creates function to make moves
+2024-09-19 10:24:26 v0.00.04 Switches players
+2024-09-20 10:31:31 v0.00.05 Loops move making
+2024-09-20 20:27:01 v0.00.06 Creates winCheck and fixes makeMove
+2024-09-21 13:22:33 v0.00.07 Completes reset play agin function
+2024-09-21 20:38:10 Initial commit
+2024-09-21 23:55:25 v0.00.01 I installed FLUX and made a main.py
+2024-09-21 23:59:03 v0.00.02 Added TODO message for tomorrow
+2024-09-22 15:36:03 v0.00.03 Changes to recommended code
+2024-09-22 15:54:29 v0.00.11 Changes to GPU
+2024-09-22 15:56:31 v0.00.21 Builds Notebook
+2024-09-22 16:06:02 v0.00.30 Updates notebook and script
+2024-09-23 09:56:37 v0.03.00 Removes myLlama. Ran another 7 minute drill
+2024-09-23 09:57:42 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2024-09-23 10:01:08 I accidentlaly broke my repo lol!
+2024-09-23 10:02:01 Merge branch 'main' of https://github.com/AndrewRoddy/MyLlam...
+2024-09-23 10:12:24 v0.03.01 Delete Everything, Got it back
+2024-09-23 10:17:38 Initial commit
+2024-09-23 10:19:13 v0.01.00 7 Minute Drills
+2024-09-23 13:53:53 v0.01.01 Example 1 Drill
+2024-09-23 13:54:46 v0.01.02 Just for context ( this used to be a part of Llama ...
+2024-09-23 21:16:34 9.23.2024 Laptop
+2024-09-24 08:04:34 Initial commit
+2024-09-24 08:08:26 0.00.01 Create Main
+2024-09-24 08:52:45 0.00.10 Working to get libcurl and nlohmann\json working
+2024-09-24 11:16:15 v0.05.00 isEven - chaged version styling based on drill comp...
+2024-09-24 11:16:31 v0.06.00 isPrime
+2024-09-24 12:03:53 v0.06.01 changed formatting
+2024-09-24 12:22:52 v0.07.00 Fibonacci
+2024-09-25 16:29:43 0.00.11 Updated README
+2024-09-25 19:33:57 0.00.20 curl is FINALLY working-ish
+2024-09-26 07:57:56 0.00.30 curl is NOT working
+2024-09-26 08:35:09 0.00.31 Curl is FINALLY working
+2024-09-26 08:42:19 0.00.40 Makes the URL function work better
+2024-09-26 12:49:58 0.00.41 Alright so I broke curl again but NOW I promise it i...
+2024-09-26 14:06:30 0.00.50 Playing around with api.github .json files
+2024-09-26 16:07:04 0.00.60 Creates a place for people to put their personal acc...
+2024-09-26 16:56:13 0.00.70 Worked on improving private repos
+2024-09-26 18:21:24 0.00.80 Still figuring out how to get full repo list
+2024-09-26 18:37:23 0.00.90 Every Repository!
+2024-09-26 18:49:37 0.00.95 Prints Every Repository name!
+2024-09-26 19:58:02 0.01.00 It tells you if you commited today! FINALLY!
+2024-09-27 11:53:10 0.01.01 Added getUtcToday function + cleaned code
+2024-09-28 22:36:49 9.28.24 Laptop
+2024-09-28 22:37:26 v0.02.01 Ads
+2024-09-28 22:38:45 v0.00.31 Fixes CUDA errrors
+2024-09-28 22:39:48 0.01.02 I ran the program and don't want merge conflicts
+2024-09-29 21:48:23 0.01.02 Creates checkCommit function
+2024-09-30 18:04:17 0.01.10 Creates get all commits funtion. Fails to correctly ...
+2024-10-01 08:11:08 0.01.11 Working on using chrono to convert time zones
+2024-10-01 14:16:41 v0.09.00 Reverse + Print
+2024-10-01 14:27:59 0.01.12 I hope this fixed my source control graph!?!?!
+2024-10-02 22:16:45 v0.09.01 Completes Lab 1 and part of 2
+2024-10-03 17:57:46 0.01.13 Uses ctime to convert to correct time zone
+2024-10-03 19:06:17 0.02.00 Correctly gets if commit today
+2024-10-03 23:51:39 v0.10.06 Moves files around
+2024-10-04 00:15:10 v0.10.07 NES PNGs
+2024-10-06 20:16:52 v0.09.02 Completed some labs but forgot to commit from deskt...
+2024-10-07 11:47:46 v0.09.03 Completed Lab4.1
+2024-10-07 13:34:08 v0.09.04 Completed Lab 5 Part 1
+2024-10-07 13:55:20 v0.09.05 Lab 5 fully complete
+2024-10-07 17:42:18 v0.09.06 ALL LABS FINISHED (labs on desktop not downloaded)
+2024-10-07 18:19:34 v0.09.07 Finished Example Exam Question
+2024-10-08 07:44:17 v0.09.08 Completed library based problems
+2024-10-08 08:21:39 v0.09.09 Adds three more 7 minute drills
+2024-10-08 08:23:07 v0.01.50 Changes version convention ex: v0.00.10 is drill 1 ...
+2024-10-08 18:32:16 v0.01.60 Insert Drill
+2024-10-09 11:03:20 0.02.10 Optimizations to tracker
+2024-10-09 13:44:48 0.02.20 Moves to lib folder and optimizes include staments
+2024-10-10 08:21:50 v0.10.06 Working on GBA
+2024-10-10 09:00:00 Merge branch 'main' of https://github.com/AndrewRoddy/Delta-...
+2024-10-10 14:15:12 v0.10.06 Finished GBAv2 Skins
+2024-10-10 15:16:33 v0.11.01 Finished EVERY PNG
+2024-10-10 16:21:17 v0.12.00 Finished all GBC
+2024-10-10 16:59:14 v0.12.50 Started N64 Bodies and Control Sticks
+2024-10-11 10:45:45 0.02.21 Created further to  do list
+2024-10-11 12:03:54 v0.12.52 Starts on N64 info.json
+2024-10-11 21:59:37 v0.12.53 Adds testv0.03
+2024-10-11 22:17:11 v0.01.61 Labs from desktop YAY
+2024-10-12 23:22:18 v0.12.60 N64 WORKING
+2024-10-13 00:15:08 v0.13.00 Finished N64
+2024-10-14 11:29:06 v0.14.00 NES Finished
+2024-10-15 07:51:58 v0.15.00 ALL SKINS DONE
+2024-10-16 11:51:52 v0.01.65 Adds new drill prompts for OOP
+2024-10-16 11:52:03 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2024-10-16 11:52:23 v0.01.66 Branches merged
+2024-10-16 12:05:58 v0.01.70 Finished Set And Get
+2024-10-17 08:33:22 v0.01.80 Finished Full Name
+2024-10-18 10:53:46 v0.01.90 Finished Book
+2024-10-19 19:13:23 v0.16.00 Fixed SNES skins
+2024-10-20 12:15:37 v0.02.00 20 Drills Complete Finished Rectangle
+2024-10-21 21:47:27 v0.02.10 Finished Shapes
+2024-10-22 12:52:16 v0.16.01 Creates README
+2024-10-23 20:21:02 v0.16.02 Starts Patreon Images
+2024-10-24 09:57:45 0.02.22 WxWidgets progress
+2024-10-24 21:31:21 v0.16.10 Created all Phone PNGS
+2024-10-25 12:08:45 v0.16.50 Shuffled around Files
+2024-10-26 12:35:43 v0.16.51 Delta Skins Moved
+2024-10-27 20:03:14 v0.02.2 Shapes drill
+2024-10-28 10:14:34 v0.02.21 Complete Rocket Exercise
+2024-10-29 11:29:43 v0.02.24 Complete Average IO
+2024-10-30 11:55:27 v0.18.00 Adverts Complete!!!
+2024-10-31 12:08:21 v0.02.60 Lab 26 Complete
+2024-11-01 11:00:16 v0.19.00 Banner Completed
+2024-11-01 20:44:57 Initial commit
+2024-11-02 23:04:04 v0.00.01 Boilerplate
+2024-11-02 23:20:56 Create CNAME
+2024-11-02 23:24:09 v0.00.02 Image Test
+2024-11-02 23:24:23 Merge branch 'main' of https://github.com/AndrewRoddy/drewgo...
+2024-11-02 23:25:44 v0.00.03 Image Test Again
+2024-11-02 23:28:14 v0.00.04 Image Test Again Again
+2024-11-03 19:02:16 Update CNAME
+2024-11-03 19:38:21 v0.00.05 Image Test Again Again Again
+2024-11-03 19:40:29 v0.00.06 Images Test
+2024-11-03 19:50:07 v0.00.10 Adds the Icon
+2024-11-03 19:55:44 v0.00.11 Rounds off the icon
+2024-11-03 19:58:45 v0.00.12 Adds version number
+2024-11-03 20:07:59 v0.00.15 You can move matt around
+2024-11-03 21:15:42 v0.00.50 Added buttons to bottom, added easter egg
+2024-11-03 21:21:57 v0.00.51 Added "secret"
+2024-11-04 11:31:10 v1.00.00 All Delta Skins are Finished
+2024-11-05 21:31:03 v0.02.61 More Drills!
+2024-11-06 10:51:27 0.02.23 Slowly making a GUI
+2024-11-06 22:55:36 0.02.24 SOME THING IN THE TASK BAR!!!
+2024-11-06 22:58:13 0.02.25 Added red square
+2024-11-07 08:37:10 0.02.40 Working to make tray icons work with classes
+2024-11-07 12:06:09 0.02.42 Working tray functions
+2024-11-07 12:34:37 0.03.00 IT WORKS. Needs improvements but works
+2024-11-07 18:56:51 v0.00.60 More Stuff
+2024-11-10 16:32:49 0.03.10 I added some visual assets
+2024-11-10 17:28:12 0.03.11 tasks.json edit
+2024-11-10 17:38:11 0.03.12 test
+2024-11-10 17:43:44 0.02.43 I refixed my mistake on adding a w to the end of my ...
+2024-11-10 17:44:09 Merge branch 'main' of https://github.com/AndrewRoddy/Daily-...
+2024-11-10 17:47:34 0.03.51 Removing test files
+2024-11-10 18:49:07 0.10.00 Fixes icons and file structure
+2024-11-10 19:58:13 0.10.10 Get and set up tokens before starting
+2024-11-10 20:08:52 0.10.15 Moves around token functions
+2024-11-11 08:04:06 0.10.16 Reduces reload interval
+2024-11-12 08:57:59 0.10.17 Fixes GetMessage to GetPeek
+2024-11-13 21:10:19 0.10.50 Allows retry if no connection
+2024-11-14 11:45:53 v0.02.80 Lab 28 Complete
+2024-11-14 21:25:42 v0.01.00 Added the Shrimp Detector
+2024-11-14 21:29:31 v0.01.01 Maybe fixes the logo
+2024-11-14 21:30:48 v0.01.02 Again
+2024-11-14 21:33:02 v0.01.03 Fixed Java
+2024-11-14 21:45:19 v0.01.04 The Sloppy Duck
+2024-11-14 21:47:38 v0.01.05 Fixed
+2024-11-14 21:51:17 v0.01.06 Fixed bottom buttons
+2024-11-14 21:56:16 v0.01.07 Made eric wider
+2024-11-14 22:05:37 v0.01.11 Recognition all has things that happen when pressed
+2024-11-15 09:14:41 0.10.51 Failed at making a test script
+2024-11-15 18:47:41 v0.01.20 Added Delta Skins Button
+2024-11-15 19:58:28 v0.01.21 Fixed Mispelling
+2024-11-15 20:07:20 v0.01.22 Updated margin and flexbox for bottom buttons
+2024-11-16 14:45:46 0.10.52 Test
+2024-11-17 13:24:25 v1.00.01 I forgot the Black n64 Skin
+2024-11-18 11:22:53 v0.00.40 Moves towards img-img
+2024-11-19 09:39:27 v0.03.20 Lab  32 Complete
+2024-11-19 10:49:18 v0.03.60 Lab  36 Complete
+2024-11-19 13:37:45 v0.03.61 Retried some
+2024-11-19 14:44:31 11/19/2024 2PM
+2024-11-19 15:25:25 11/19/2024 3PM
+2024-11-19 19:21:02 v0.00.41 Hopefully runs in Google Colab now
+2024-11-19 20:14:57 v0.00.42 Without Token??
+2024-11-19 20:17:58 v0.00.43 Without Token again
+2024-11-19 22:48:38 v0.00.44 Allows importing tokens without theft
+2024-11-19 22:51:05 v0.00.45 My Drive -> MyDrive
+2024-11-19 22:51:53 v0.00.46 Added .txt
+2024-11-19 22:55:10 v0.00.47 Working Towards Cloning Repository
+2024-11-19 22:59:05 v0.00.48 Cloning should just work now
+2024-11-19 23:06:54 v0.00.49 Adds include file
+2024-11-19 23:13:23 v0.00.50 Set up absolute directories
+2024-11-19 23:19:15 v0.00.51 Installs dependencies like normal
+2024-11-19 23:21:35 v0.00.52 Used incorrect slashes?
+2024-11-19 23:31:23 v0.00.60 Added .gitignore and better grass block
+2024-11-20 09:32:01 v0.00.61 Adds Settings and TODO
+2024-11-20 10:39:17 v0.00.70 Stable diffusion might work
+2024-11-20 10:56:18 v0.00.71 Upscales the input image before attempting to run M...
+2024-11-20 10:56:56 v0.00.72 Deletes upscaled image
+2024-11-20 10:57:44 v0.00.73 Unindents everything lol
+2024-11-20 11:26:58 v0.00.74 Uses base instead of refiner
+2024-11-20 11:37:57 v0.00.75 Converts image to RGB
+2024-11-20 12:04:17 v0.00.76 Uses different Model.. Again
+2024-11-20 12:29:35 v0.00.77 Turns off "safety" filter
+2024-11-20 12:33:54 v0.00.78 Increases inference steps
+2024-11-20 14:06:28 v0.00.79 Steps: 10 Strength: 0.20
+2024-11-20 17:16:23 v0.00.80 Ups inference steps
+2024-11-20 23:33:58 v0.00.81 Generates 55 Images
+2024-11-20 23:49:46 v0.00.82 Detects NSFW images
+2024-11-21 07:55:42 v0.00.83 Saves file before checking if it exists
+2024-11-21 09:47:56 v0.00.84 Creates strength loop
+2024-11-21 11:25:07 v0.00.85 Working towards the loop
+2024-11-21 12:21:57 v0.00.85.1 Very slight fix
+2024-11-21 16:48:07 v0.00.86 Just added the token...
+2024-11-21 17:27:28 v0.00.87 Now it doesn't matter if everything closes!
+2024-11-21 23:31:50 11/12/24
+2024-11-22 11:13:30 11/22/24
+2024-11-22 11:19:44 11/22/24 Attempt 2
+2024-11-22 18:38:15 v0.00.88 Still genning
+2024-11-23 10:54:17 v0.00.89 Only 50+
+2024-11-24 14:03:03 11/24/2024
+2024-11-25 08:00:50 V0.02.02 Adds golden blocks and item
+2024-11-25 11:11:45 V0.02.10 Loot tables and recipies for golden items
+2024-11-25 11:19:37 V0.02.11 Beginning 1.21.3 dev
+2024-11-25 17:22:14 v0.00.90 Copies Texture Pack Folder
+2024-11-25 17:34:30 v0.00.91 Iterates through files
+2024-11-25 19:37:12 v0.00.92 Iterates and expands all files
+2024-11-25 19:54:50 v0.00.93 Iterates AND Generates
+2024-11-25 20:41:25 v0.00.94 Unzips and copies pack
+2024-11-25 20:45:04 v0.00.94.1 Maybe fixes pathing issue
+2024-11-25 20:53:40 v0.00.95 Adds a file to the folder to maybe make it work??
+2024-11-25 21:20:50 v0.00.95.1 Tests colab
+2024-11-25 21:26:51 v0.00.95.2 RBG not RBGA test 1
+2024-11-25 21:42:39 v0.00.95.3 Easy test
+2024-11-26 10:27:54 v0.00.96 Finishes the first pack
+2024-11-26 10:28:56 v0.00.96.1 Small == error
+2024-11-26 11:28:53 v0.00.96.2 Place for new gens
+2024-11-26 11:57:53 v0.01.00 Pack Generator and Resizer
+2024-11-27 19:09:05 11/27/2024
+2024-11-27 19:10:08 v0.03.62 Test Scirpt
+2024-11-27 19:11:12 v0.00.19 Simple kind of bad game
+2024-11-28 19:51:12 11/28/2024
+2024-11-28 23:55:06 Its drill time
+2024-12-01 11:25:02 12/1/2024
+2024-12-01 11:26:42 12/1/2024
+2024-12-02 08:08:34 v0.03.70 Vectors practice
+2024-12-02 10:25:25 v0.03.80 Vectors practice
+2024-12-02 10:46:58 v0.03.90 Odd vector practice
+2024-12-02 10:49:47 v0.03.99 Moves around files
+2024-12-02 11:07:09 v0.04.00 Vectors odd sum complete
+2024-12-02 11:08:15 v0.04.10 Re-sorts all files
+2024-12-03 08:53:00 v0.04.11 Vector Primes
+2024-12-04 21:00:31 v0.01.01 Reformatted Code
+2024-12-05 08:15:16 v0.04.18 Created 10 new prompts that should cover everything...
+2024-12-07 15:06:34 v0.04.20 Sum average lab done
+2024-12-07 21:02:25 v0.01.00 Version 1 of Despaired Cat Game
+2024-12-08 19:06:11 v0.01,30 Added Despaired Cat Game!
+2024-12-09 12:01:37 v0.01.01 Updates cat game
+2024-12-10 14:20:40 v0.04.40 2 More easy labs complete
+2024-12-10 14:31:09 v0.04.50 Vowels
+2024-12-10 14:48:02 v0.04.70 File in and out
+2024-12-10 15:22:19 v0.04.75 Made more practice
+2024-12-10 15:51:16 v0.04.77 Make more lab practice
+2024-12-10 16:37:52 v0.04.79 Recompleted lab 10
+2024-12-10 17:48:16 v0.04.80 Deconstructor
+2024-12-10 20:09:06 v0.05.20 Big 33333333
+2024-12-10 20:36:05 v0.05.30 Weird Big 3
+2024-12-11 08:35:16 v0.05.31 Creates a test file
+2024-12-11 09:16:09 v0.05.32 Did big 3 again
+2024-12-11 10:43:24 v0.05.39 Did like 3 labs
+2024-12-11 10:53:15 v0.05.40 2d arrays
+2024-12-12 07:45:54 12 / 12 / 2024
+2024-12-12 23:40:47 v0.05.41 Deleted Test
+2024-12-12 23:42:41 v0.05.42 Ignore svn missing
+2024-12-13 09:23:54 12-13-2024:9:23
+2024-12-14 21:20:27 12 / 14 / 2024
+2024-12-14 21:23:50 Merge branch 'main' of https://github.com/AndrewRoddy/Premie...
+2024-12-14 21:24:04 Update Poop Mod.prproj
+2024-12-15 15:05:19 12 / 15 / 2024
+2024-12-15 21:32:24 v0.02.01 Now its vertical so maybe phone?
+2024-12-17 14:24:23 v0.02.11 Finished 1.21 (again)
+2024-12-17 14:36:13 v0.02.13 free and paid 1.21.1 done
+2024-12-17 14:53:27 v0.02.14 Only going to commit recent versions
+2024-12-17 17:21:24 v0.02.15 In the process of updating
+2024-12-24 22:32:43 12 / 24 / 2024
+2024-12-27 22:57:29 0.10.52 fixed json folder bug
+2024-12-27 22:57:57 0.10.54 Fixed mistake in version naming
+2024-12-27 23:02:13 0.10.55 Removes cmd prompt from opening
+2024-12-27 23:39:15 Initial commit
+2024-12-27 23:54:52 v0.01.31 Adds pfp image
+2024-12-28 01:18:53 0.01.00 Can access API
+2024-12-28 01:34:19 0.01.10 Shows company value
+2024-12-29 00:35:40 12/29/24
+2024-12-29 03:18:39 0.01.32 Added Carrots or Cats and MANY style changes
+2025-01-01 17:50:05 0.10.60 Working towards single executable
+2025-01-02 01:56:11 1 / 2 /  2025
+2025-01-02 01:56:11 1 / 2 /  2025
+2025-01-03 09:22:24 1 / 3 / 2025
+2025-01-04 20:49:48 1 / 3 / 2025
+2025-01-04 21:21:05 1 / 4 / 2025
+2025-01-05 22:25:57 0.01.40 Added Geeked vs. Locked in
+2025-01-06 19:38:37 v0.02.20 Still updating to later version
+2025-01-07 15:41:51 v0.02.21 Still trying to update :(
+2025-01-07 19:43:47 0.10.61 Added Liscense to README
+2025-01-07 19:44:33 0.10.62 Improved formatting
+2025-01-08 21:31:10 v0.02.30 Version specific control
+2025-01-09 22:24:19 v0.12.00 Replaced everything
+2025-01-10 21:19:54 v0.05.45 Updated drill
+2025-01-11 16:20:02 1 / 11 / 2025
+2025-01-11 16:23:02 v0.02.40 1.21.1 is done need to do 1.21.0
+2025-01-12 15:49:19 V0.02.12 Starting 1.20 development
+2025-01-13 07:27:23 0.10.53 Ignores .json files from commit
+2025-01-13 07:27:55 0.10.63 Ignores .json files from commit
+2025-01-14 12:51:13 0.10.70 Removing relative file paths
+2025-01-15 08:52:30 0.10.71 Creating folder path
+2025-01-15 09:11:19 0.10.72 Trying to fix. My .exe file broke.
+2025-01-16 08:37:44 v0.05.47 In class practice
+2025-01-17 18:14:54 v0.01.10 Added flag logic
+2025-01-18 20:59:24 0.10.73 New idea to fix game from opening
+2025-01-19 19:35:54 0.10.75 Reconnecting header files
+2025-01-20 12:00:16 0.10.76 Adding tokens.hpp back in
+2025-01-21 08:20:45 0.11.00 Full overhaul.Support bin/run.exe
+2025-01-22 11:01:12 0.11.10 README updates
+2025-01-23 07:44:20 v0.05.48 More in class practice
+2025-01-24 11:29:03 0.20.00 Finalized Project
+2025-01-24 21:08:11 Initial commit
+2025-01-24 21:16:08 0.00.01 Start
+2025-01-24 22:50:40 0.00.10 Removes starting blocks
+2025-01-25 15:45:59 Initial commit
+2025-01-25 15:48:16 0.20.01 This is my own repository that I made a private fork...
+2025-01-26 13:01:31 0.20.02 Updated Include Guards
+2025-01-27 17:53:47 0.20.05 Better ReadME
+2025-01-28 07:58:30 v0.01.11 Start creating custom font
+2025-01-29 07:52:27 v0.05.49 More Practice in lab
+2025-01-30 08:47:53 v0.01.12 Created Mario Illustrator File, Mastering outlines
+2025-01-31 21:22:26 v0.05.50 Set ADT
+2025-02-01 22:33:33 0.20.06 Starting AppData folder
+2025-02-02 21:21:05 0.20.10 Still working towrds AddData
+2025-02-03 08:11:59 0.12.01 Adds cursor glow
+2025-02-04 07:46:40 v0.05.51 Set ADTv2
+2025-02-04 12:10:49 0.12.10 Finalizes cursor glow
+2025-02-05 14:03:29 v0.05.52 String ADT
+2025-02-06 08:46:38 v0.05.53 String ADT Updates
+2025-02-07 11:04:21 v0.05.53 FileIO Commit
+2025-02-08 14:25:22 v0.05.55 FileIO v2
+2025-02-09 14:15:18 v0.05.56 HacKSU Flask
+2025-02-10 09:13:27 0.12.20 Made custom cursor
+2025-02-11 07:48:57 v0.01.20 Finished Mario sprite for Mario Font
+2025-02-12 08:07:45 2 / 12 / 2025
+2025-02-13 08:45:45 0.13.00 Switches to a two colum layout
+2025-02-14 16:42:28 v0.05.60 String ADT v2
+2025-02-15 15:01:00 0.20.11 Retried generating the exe file
+2025-02-16 22:09:51 v0.05.61 String fixes
+2025-02-17 14:18:07 v0.05.62 Deleted old drills
+2025-02-17 17:26:01 v0.05.63 Dynamic Array ADT
+2025-02-17 20:32:26 v0.05.90 Finished 5 drills
+2025-02-17 21:19:11 v0.06.40 Finished 10 7 minute drills today
+2025-02-18 08:57:58 v0.06.41 Keeps working on >> overloading
+2025-02-18 14:49:11 v0.07.40 Finishes many 7 minute drills and adds bigint to re...
+2025-02-19 14:16:42 v0.07.41 :(
+2025-02-20 08:58:59 v0.07.42 First Dynamic
+2025-02-21 10:47:29 v0.07.43 Second dyanic
+2025-02-22 19:42:37 v0.05.43 Long int
+2025-02-23 20:53:08 0.13.01 Thanks message
+2025-02-24 09:04:49 v0.07.70 Learning template
+2025-02-24 09:04:58 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2025-02-24 09:05:33 v0.07.71 Learning template
+2025-02-25 07:37:10 v0.07.72 More Array Template
+2025-02-26 12:58:00 v0.07.73 Dynamic Mem
+2025-02-27 07:46:25 v0.07.73 Fortnite extension
+2025-02-27 07:48:22 v0.07.74 Stack code
+2025-02-28 15:35:04 v0.07.75 Infix and prefix
+2025-03-01 18:11:42 0.20.11 Making test cases
+2025-03-02 18:03:14 0.20.12 Still moving towards makefile tests
+2025-03-03 08:24:13 Initial commit
+2025-03-03 08:37:12 v0.01.00 Start readme and .gitignore
+2025-03-03 08:37:56 0.01.00 Changes commit convention ( I forgot I don't like v ...
+2025-03-03 09:04:06 0.02.00 Inro Sequence Complete
+2025-03-03 11:01:34 0.03.00 Created slide show and appended link
+2025-03-04 19:17:34 v0.07.76 Array
+2025-03-05 12:12:53 v0.07.77 Towers
+2025-03-06 21:15:07 v0.07.78 Queue
+2025-03-07 23:04:40 v0.07.79 Fixed folder structure
+2025-03-08 00:08:28 3/8/2025
+2025-03-08 21:57:29 3/9/2025
+2025-03-09 21:19:43 0.02.12 Adds game over button texture
+2025-03-10 21:35:27 0.02.13 Adds quit button
+2025-03-11 16:08:05 3/11/2025
+2025-03-12 23:46:10 3 / 12 / 2025
+2025-03-13 14:13:34 0.02.50 Refactored the Window
+2025-03-14 20:59:23 0.02.60 Paddle Direction influences ball direction
+2025-03-15 22:21:36 3 / 15 / 2025
+2025-03-16 23:22:19 0.03.01 Transition from slides to coding
+2025-03-17 15:02:13 v0.07.80 Deleted all .exe files
+2025-03-18 07:55:33 3 / 18 / 2025
+2025-03-19 00:49:34 v0.07.81 Learned more about shell
+2025-03-19 14:10:33 v0.07.82 Renamed and moves files
+2025-03-20 08:21:29 3 / 20 / 2025
+2025-03-21 13:48:15 v0.07.83 Queue and Dlist
+2025-03-21 14:37:20 3 / 21 / 2025
+2025-03-22 15:57:57 3 / 22 / 2025
+2025-03-23 18:25:25 0.02.61 Added hypothetical score
+2025-03-24 09:17:32 v0.07.84 Fixed folder naming
+2025-03-25 08:18:21 v0.09.10 So Many 7 Minute Drills
+2025-03-25 14:26:39 v0.09.40 I better get 100% on this CS2 Exam 2 man. I've been...
+2025-03-26 09:24:59 3 / 26 / 2025
+2025-03-27 11:17:48 v0.09.41 Java Lesson
+2025-03-28 00:30:53 v0.09.41 Template Darray
+2025-03-28 23:36:07 test
+2025-03-29 00:37:30 v0.09.42 Btree
+2025-03-30 00:25:41 v0.09.41 Template Darray
+2025-03-30 00:32:33 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2025-03-30 00:36:38 v0.09.42 Btree
+2025-03-30 00:38:12 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2025-03-31 07:53:07 v0.09.43 String Added
+2025-04-01 07:55:01 v0.09.44 Btree Cont
+2025-04-01 07:56:30 v0.09.45 Queue
+2025-04-02 13:18:19 v0.09.46 BrainF Language
+2025-04-03 07:58:19 v0.09.47 Btree
+2025-04-04 16:22:14 v0.09.48 Btreev2
+2025-04-05 07:54:48 v0.09.49 Moved Darray
+2025-04-06 21:50:27 v0.09.49 Moved Darray
+2025-04-06 21:53:44 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2025-04-07 14:15:10 v0.09.50 Multiple more tries
+2025-04-08 09:00:01 0.03.10 Started Importing Godot Project
+2025-04-09 13:11:18 0.03.11 More Godot Instructions
+2025-04-10 22:19:09 v0.09.51 Map
+2025-04-11 18:46:35 v0.09.52 Map cpp
+2025-04-12 15:35:22 v0.09.53 Map hpp
+2025-04-13 22:32:39 0.03.12 Updated Scene
+2025-04-14 09:19:21 0.03.13 Changed node 2d Scene again
+2025-04-14 19:09:10 0.04.00 Uploaded Resources
+2025-04-14 19:22:11 0.04.01 Created C1
+2025-04-14 20:27:42 0.06.00 Checkpoint 2
+2025-04-14 20:59:09 0.05.00 C3 - Ball Movement Added
+2025-04-15 08:27:15 0.06.00 C4 - Speedy Walls
+2025-04-15 08:55:02 0.06.30 Halfway to Finals
+2025-04-15 12:31:44 1.00.00 Ready for Tuesday Presentation
+2025-04-16 09:53:43 v0.09.54 Map.txt
+2025-04-16 15:06:57 v0.09.5 STL Examples
+2025-04-17 08:46:26 4 / 17 / 2025
+2025-04-18 16:23:00 v0.09.56 Mode old btree
+2025-04-19 19:54:12 v0.09.57 Updated Btree
+2025-04-20 02:21:59 v0.09.58 Updated Main
+2025-04-22 16:19:27 0.13.10 Improves CSS readability
+2025-04-23 08:47:15 0.13.11 Fixed two column format
+2025-04-24 07:55:00 v0.09.58 Updated old shapes
+2025-04-24 08:36:57 0.13.12 Slightly Updated Format
+2025-04-24 09:41:23 0.13.13 Deleted files I don't need
+2025-04-24 09:41:46 0.13.14 Added extra icons
+2025-04-25 13:33:41 v0.09.59 More Shape
+2025-04-26 15:20:08 v0.09.60 Word Processor
+2025-04-27 05:37:59 0.13.15 Make icons white
+2025-04-28 08:58:40 0.13.16 Make icons white
+2025-04-29 09:00:23 0.13.17 Removed headshot from website
+2025-04-30 09:16:35 0.13.18 Updated icon
+2025-05-01 07:58:24 v0.09.61 Errors Code
+2025-05-02 21:49:01 v0.09.62 Smart Pointers
+2025-05-03 15:00:01 v0.09.63 C++ Features
+2025-05-04 21:27:02 v0.09.64 Starting to sort for FINALS
+2025-05-05 21:52:36 v0.09.65 Remove Pointers
+2025-05-06 10:29:02 v0.09.66 Removed fileIO
+2025-05-06 14:50:23 v0.09.67 Preparing for final exam studying CS2 FINAL
+2025-05-06 17:23:22 v0.09.68 Finished Stack
+2025-05-07 15:10:44 v0.10.50 Finshed LL Stack Pop function
+2025-05-07 15:46:14 v0.10.70 Finshed LL Stack Copy Constructor
+2025-05-07 17:20:30 v0.11.20 Finshed LL Queue Enqueue Function
+2025-05-07 17:29:28 v0.11.40 Finished Linked List Queue Deconstructor
+2025-05-08 00:49:35 v0.12.40 Finished BtreeV1 just hope BtreeV2 isn't on the exa...
+2025-05-08 18:21:11 v0.12.60 The final didn't go great
+2025-05-09 22:49:35 v0.12.61 Deleted the Final studying area
+2025-05-11 16:34:07 1.00.01 Deleted example file
+2025-05-11 16:35:00 0.02.62 Updated godot game
+2025-05-11 16:35:36 5 / 11 / 2025
+2025-05-12 21:09:26 0.13.19 Added text
+2025-05-13 23:40:59 0.13.20 Added Education
+2025-05-16 23:29:40 0.00.11 Restarted the process as video capture of the projec...
+2025-05-17 17:19:46 0.00.12 Started making datapack
+2025-05-17 17:20:01 0.00.13 Fixed version name
+2025-05-17 20:58:09 0.00.20 Removes sides, keeps player on, generates some of po...
+2025-05-17 21:33:38 0.00.30 End Portal WORKS!!!!
+2025-05-17 21:39:35 0.00.31 The nether is complicated
+2025-05-18 18:04:31 0.00.50 Nether portal is working
+2025-05-18 21:17:48 0.00.60 Animal Teleporting working
+2025-05-19 17:17:40 0.00.70 Barriers working in every dimension
+2025-05-19 21:40:07 0.00.90 Might have finished everything??
+2025-05-20 15:49:20 0.10.01 Might be release ready?? Time to test it on a few wo...
+2025-05-20 15:50:37 0.10.10 Forgot I don't need to put the version number in the...
+2025-05-20 15:59:42 0.11.00 Added water to the ruined portal incase the user spa...
+2025-05-20 17:03:04 0.20.00 Fixed dragon respawn, allowed increased render dista...
+2025-05-20 17:09:55 0.30.00 Returned bounds and made hole that leads to ruined p...
+2025-05-20 17:19:53 0.30.00 Returned bounds and made hole that leads to ruined p...
+2025-05-20 17:20:12 0.31.00 Updated initial message
+2025-05-20 22:15:30 0.60.00 Fixed end dimension deletion, fixed removing outside...
+2025-05-20 22:20:24 0.61.00 Sets world spawn and teleports the player last to in...
+2025-05-20 22:34:38 0.70.00 Fixed the spawn platform not working properly
+2025-05-20 22:41:26 0.71.00 Hopefully fixed the spawning again
+2025-05-20 22:55:58 0.80.00 Hopefully, Actually fixed spawning with a super jenk...
+2025-05-20 23:28:45 0.91.00 I think I might have actually FR
+2025-05-20 23:37:24 0.92.00 It didn't delete the starting chunk :( Hopefully I f...
+2025-05-20 23:39:27 0.92.01 Just removed the resistance particles
+2025-05-20 23:41:48 0.92.20 Changed reloading time incase the spawn is cooked
+2025-05-20 23:45:17 0.92.21 Fixed introductory text
+2025-05-21 00:25:10 0.93.00 Improved text and made spawners weaker
+2025-05-22 23:38:30 5 / 22 / 2025
+2025-05-23 18:15:01 5 / 23 / 2025
+2025-05-24 23:16:57 5 / 24 / 2025
+2025-05-24 23:22:52 5 / 24 / 2025 Again
+2025-05-25 21:40:16 5 / 25 / 2025
+2025-05-26 22:30:35 0.94.00 Tested weaker spawners
+2025-05-26 22:49:44 0.94.10 Removed ghasts and fireballs from the mob moving lis...
+2025-05-26 23:20:42 0.94.11 Fixed end island not deleting
+2025-05-26 23:31:38 0.94.12 Actually fixed end island not deleting
+2025-05-27 00:12:55 0.94.13 Fixed the dragon loop that deletes the portal in the...
+2025-05-27 00:17:50 0.94.20 Removed dragon loop
+2025-05-27 00:24:55 0.94.30 Removed dragon loop added loading message
+2025-05-27 00:46:25 0.94.40 Stopped arrows being teleported
+2025-05-27 01:46:28 0.94.50 Now removes the end portal in the end please I hope ...
+2025-05-27 01:50:41 0.94.51 Fixes the end remove for all heights
+2025-05-27 02:03:33 0.94.52 Hopefully fixes the end remove again
+2025-05-27 02:20:14 0.95.00 Fully overhauled how removing the end portal happens
+2025-05-27 02:23:47 0.95.01 Fixed setblock typo
+2025-05-27 02:26:32 0.95.02 Typo Off by a block
+2025-05-27 02:41:31 0.95.03 Gave up on respawning the ender dragon
+2025-05-27 02:48:50 0.96.00 I think v1.21.1 is COMPLETE, also Updated README
+2025-05-27 02:50:42 1.00.00 Updating version number because I complete it
+2025-05-27 03:30:35 1.01.00 Finished 1.21.0 and started 1.21.2
+2025-05-27 20:42:33 1.02.00 Still creating many more versions
+2025-05-27 22:11:00 1.10.00 All versions complete!!
+2025-05-28 23:55:42 5 / 28 / 2025
+2025-05-29 00:38:45 5 / 29 / 2025
+2025-05-30 20:16:11 5 / 30 / 2025
+2025-05-31 20:31:50 5 / 31 / 2025
+2025-06-01 16:23:00 06 / 02 / 2025
+2025-06-03 21:19:47 06 / 03 / 2025
+2025-06-04 21:15:31 06 / 04 / 2025
+2025-06-05 22:38:58 06 / 05 / 2025
+2025-06-06 12:19:57 06 / 06 / 2025
+2025-06-06 12:22:52 0.01.41 Removed Secret YT
+2025-06-08 04:30:47 6 / 8 / 2025
+2025-06-08 22:48:43 06 / 08 / 2025
+2025-06-09 20:47:17 06 / 09 / 2025
+2025-06-10 21:28:42 06 / 10 / 2025
+2025-06-11 22:08:44 06 / 11 / 2025
+2025-06-12 21:32:43 06 / 12 / 2025
+2025-06-13 16:26:00 6 / 17 / 2025 2
+2025-06-15 16:23:00 6 / 17 / 2025
+2025-06-18 09:42:59 06 / 18 / 2025
+2025-06-21 23:34:56 06 / 21 / 2025
+2025-06-26 14:13:19 0.01.50 Changed Main Logo
+2025-07-03 20:53:32 07 / 03 / 2025
+2025-07-05 02:12:25 07 / 05 / 2025
+2025-07-10 09:08:23 0.01.51 New icon
+2025-07-10 11:51:40 0.01.80 Added Jump King skins, Clomp, and reformatted site c...
+2025-07-10 15:48:31 0.01.90 Added Meetures to the website!
+2025-07-10 15:53:06 0.01.91 Fixes the images wheel
+2025-07-10 16:00:03 0.01.92 Made jumpscared reload the page automatically
+2025-07-11 14:22:35 07 / 11 / 2025
+2025-07-12 13:51:35 Initial commit
+2025-07-12 13:56:50 0.00.01 Created boiler plate
+2025-07-12 14:01:33 0.00.02 Changing it to functions worked!
+2025-07-13 20:06:40 Started testing current version
+2025-07-13 22:04:01 Finished 1.20.5
+2025-07-14 13:38:54 Finished 1.21.4
+2025-07-14 14:25:14 Finished creating the datapack
+2025-07-14 14:30:00 Finished the releases folder
+2025-07-16 12:10:46 Created title and modpack graphics
+2025-07-18 16:11:59 07 / 18 / 2025
+2025-07-21 16:22:36 07 / 21 / 2025
+2025-07-22 17:43:08 Half finished Reverse Integer
+2025-07-22 17:44:37 Removed all .exe files from repo
+2025-07-23 13:08:48 Completed Reverse Integer, and improved upon it
+2025-07-24 11:10:06 Palindrome Complete
+2025-07-25 11:56:48 Progress on Mario Font
+2025-07-25 20:58:25 Removed packs that I made in different repositories
+2025-07-26 17:32:45 Initial commit
+2025-07-26 17:40:05 Added boiler plate
+2025-07-27 16:14:50 Using armor stands
+2025-07-29 23:33:46 07 / 29 / 2025
+2025-08-02 20:10:46 08 / 02 / 2025
+2025-08-03 14:40:31 Initial commit
+2025-08-03 14:41:24 boiler plate
+2025-08-03 20:48:58 Added in protection for most entities except potions and pla...
+2025-08-03 21:20:13 Removed potions and tnt
+2025-08-04 19:39:43 Created extremely accurate raycasting system
+2025-08-04 20:59:02 Made breaking plants impossible
+2025-08-04 21:48:24 Made the end functional and completeable
+2025-08-04 23:06:01 Finished pack.png
+2025-08-05 19:29:35 Made title
+2025-08-05 20:39:42 Moved files around. Fixed intro message
+2025-08-06 19:35:12 Finalized the packs
+2025-08-07 13:03:58 08 / 07 / 2025
+2025-08-08 17:30:45 08 / 08 / 2025
+2025-08-09 21:46:03 08 / 09 / 2025
+2025-08-10 18:46:08 08 / 10 / 2025
+2025-08-11 21:06:14 08 / 11 / 2025
+2025-08-12 19:23:52 08 / 12 / 2025
+2025-08-13 21:55:52 08 / 13 / 2025
+2025-08-14 17:39:08 Initial commit
+2025-08-14 17:40:01 Making baseplate
+2025-08-19 15:32:24 fixed weebly link
+2025-08-21 22:23:14 undid what I did
+2025-08-21 22:27:03 Removed vscode and archive
+2025-08-22 17:22:09 Reformatted folders
+2025-08-22 17:27:14 Editing prompts
+2025-08-22 17:30:40 Update README.md
+2025-08-22 17:32:11 deleted .vscode file
+2025-08-22 17:32:23 Merge branch 'main' of https://github.com/AndrewRoddy/CPP-Pr...
+2025-08-24 00:22:04 new backups, new projects
+2025-08-26 22:17:12 R files and 1st hacksu lesson
+2025-08-27 00:02:43 Completed drill 128-130
+2025-08-27 00:14:08 Finished frill 131
+2025-08-27 00:26:57 Finished Drill 132
+2025-08-27 09:18:00 Finished 133-135
+2025-08-27 10:34:10 Finished 136,137, and 138
+2025-08-27 12:40:54 Removed odd R files and did super R drill
+2025-08-28 16:07:02 Add note for me
+2025-08-30 15:50:40 Initial commit
+2025-08-30 15:57:10 Made due button
+2025-09-01 19:55:16 Added work experience
+2025-09-02 20:00:02 Initial commit
+2025-09-02 20:01:43 started working on cube clicker
+2025-09-04 10:36:46 Added cube clicker
+2025-09-04 17:46:25 DMUU R code
+2025-09-04 17:47:52 Began working on Assembly code
+2025-09-04 17:48:23 Downloaded all of the CS3 example code
+2025-09-04 21:46:10 Added projects
+2025-09-05 11:42:13 Added score to despaired cat game and updated .gitignore rel...
+2025-09-05 11:53:06 Initial commit
+2025-09-05 11:55:20 Moved to its own repository!!
+2025-09-05 11:55:38 Moved despaired cat game to its own repo
+2025-09-05 11:58:27 actually moved it to its own repo now!
+2025-09-05 11:58:43 updated git igngore so I can still store it here
+2025-09-05 12:49:49 Added Cube Clicker Files
+2025-09-05 13:07:43 Added cube clicker as a submodule
+2025-09-05 13:31:51 Added sube clicker to this website
+2025-09-05 13:35:28 Added Cube Clicker to this repo
+2025-09-05 14:16:58 Remove old Cube-Clicker folder from index to allow submodule
+2025-09-05 14:18:05 Added the submodule again as it broke previously
+2025-09-05 21:44:22 Made despaired cat game a submodule which I should have done...
+2025-09-05 21:56:03 Added back button to return to index 0
+2025-09-05 21:59:08 Added better link to the cube clicker game
+2025-09-05 22:44:03 Removed debug abilities
+2025-09-05 22:44:14 Improved Look of website!
+2025-09-05 23:57:41 Added properly updating score and everything like that. Its ...
+2025-09-05 23:59:50 Added comments and improved right column slide
+2025-09-06 00:00:13 Updated cube clicker
+2025-09-06 11:08:13 Update website styling and fix layout consistency
+2025-09-06 11:19:49 Removed cube clicker temporarily to fix it
+2025-09-06 11:20:36 Add the gitmodule Cube-Clicker
+2025-09-06 11:24:03 Removed cube clicker
+2025-09-06 11:25:35 Added cube clicker as a submodule AGAIN (it keeps breaking)
+2025-09-06 11:40:50 Removing private submodule
+2025-09-06 11:41:17 Removing .gitmodules
+2025-09-06 11:44:00 Add Cube-Clicker as submodule in pages/Cube-Clicker
+2025-09-06 11:44:21 Fix Cube-Clicker link path
+2025-09-06 11:50:12 Add speaker notes and game tutorial content to README
+2025-09-06 11:51:21 Refactor README.md headings and formatting
+2025-09-06 11:53:53 This should fix the repo
+2025-09-06 13:14:24 Updated despaired cat game
+2025-09-06 13:15:04 Added functionality for all of the projects
+2025-09-07 17:09:50 Backing up UK Friendly
+2025-09-07 17:52:25 Made complete folder. Removed .vscode folder
+2025-09-07 17:58:45 Completed 3675
+2025-09-07 18:06:12 Complete 3674
+2025-09-07 18:29:39 Finished 1304
+2025-09-07 22:33:47 Added in assemlby code and began testing express.js lesson
+2025-09-09 18:49:54 Made the game work perfectly, forever
+2025-09-09 18:50:29 Updated cube clicker
+2025-09-09 18:55:42 Added test message
+2025-09-09 18:56:06 Updated cube clicker again to hopefully allow upgrades
+2025-09-09 19:27:20 Moved everything around
+2025-09-11 17:52:29 Moved assembly files
+2025-09-17 11:25:27 Assembly and R programming
+2025-09-17 18:08:43 Changed naming convention
+2025-09-17 18:20:27 Added old leetcode solutions to now
+2025-09-17 18:22:01 Improved my 2023 Leetcode code a bit
+2025-09-17 18:26:05 1935 Completed
+2025-09-17 18:31:55 2327 Complete
+2025-09-17 22:29:10 Initial commit
+2025-09-17 22:51:06 Began working on Chrome extension
+2025-09-17 23:16:02 Counts all watch later videos
+2025-09-17 23:31:02 Deleted alot of bloat functions I am not using anymore. Adde...
+2025-09-18 17:53:05 Finished Hello in assembly
+2025-09-18 18:00:29 Completed addition in Assembly
+2025-09-19 23:57:19 Continued work on Computer Org HW and DMUU HW
+2025-09-20 01:48:26 Continued R homework
+2025-09-24 19:40:51 Completed R Homework
+2025-09-27 23:46:59 Many 7 Minute Drills in C++, Assembly, and R
+2025-09-27 23:47:41 Adding previously complete Leetcode Questions
+2025-09-28 22:35:21 Question 1 Complete for DMUU HW
+2025-09-28 23:03:50 Completed question 2 and added in CSV dataset
+2025-09-29 00:39:36 Completed HW MT assignment
+2025-10-05 22:15:12 Updated resume added text for icons
+2025-10-07 12:46:45 Added all example code
+2025-10-07 12:47:16 Created many example drills for ASM
+2025-10-07 12:47:34 Completed ASM Homeworks
+2025-10-07 12:50:52 Completed AddTen drill
+2025-10-07 15:50:29 Still working on Assembly Drills
+2025-10-08 14:26:19 Initial commit
+2025-10-08 14:48:00 Created project plan
+2025-10-08 14:51:03 Fixed link, fixed formatting
+2025-10-08 17:56:03 Basic boiler plate
+2025-10-08 18:45:30 Switched to typescript
+2025-10-09 10:14:35 Update Andrew_Roddy_Resume.pdf
+2025-10-09 15:44:43 Initial commit
+2025-10-09 15:52:47 Created Profile README.md
+2025-10-09 15:56:09 Removed gitattributes, should hopefully fix my profile readm...
+2025-10-09 16:02:33 Re-ordered bullet points
+2025-10-09 16:22:23 Update Andrew_Roddy_Resume.pdf
+2025-10-09 16:24:42 Fixed spelling
+2025-10-09 17:39:43 Initial commit
+2025-10-09 17:40:15 Delete .gitattributes
+2025-10-09 17:43:01 Update README.md
+2025-10-09 17:43:26 Added Instructions PDF
+2025-10-09 17:43:44 Merge branch 'main' of https://github.com/AndrewRoddy/Comput...
+2025-10-09 17:57:34 Made main file and it doesn't work :)
+2025-10-09 17:57:41 Merge branch 'main' of https://github.com/AndrewRoddy/Comput...
+2025-10-09 18:04:17 The text first instructions prints
+2025-10-09 18:04:24 Merge branch 'main' of https://github.com/AndrewRoddy/Comput...
+2025-10-10 01:00:42 Commited without looking 👀
+2025-10-10 01:02:03 Merge branch 'main' of https://github.com/AndrewRoddy/Comput...
+2025-10-10 01:27:38 Implement a great many things for the benefits of future hum...
+2025-10-10 23:13:53 Exit works!
+2025-10-10 23:33:43 Implemented program counter, input for things! Yay, so good
+2025-10-11 00:09:45 lots of good. we got stored things!
+2025-10-11 01:01:31 hmm, problems!!!!!!
+2025-10-11 15:45:09 Initial commit
+2025-10-11 15:50:53 Initial Commit
+2025-10-11 15:52:25 Began creating the timer in react
+2025-10-11 15:56:33 Switched to angular
+2025-10-11 15:57:04 Made timer work and centered
+2025-10-11 15:57:45 Now properly uses components
+2025-10-11 16:01:19 Commented circle-facotry and cleaned up adding logic
+2025-10-11 16:01:55 Properly shared seconds and total time
+2025-10-11 16:02:15 Creates infinite looping circle effect
+2025-10-11 16:39:40 Almost complete on the mode-button
+2025-10-11 16:42:58 Fixed failed merge
+2025-10-12 14:34:26 Adds the gomorodo timer to the website
+2025-10-12 14:34:58 Builds the project
+2025-10-12 14:35:29 Imporoves gomodoro time button
+2025-10-12 15:03:48 Updated readme
+2025-10-12 15:03:53 Merge branch 'main' of https://github.com/AndrewRoddy/Gomodo...
+2025-10-12 15:04:09 Removed docs folder
+2025-10-12 15:07:23 Removed Gomodoro for now until I fully figure out how to hos...
+2025-10-12 15:07:52 Fully, fully removed gomodoro
+2025-10-12 17:57:43 Adds plans to implement ThreeJs
+2025-10-12 19:59:01 Correctly added gomodoro :)
+2025-10-12 20:25:09 Moved to vercel. Added more feature ideas
+2025-10-12 21:47:10 Adds vercel to gitignore
+2025-10-12 21:58:30 Removed submodules, switched to vercel
+2025-10-12 22:00:23 Makes back button function on all websites
+2025-10-12 23:08:12 Added back button
+2025-10-12 23:10:27 Improved back button styling
+2025-10-12 23:21:34 Timer shows actual break time
+2025-10-12 23:25:49 Made timer function properly
+2025-10-12 23:29:18 Added date I added thing to todo list : complete
+2025-10-13 10:52:27 Adds pause button
+2025-10-13 10:56:44 Removed submodule and moved cube clicker to vercel
+2025-10-13 10:59:29 Added gomodoro timer
+2025-10-13 11:04:39 Retrying adding gomodoro timer
+2025-10-13 11:50:08 Allowed going over one hour to remove the inner circles
+2025-10-13 11:53:19 Added more margin to the top, removed "more information" tex...
+2025-10-13 16:53:29 Add the ability to save seconds to browser data
+2025-10-13 22:36:24 Reformatted UI to put Pause, back, and break buttons on the ...
+2025-10-13 23:19:10 Handmade svg's for the pause and play button
+2025-10-13 23:22:53 Made break button size static
+2025-10-14 10:46:29 Saves the circle state for future sessions
+2025-10-15 00:01:15 Found out that the program breaks when tabbed out
+2025-10-15 00:23:58 Fixed bug where time does not updated while tabbed out
+2025-10-15 00:59:01 User can show or hide circles by clicking
+2025-10-15 01:20:18 Sends notification when break time is up
+2025-10-15 11:50:25 Added a lot of new ideas in ToDo
+2025-10-16 13:28:57 Added more to ToDo and created settings button component
+2025-10-16 16:22:20 Made the UI slightly better
+2025-10-16 16:51:03 Added settings button that doesn't do anything yet
+2025-10-16 16:57:35 Attempts to fix image icons
+2025-10-17 09:35:35 Assembly Studying
+2025-10-17 10:30:47 Completed 1a
+2025-10-17 11:40:03 Added favicon to tab
+2025-10-17 11:44:05 Part 1b complete
+2025-10-18 00:23:37 Updated formatting in spaces
+2025-10-18 02:05:22 Updated program counters, yeah, we have plural
+2025-10-18 18:22:34 Initial commit
+2025-10-18 18:35:00 initial commit
+2025-10-18 18:37:55 Finished DMUU Homework
+2025-10-18 18:38:10 Updated task completion
+2025-10-18 20:15:29 Starts making the producer part work
+2025-10-18 20:56:36 Finished the producer and consumer code
+2025-10-18 20:59:36 Updated code
+2025-10-18 20:59:41 Added example
+2025-10-18 21:01:33 Updated formatting on consumer.cpp
+2025-10-18 21:01:42 Updated formatting on producer.cpp
+2025-10-18 21:56:46 Began writing readme
+2025-10-18 21:57:00 Added cloning repository section
+2025-10-18 21:57:27 Added writing the code section
+2025-10-18 21:57:39 Explains killing the process
+2025-10-18 21:57:52 Explains the include statements
+2025-10-18 21:58:04 Explains the data structure part
+2025-10-18 21:58:17 The producer function explanation
+2025-10-18 21:58:27 Added more information to readme
+2025-10-18 21:58:43 Starts explaining the sleep function
+2025-10-18 21:59:00 Finishes explaining the sleep function
+2025-10-18 21:59:19 Begins explaining the main function
+2025-10-18 21:59:38 Finishes explaining the producer code
+2025-10-18 21:59:51 Explains the consumer code as well
+2025-10-18 22:00:06 Adds thank you section to the end
+2025-10-18 22:00:21 Fixes formatting issues
+2025-10-18 22:04:06 Fixed typo
+2025-10-18 22:05:53 Added informatin on mapping
+2025-10-18 22:07:06 Improved Spacing
+2025-10-18 22:09:49 Update README to include sample output reference
+2025-10-18 22:10:13 Change output image reference in README
+2025-10-18 22:12:35 Add reference to example2.png in README
+2025-10-18 22:14:55 Added example2.png
+2025-10-18 22:16:40 Add executed example result to README
+2025-10-19 12:04:24 Added progressive web app icon manifest.json
+2025-10-19 12:05:49 Removed back button
+2025-10-19 12:20:56 Updated progressive web app icon to better center it
+2025-10-19 12:22:39 Updated app icon again to make it smaller
+2025-10-19 12:29:55 Updated links to images and manifest.json structure
+2025-10-19 12:33:02 Added back button again
+2025-10-19 12:36:42 Adds dark and light themes color schemes
+2025-10-19 12:45:27 Attempted to update app icon logo again
+2025-10-19 12:59:50 Added special color favicons
+2025-10-19 13:06:35 Added graphics for orange, purple, and gray
+2025-10-20 02:05:02 Added bracket ender and universal runner.
+2025-10-20 10:25:48 Update plans for Gomodoro
+2025-10-22 10:48:33 Starting CS3 MT2 Drills
+2025-10-22 10:54:33 Categorized CS3 Topics
+2025-10-22 12:10:53 Did a lot of singleton drills
+2025-10-24 19:05:32 Added failure to find end.
+2025-10-24 19:19:52 Updates extracting data
+2025-10-25 09:23:05 Practicing for CS3 Exam
+2025-10-25 10:22:53 Added logos
+2025-10-25 11:24:41 Updated Prismo Logo
+2025-10-25 11:26:52 Added logo to main screen
+2025-10-25 12:27:36 Fixed updating timer bugs
+2025-10-25 12:41:26 Fixed loading from local storage error
+2025-10-25 13:51:36 Added code editor
+2025-10-25 13:51:49 Added code editor
+2025-10-25 14:00:59 Merge branch 'widgets' of https://github.com/loveconnor/pris...
+2025-10-25 14:01:08 Added code editor
+2025-10-25 18:00:41 Added more and better logo icons
+2025-10-25 18:01:02 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-25 18:15:40 Fixed logo on homepage
+2025-10-25 19:01:41 Added cs1 lab 1
+2025-10-25 19:32:22 Updated settings page
+2025-10-25 19:32:46 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-25 22:20:54 Added easy ways of creating labs with documentation.
+2025-10-25 22:22:34 Merge branch 'andrewWIP' of https://github.com/loveconnor/pr...
+2025-10-25 22:22:46 Created t
+2025-10-25 23:26:22 Added binary search tree file
+2025-10-25 23:55:51 Changed color icons to purple
+2025-10-26 00:48:03 Made everything purple
+2025-10-26 00:49:42 Made colors purple
+2025-10-26 00:49:48 Merge branch 'ai' of https://github.com/loveconnor/prismo in...
+2025-10-26 00:50:34 Made more graphics purple
+2025-10-26 00:51:00 Made more html graphics purple
+2025-10-26 00:51:17 Made the rest of the component.html graphics purple
+2025-10-26 00:51:51 Updated typescript to be purple
+2025-10-26 00:52:12 Updated tailwind to be more purple
+2025-10-26 00:52:30 Made index.htmls purple
+2025-10-26 00:55:07 Made lab template work properly
+2025-10-26 01:02:09 Merge branch 'andrewWIP'
+2025-10-26 02:21:01 Fixes favicon stretching
+2025-10-26 02:21:36 Made labs purple
+2025-10-26 02:21:42 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-26 02:21:57 Made labs more purple
+2025-10-26 02:24:58 Fixed feedback component bug
+2025-10-26 02:50:24 Shows username
+2025-10-26 03:35:53 Removed Sandbox
+2025-10-26 03:37:02 Moved sandbox to be disabled almost
+2025-10-26 03:55:00 Added profile picture adding freature
+2025-10-26 03:55:06 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-26 04:13:24 Made username's properly render
+2025-10-26 04:13:31 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-26 06:00:40 Making the multi work
+2025-10-26 06:02:20 Merge branch 'master' of https://github.com/loveconnor/prism...
+2025-10-26 06:50:51 wokring code
+2025-10-26 15:25:27 Initial commit
+2025-10-26 15:29:02 Created first resume file
+2025-10-27 14:53:28 Gray and purple icons when paused and in break mode
+2025-10-27 15:17:28 Makes the break button color change  with the pause button
+2025-10-27 15:36:12 Adds red favicon. Fixes gray break button
+2025-10-27 15:46:50 Added showing time remaining in title
+2025-10-27 22:10:08 Organized resumes
+2025-10-27 22:10:14 Added cover letter
+2025-10-27 22:10:19 Made resume in typst
+2025-10-27 22:13:16 Made font larger
+2025-10-27 22:46:20 Uploaded new resumes
+2025-10-28 00:15:09 Added reset timer button in settings
+2025-10-28 17:54:03 Added older resumes to list
+2025-10-30 12:45:43 Started bubble sort
+2025-10-30 13:19:02 Fixed up sorting a bit.
+2025-10-30 13:20:42 Fixed random 7
+2025-10-30 15:53:03 Adds the ability to change the ratio of work : break
+2025-10-31 17:11:55 Added Graduation Date
+2025-11-01 22:46:25 Added more features to the readme
+2025-11-01 23:48:58 Added patreon sign in button that doesn't work
+2025-11-02 20:38:09 Moved everything to home.html/scss/ts
+2025-11-03 12:01:15 Added patreon to get username
+2025-11-03 12:40:08 Addede backend plans to to do list
+2025-11-04 17:30:16 Initial commit
+2025-11-04 17:39:38 Updated README
+2025-11-04 17:39:44 Merge branch 'main' of https://github.com/AndrewRoddy/Comput...
+2025-11-04 17:41:06 Added PDF
+2025-11-04 17:41:12 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-04 17:56:58 Fixed PDF errors
+2025-11-04 17:57:05 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-04 17:59:45 Added UFO plugin
+2025-11-04 18:00:01 Reformatted styles.css very slightly
+2025-11-04 18:03:16 Initial commit
+2025-11-04 18:25:34 CS1, CS2, and CS3 Files
+2025-11-05 19:46:13 Added colors.scss file for all colors to be in one place
+2025-11-05 19:46:29 Still slowly converting to colors.scss
+2025-11-06 10:29:27 Updated all scss to use colors.scss file
+2025-11-06 10:59:05 Saves break state and pause state to local storage
+2025-11-06 11:43:03 Decided to use .NET backend instead of Flask
+2025-11-06 13:09:31 Added light, dark, and midnight mode buttons
+2025-11-06 13:27:09 Changing all $colors with --colors now
+2025-11-06 17:44:31 Added one line to the README
+2025-11-06 17:44:37 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-06 18:38:24 Update README with detailed TODO
+2025-11-06 18:40:17 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-06 18:42:56 Added table to show test cases
+2025-11-06 18:53:06 Reordered the README
+2025-11-06 19:15:21 Adds input and output messages
+2025-11-06 20:18:33 Created makefile and test asm that has hardcoded outputs
+2025-11-06 20:18:48 Created first testcase
+2025-11-06 20:19:53 Made second test case
+2025-11-06 20:20:03 Made 3rd test case
+2025-11-06 20:20:18 Made fourth and fifth test case
+2025-11-06 20:20:31 Made 6 7 test case
+2025-11-06 20:20:51 Made 8th test case
+2025-11-06 20:20:59 Made 9th test case
+2025-11-06 20:21:04 Made bonus test case
+2025-11-06 20:24:13 Made Makefile work on all systems
+2025-11-06 20:24:42 Removed hardcoded test case main-test
+2025-11-06 20:28:40 Added funny solution
+2025-11-06 21:21:41 Uses regex in python
+2025-11-06 21:21:59 Converts a C program to assembly code
+2025-11-06 21:22:20 Saves .exe intentionally
+2025-11-06 21:35:00 Working binaries I am intentionally commiting binaries
+2025-11-06 21:35:19 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-06 21:35:57 Removed $null??
+2025-11-06 21:39:21 I have solved the assignment.
+2025-11-06 21:39:27 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-06 21:45:48 Creates fully working ASM regular expression parser fully fu...
+2025-11-06 21:50:34 Removed .exe files. Updated the main.asm
+2025-11-08 19:44:07 Built project with tauri
+2025-11-09 12:47:59 Initial commit
+2025-11-09 12:51:37 Completed Homework 2
+2025-11-09 12:53:07 Completd take home portion of midterm 1
+2025-11-09 12:53:53 Completed third homework assignment
+2025-11-09 13:12:26 Only hides pdfs in assignments
+2025-11-09 13:13:27 Added intro examples
+2025-11-09 13:13:36 Added mean bar graphs and distributions
+2025-11-09 13:13:46 Added confidence intervals and chi-square tests
+2025-11-09 13:14:12 Added T - confidence intervals and t procedures
+2025-11-09 13:14:21 Two sample t test examples
+2025-11-09 13:18:17 Added anova
+2025-11-09 13:18:26 Added multiple regression
+2025-11-09 13:18:38 Added regression with matrices and multiple regression
+2025-11-09 13:18:46 Added simple linear regression
+2025-11-09 14:17:41 Versioned the first 4 days of svn checkouts
+2025-11-09 14:21:52 Added the two auto checkout bat files
+2025-11-09 14:22:59 Added the next couple of days of checkouts
+2025-11-09 14:23:16 Added more checkouts
+2025-11-09 14:23:30 Added even more checkouts
+2025-11-09 14:23:44 Added even more checkouts
+2025-11-09 14:23:51 More Checkouts
+2025-11-09 14:24:03 More checkouts
+2025-11-10 08:54:45 Working on MT2. And generated PDF
+2025-11-11 15:53:15 Almost done with mt2
+2025-11-12 22:24:47 Changed folder names
+2025-11-12 22:24:55 Merge branch 'main' of https://github.com/AndrewRoddy/Regula...
+2025-11-13 13:08:48 Now uses styles.scss for orange
+2025-11-13 18:17:45 Everything is now based on a single styles.scss file with cs...
+2025-11-14 09:15:57 Created light, dark, and midnight mode
+2025-11-14 09:18:47 Created backup styles incase mine don't load
+2025-11-14 09:23:09 Updated color scheme shadows
+2025-11-14 09:53:34 Removed clicking no circles to hide
+2025-11-14 09:53:41 Moved clicking on circles to hide to the settings menu
+2025-11-14 13:35:18 Improved color
+2025-11-14 13:36:21 Made Reset button more fair
+2025-11-15 16:35:15 Created button taht text can be placed into
+2025-11-15 22:53:13 Finished script
+2025-11-16 17:35:01 Fixed bad comments in background.js
+2025-11-16 17:35:35 Removed tech debt, console.js is in own file
+2025-11-17 07:47:24 Updated resume. Changed resume index formatting
+2025-11-17 08:18:18 Created detailed README
+2025-11-18 21:21:14 Times above 24 hours now display properly
+2025-11-20 12:51:15 Fixed break button not being responsive during pause
+2025-11-20 12:51:43 On loading of time inbetween running states circles inside n...
+2025-11-20 13:16:29 Timer keeps counting while the tab is closed
+2025-11-20 13:17:30 Page no longer flashes on load
+2025-11-20 18:25:19 Added 11/04 todo completions
+2025-11-20 18:25:49 Added 11/06 to do completions
+2025-11-20 18:26:00 Added 11/02 to completion
+2025-11-20 18:26:14 Finished test cases completion!
+2025-11-20 18:26:38 To do completions completely up to date!
+2025-11-20 18:28:04 Added test case 1 tracking in completion todo
+2025-11-21 10:01:21 Initial commit
+2025-11-21 10:04:15 Added gitignore
+2025-11-21 10:07:09 Added input file
+2025-11-21 15:18:01 Makes sure savedSeconds is within a reasonable amount of tim...
+2025-11-21 15:19:13 Add subtract time buttons
+2025-11-21 17:22:31 Opens file in class
+2025-11-21 17:30:49 Added input file
+2025-11-21 18:45:09 Parses and closes file
+2025-11-21 19:03:01 Added print function
+2025-11-21 19:48:11 Limited concentric circles size to prevent crashes
+2025-11-21 20:53:43 Finished undo button
+2025-11-21 20:55:11 Begin moving to Ionic
+2025-11-21 21:10:04 Compiled with capacitor and ionic!
+2025-11-22 13:38:28 Calculates need
+2025-11-22 16:35:45 Now able to calculate need on construction
+2025-11-22 16:36:12 Fixed void constructor
+2025-11-22 16:42:33 Made allocatable function
+2025-11-22 19:51:53 Program gets correct output
+2025-11-22 19:59:20 Formatted
+2025-11-22 20:03:59 Seperated into multiple files
+2025-11-22 20:22:19 Created makefile
+2025-11-22 20:38:41 Updated the makefile
+2025-11-22 20:38:55 Added .o files to the gitignore
+2025-11-22 20:39:09 Removed Algorithm from the header file
+2025-11-22 23:21:18 Adds the first image
+2025-11-22 23:21:25 Adds the second image
+2025-11-22 23:21:40 Adds the readme file
+2025-11-22 23:22:03 Adds the usage instructions
+2025-11-22 23:22:29 Adds the input file format
+2025-11-22 23:22:42 Adds program description section
+2025-11-22 23:22:54 Adds bankers algorihm explanation
+2025-11-22 23:23:08 Explains the Makefile
+2025-11-22 23:23:20 Explains the first part of the header file
+2025-11-22 23:23:32 Adds next part of header file
+2025-11-22 23:23:46 C++ file part 1 desc
+2025-11-22 23:23:57 C++ file explanation part 2
+2025-11-22 23:24:07 C++ file exp part 3
+2025-11-22 23:24:17 Finishes explaining C++ file
+2025-11-22 23:24:28 Explains the make file
+2025-11-22 23:24:40 Adds example output
+2025-11-22 23:24:54 Adds example images and thank you
+2025-11-22 23:25:02 Reformats the README
+2025-11-22 23:25:46 Edit image tags
+2025-11-22 23:26:31 Edit image embeddings
+2025-11-22 23:27:46 Fixed spacing in image names
+2025-11-22 23:28:08 Fixed spacing next to image names
+2025-11-22 23:30:56 Standard of C++
+2025-11-22 23:34:22 Fixed indentation!
+2025-11-22 23:35:27 Fixed indentation again
+2025-11-22 23:41:37 Adds more detail to the bankers algorithm desc
+2025-11-23 21:48:34 Add ability to send messages to the console
+2025-11-24 08:30:54 Initial commit
+2025-11-24 08:33:50 Removed ToDo section
+2025-11-24 08:42:04 Add README for League of Legends Match Analysis
+2025-11-24 09:25:15 Removed gitattributes file
+2025-11-24 09:25:27 Added LoL data from Kaggle
+2025-11-24 10:34:15 Updated Resume to include Network Technician
+2025-11-24 13:08:09 Counted rows and columns from csv.
+2025-11-24 13:13:15 Created settings.json file for proper R formatting
+2025-11-24 13:21:27 Updated README to include requirements.
+2025-11-24 13:28:04 Added a test loop for our data
+2025-11-24 13:58:25 Organized data
+2025-11-24 13:58:53 Checks if draws were omitted (they were)
+2025-11-25 15:47:49 Initial commit
+2025-11-25 15:53:02 Started making dopey skin
+2025-11-26 01:21:06 Updated Dopey
+2025-11-26 01:27:13 Added new DrewGo Skin
+2025-11-26 01:27:27 Added other strange variants
+2025-11-26 01:27:35 And other variant
+2025-11-26 01:28:32 Renamed DrewGo skin
+2025-11-26 16:55:28 Initial commit
+2025-11-26 17:13:28 Ignores files with paths to sync in them
+2025-11-26 17:21:01 Iterates through all lines of file
+2025-11-26 17:44:04 Pulls all repos in list checking for garbage values
+2025-11-26 17:48:25 Updated 2025-11-26
+2025-11-26 17:51:15 Updated 2025-11-26
+2025-11-26 17:57:44 Commits once a week all changes in repos
+2025-11-26 18:01:15 Improved comments
+2025-11-27 11:42:21 Now creates file if not found
+2025-12-01 12:01:53 Uses vbs to run program in the background!
+2025-12-01 12:04:58 Added run script to visually run the program. Added more ins...
+2025-12-01 12:13:57 Removed tab
+2025-12-01 12:15:10 Adds running the program on startup
+2025-12-01 13:12:11 Updated 2025-12-01
+2025-12-01 13:24:43 Iterates through MatchStatsTbl
+2025-12-01 13:36:58 Creates line graph
+2025-12-02 10:16:52 Updated 2025-12-02
+2025-12-02 10:20:46 Updated 2025-12-02
+2025-12-02 10:24:38 Modify content of mytest.txt
+2025-12-02 10:25:25 Delete mytest.txt
+2025-12-02 10:30:51 Switch to running every 24 hours
+2025-12-02 11:06:27 Created README file.
+2025-12-02 18:20:59 Updated settings modal to remove unecessary spaces
+2025-12-03 10:21:24 Updated 2025-12-03
+2025-12-03 12:49:34 Added multiple regression
+2025-12-03 13:08:50 Changed README formatting
+2025-12-03 13:23:22 Added a few lines
+2025-12-03 13:24:00 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-03 13:28:28 Prints multiple regression graph
+2025-12-03 13:41:13 Completely reformatted all code
+2025-12-03 13:41:21 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-03 13:57:33 Removed mastery check from multiple regression
+2025-12-03 13:57:40 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-03 14:10:12 Makes qmd file
+2025-12-04 09:43:24 Added gitignore file, deleted .vscode file
+2025-12-04 09:43:47 Added .vscode to gitignore
+2025-12-04 09:46:27 Rendered presentation with quarto
+2025-12-04 10:45:48 Switched away from pptx
+2025-12-04 10:46:02 Added presentation images
+2025-12-04 10:46:20 Switched to reveal js and html for preview
+2025-12-04 13:02:41 Made themes work with slides
+2025-12-04 17:23:50 Added more images for the presentation
+2025-12-04 17:24:08 Removed html tag
+2025-12-04 17:49:07 Adds more minion and tower images
+2025-12-04 17:49:17 Adds minions slide
+2025-12-04 17:58:59 Finished game explanation
+2025-12-04 18:04:20 Fixed rune stone array formatting
+2025-12-04 18:49:34 Adds code analysis slide to show data size
+2025-12-04 19:01:53 Added more tests
+2025-12-04 19:54:24 Added and fixed regression graph
+2025-12-04 19:54:42 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-04 19:58:26 Seperated chi-squared tests
+2025-12-04 20:11:31 Added instructions and multiple regression graph back into ....
+2025-12-04 20:31:28 Added Two Way Anova graphs into slide show
+2025-12-04 20:32:43 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-04 21:31:30 Added Play Style Cluster Graph to presentation file
+2025-12-04 21:35:29 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-04 22:01:25 Delete .DS_Store
+2025-12-04 22:01:39 Added ds store to the git ignore
+2025-12-04 22:02:01 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-04 22:02:53 Added league logo to the end
+2025-12-05 13:18:38 Fixed formatting for chi square test
+2025-12-05 13:19:15 Further improved formatting
+2025-12-05 13:29:32 Import fisher test into qmd file
+2025-12-06 15:37:54 Initial commit
+2025-12-06 15:42:08 First Version
+2025-12-06 16:01:43 Initial commit
+2025-12-06 16:16:35 Restore header for Digital Obsidian Garden
+2025-12-06 16:19:23 Update settings
+2025-12-06 16:19:34 Update settings
+2025-12-06 16:21:48 Add content src/site/notes/Welcome.md
+2025-12-06 16:33:11 Published multiple files
+2025-12-06 16:53:16 Update favicon.svg
+2025-12-06 16:55:14 Update settings
+2025-12-06 16:55:15 Update favicon.svg
+2025-12-06 16:55:21 Update settings
+2025-12-06 16:56:35 Update settings
+2025-12-06 16:56:42 Update settings
+2025-12-06 16:57:57 Update settings
+2025-12-06 16:58:11 Update favicon.svg
+2025-12-06 17:00:14 Delete content src/site/notes/TEST PAGE.md
+2025-12-06 17:00:14 Published multiple files
+2025-12-06 17:01:13 Update favicon.svg
+2025-12-06 17:02:53 Update settings
+2025-12-06 17:03:35 Update settings
+2025-12-06 17:04:28 Update settings
+2025-12-06 17:04:33 Update favicon.svg
+2025-12-06 17:08:35 Update favicon.svg
+2025-12-06 17:18:01 Published multiple files
+2025-12-06 17:18:02 Delete content src/site/notes/Test-Page.md
+2025-12-06 17:18:03 Delete content src/site/notes/Welcome.md
+2025-12-06 17:18:59 Update settings
+2025-12-06 17:19:39 Published multiple files
+2025-12-06 17:22:12 Update settings
+2025-12-06 17:23:57 Update settings
+2025-12-06 17:27:17 Update settings
+2025-12-06 17:27:18 Update favicon.svg
+2025-12-06 17:28:30 Update settings
+2025-12-06 17:28:31 Update favicon.svg
+2025-12-06 17:28:48 Update settings
+2025-12-06 17:29:01 Published multiple files
+2025-12-06 17:30:28 Published multiple files
+2025-12-06 17:30:29 Delete content src/site/notes/PCR/Jack Activation PCR.md
+2025-12-06 17:30:29 Delete content src/site/notes/PCR/Jack Create - PCR.md
+2025-12-06 17:31:44 Update settings
+2025-12-06 18:46:18 Fixed my multiple regression test
+2025-12-06 18:48:47 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-06 18:51:18 Built html file
+2025-12-06 19:18:35 Added takeaway sections to qmd
+2025-12-07 00:39:50 Update README with stats
+2025-12-07 00:40:04 Removed bullet point
+2025-12-07 01:11:43 Updated Quarto, R, Rmd, and HTML colorsr
+2025-12-07 01:11:56 Added rounding to the seconds value.
+2025-12-07 03:13:22 Made multiple regression a lot more advanced
+2025-12-07 03:17:26 Add multiple linear regression explanation
+2025-12-07 03:17:36 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-07 03:18:05 Add linear regression assumptions
+2025-12-07 03:18:31 Adds independence assumption
+2025-12-07 03:18:51 Adds linearity assumption
+2025-12-07 03:19:09 Adds graphs for linearity
+2025-12-07 03:19:54 Adds changing the tests and updating the assumptions
+2025-12-07 03:20:19 Checks for multicolinearity
+2025-12-07 03:20:54 Finds the normality of the residuals
+2025-12-07 03:21:36 Checks for homoscedasticity
+2025-12-07 03:22:24 Finishes assumptions with breusch pagan test
+2025-12-07 03:23:46 Adds 3D graph of multiple linear regression
+2025-12-07 03:25:38 Updates 3d graph text
+2025-12-07 03:39:27 Failed attempt to add filtering by queuetype to the qmd
+2025-12-07 11:32:13 Ran QMD
+2025-12-07 14:58:35 Update README with current learning focus
+2025-12-07 16:33:26 Removes printing on the Data size slide
+2025-12-07 16:40:07 Fixed code size of breusch-pagan test
+2025-12-07 16:46:13 Uploaded all presentation images
+2025-12-07 16:46:31 Updated the git ignore
+2025-12-07 16:46:40 Uploaded all presentation binaries
+2025-12-07 17:13:16 Updated pdf and Rmd file to mirror the qmd file
+2025-12-07 17:32:57 Added more messages to rmd file
+2025-12-07 17:35:09 Updated pdf title
+2025-12-07 17:41:24 Clean up README by removing unnecessary sections
+2025-12-07 17:52:44 Updated 3D graph to include less points
+2025-12-07 17:53:03 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-07 17:54:43 Update README with Quarto Presentation details
+2025-12-07 18:00:50 Fixes text formatting for team playstyle logistical regressi...
+2025-12-07 18:00:56 Merge branch 'main' of https://github.com/AndrewRoddy/LoL-Ma...
+2025-12-07 18:46:26 Built quarto presentation
+2025-12-08 09:16:32 Updates rmd and quarto presentation
+2025-12-08 09:20:34 Rebuilt PDF and other graphs
+2025-12-08 10:07:41 Removed big code tag for team playstyle logical regression
+2025-12-08 10:11:28 Final presentation version
+2025-12-11 17:40:59 Added button to add time to timer
+2025-12-11 17:49:19 Fixed circles being out of sync sometimes
+2025-12-12 08:41:30 Changed the h1 heading color
+2025-12-12 08:47:01 Overrides the h1 color instead.
+2025-12-12 08:55:31 Published multiple files
+2025-12-12 08:58:44 Published multiple files
+2025-12-12 09:02:00 Update settings
+2025-12-12 09:10:17 Update background color and font colors
+2025-12-12 09:10:23 Merge branch 'main' of https://github.com/AndrewRoddy/Networ...
+2025-12-12 09:14:47 Attempts to install font family directly
+2025-12-15 13:11:28 Updated 2025-12-15
+2025-12-15 13:15:34 Updates the powershell names to be less confusing
+2025-12-16 11:18:51 Updated 2025-12-16
+2025-12-17 15:46:48 Created snow white one
+2025-12-18 14:09:07 Updated 2025-12-18
+2025-12-18 22:35:47 Updated 2025-12-18
+2025-12-18 22:57:13 Initial commit
+2025-12-18 23:05:35 Hopefully this is just enought to sync
+2025-12-18 23:12:55 Adds the pokemon one and hoping it works
+2025-12-18 23:14:40 Removes the pokemon files
+2025-12-18 23:24:14 Just don't sync this folder name I can't figure out where th...
+2025-12-20 10:19:03 Updated 2025-12-20
+2025-12-20 21:18:32 Updated 2025-12-20
+2025-12-20 22:09:17 Updated 2025-12-20
+2025-12-21 17:33:34 Updated 2025-12-21
+2025-12-21 19:33:39 Updated 2025-12-21
+2025-12-21 21:33:41 Updated 2025-12-21
+2025-12-21 23:33:48 Updated 2025-12-21
+2025-12-23 01:20:00 Updated 2025-12-23
+2025-12-23 14:18:33 Updated 2025-12-23
+2025-12-23 20:18:40 Updated 2025-12-23
+2025-12-24 23:30:48 Added new project
+2025-12-25 15:08:14 Initial commit
+2025-12-25 15:11:54 Apple Watch App Boiler Plate
+2025-12-25 17:54:16 Added blue circle that moves with crown movement
+2025-12-25 18:10:12 Makes circles fit entire screen properly
+2025-12-25 18:15:56 Cleaned up watch face
+2025-12-25 22:55:01 Allows more options to allow the user to wean themselves to ...
+2025-12-25 22:57:52 Changed options again for ratios
+2025-12-25 23:01:30 Changed nothing
+2025-12-25 23:01:42 Merge branch 'main' into HEAD
+2025-12-25 23:07:27 Reverted to state at 90e4bf8
+2025-12-25 23:08:43 Changed nothing
+2025-12-26 00:48:03 Updated 2025-12-26
+2025-12-26 15:49:16 Updated 2025-12-26
+2025-12-26 17:49:21 Updated 2025-12-26
+2025-12-26 19:49:24 Updated 2025-12-26
+2025-12-26 21:49:26 Updated 2025-12-26
+2025-12-27 20:05:59 Changed everything to 2 hours
+2025-12-27 22:20:30 Updated 2025-12-27
+2025-12-30 15:04:37 Updated 2025-12-30
+2025-12-30 17:04:40 Updated 2025-12-30
+2025-12-31 09:54:57 Updated 2025-12-31
+2026-01-01 13:15:03 Updated 2026-01-01
+2026-01-01 19:15:11 Updated 2026-01-01
+2026-01-01 21:15:13 Updated 2026-01-01
+2026-01-02 19:36:06 Update interests and learning focus in README
+2026-01-04 23:35:42 Updated 2026-01-04
+2026-01-06 18:59:25 Updated 2026-01-06
+2026-01-06 22:59:33 Updated 2026-01-06
+2026-01-08 23:06:27 Updated 2026-01-08
+2026-01-09 01:06:31 Updated 2026-01-09
+2026-01-13 09:09:30 Published multiple files
+2026-01-13 09:11:10 Published multiple files
+2026-01-13 12:45:50 Published multiple files
+2026-01-13 12:45:51 Delete content src/site/notes/PCR/PCR.md
+2026-01-13 12:45:59 Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-14 22:29:54 Added cover letters to specific folder
+2026-01-14 22:48:31 Added resume backup
+2026-01-14 22:48:38 Added HacKSU to Resume
+2026-01-14 23:04:05 Added All Around Children
+2026-01-14 23:07:59 Updated PDF
+2026-01-15 10:21:19 Published multiple files
+2026-01-15 10:29:00 Published multiple files
+2026-01-15 13:10:49 Published multiple files
+2026-01-15 13:12:29 Published multiple files
+2026-01-15 13:46:36 Published multiple files
+2026-01-15 13:47:50 Published multiple files
+2026-01-15 14:55:21 Published multiple files
+2026-01-15 14:55:23 Delete content src/site/notes/PCR/Jack Create in PCR.md
+2026-01-15 14:55:24 Delete content src/site/notes/PCR/Jack Move.md
+2026-01-15 14:55:26 Delete content src/site/notes/PCR/Jack Remove.md
+2026-01-15 14:55:28 Delete content src/site/notes/PCR/New Service Order.md
+2026-01-15 14:59:10 Published multiple files
+2026-01-15 15:23:07 Published multiple files
+2026-01-15 16:20:27 Updated resume
+2026-01-16 09:08:50 Published multiple files
+2026-01-16 09:50:44 Published multiple files
+2026-01-16 09:58:09 Published multiple files
+2026-01-16 10:07:08 Published multiple files
+2026-01-16 10:24:02 Published multiple files
+2026-01-17 13:58:21 Updated gitignore to include node_modules
+2026-01-17 14:04:00 We love bun :)
+2026-01-17 14:17:00 Changed title to Triage Flow
+2026-01-17 14:17:54 Added "Assigned" to header
+2026-01-17 14:27:40 Allows adding tickets to the backend
+2026-01-17 14:38:29 Create discord.yaml
+2026-01-17 14:42:14 Removed ticket id from visual ticket view
+2026-01-17 14:42:17 Merge branch 'main' of https://github.com/Monster0506/nexhac...
+2026-01-17 14:48:19 Added comments to the ticket detail portion
+2026-01-17 14:48:19 Added comments to the ticket detail portion
+2026-01-17 15:01:07 Added backend functionality to the edit title button
+2026-01-17 15:01:07 Added backend functionality to the edit title button
+2026-01-17 15:05:30 Merge pull request #15 from nexhacks2026/edit-button
+2026-01-17 15:24:58 Added favicon
+2026-01-17 15:48:08 Merge pull request #24 from nexhacks2026/andrew-codes
+2026-01-17 15:52:44 Added new updated favicon
+2026-01-17 15:52:52 Added black and white version
+2026-01-17 15:53:01 Updated top left image
+2026-01-17 15:58:32 Merge pull request #25 from nexhacks2026/andrew-codes
+2026-01-17 16:26:04 Updated title in website title
+2026-01-17 16:26:04 Updated title in website title
+2026-01-17 16:26:24 Updated the top left text to show off that it is a zero
+2026-01-17 16:26:24 Updated the top left text to show off that it is a zero
+2026-01-17 16:36:03 Added description view
+2026-01-17 16:36:03 Added description view
+2026-01-17 16:36:06 Merge branch 'main' of https://github.com/Monster0506/nexhac...
+2026-01-17 16:41:20 Merge pull request #37 from nexhacks2026/main
+2026-01-17 16:53:17 Moved create ticket modal into another page
+2026-01-17 17:12:25 Hides .vscode folder
+2026-01-17 17:17:43 Added comments to the ticket detail file
+2026-01-17 17:18:55 Removed comments from create ticket modal
+2026-01-17 17:19:10 Fixed adding tickets to the tickets.py
+2026-01-17 17:20:39 Merge branch 'main' into andrew-codes
+2026-01-17 17:20:59 Merge pull request #48 from nexhacks2026/andrew-codes
+2026-01-17 17:23:53 Hides .vscode folder
+2026-01-17 17:25:57 Merge branch 'main' of https://github.com/Monster0506/nexhac...
+2026-01-17 17:49:59 Fixed plus button
+2026-01-17 17:51:26 Merge pull request #55 from nexhacks2026/main
+2026-01-17 17:58:44 Fixed adding descriptions
+2026-01-17 17:59:35 Merge pull request #56 from nexhacks2026/main
+2026-01-17 18:00:12 Merge pull request #57 from nexhacks2026/andrew-codes
+2026-01-17 18:00:49 Merge pull request #58 from nexhacks2026/main
+2026-01-17 18:01:53 Merge pull request #59 from nexhacks2026/andrew-codes
+2026-01-17 18:32:43 Merge pull request #67 from nexhacks2026/main
+2026-01-17 18:55:46 Allows the user to edit the ticket description
+2026-01-17 18:55:46 Allows the user to edit the ticket description
+2026-01-17 18:56:15 Merge pull request #68 from nexhacks2026/main
+2026-01-17 18:56:38 Merge pull request #69 from nexhacks2026/andrew-codes
+2026-01-17 19:04:04 Removed User ID's from Switch User View
+2026-01-17 19:04:04 Removed User ID's from Switch User View
+2026-01-17 19:10:50 n8n live checker
+2026-01-17 19:10:50 n8n live checker
+2026-01-17 19:10:57 AI live checker
+2026-01-17 19:10:57 AI live checker
+2026-01-17 19:11:31 Merge pull request #76 from nexhacks2026/main
+2026-01-17 19:11:57 Merge pull request #77 from nexhacks2026/andrew-codes
+2026-01-17 19:15:43 Makes the cursor a pointer when hovering over it
+2026-01-17 19:15:43 Makes the cursor a pointer when hovering over it
+2026-01-17 19:19:56 Removed user ids from the switch user table
+2026-01-17 19:19:56 Removed user ids from the switch user table
+2026-01-17 19:58:15 Merge pull request #80 from nexhacks2026/main
+2026-01-17 20:01:36 Saves the signed in user in local storage
+2026-01-17 20:02:59 Merge pull request #82 from nexhacks2026/andrew-codes
+2026-01-17 21:29:36 Updated people in database
+2026-01-17 21:29:38 Merge branch 'main' of https://github.com/Monster0506/nexhac...
+2026-01-17 21:34:15 Added cursor-pointer where it is needed
+2026-01-17 22:23:22 Added more, proper, cursor-pointer locations
+2026-01-17 22:23:24 Merge branch 'main' of https://github.com/Monster0506/nexhac...
+2026-01-18 02:33:47 Fixed the AI overview UI
+2026-01-18 02:59:34 Fixed the description editing window size
+2026-01-18 03:21:43 Removed stuff from bot right
+2026-01-18 03:30:17 Fixed coding agent locked existing
+2026-01-18 03:54:52 Merge branch 'main' into 754215
+2026-01-18 03:54:59 Merge pull request #23 from nexhacks2026/754215
+2026-01-18 03:58:55 Merge branch 'main' into 589922
+2026-01-18 03:59:03 Merge pull request #25 from nexhacks2026/589922
+2026-01-18 04:06:20 Merge pull request #26 from nexhacks2026/407147
+2026-01-20 16:06:52 Made cube on plane
+2026-01-20 16:14:46 Added player movement with WASD
+2026-01-20 16:42:31 Guy still moves
+2026-01-20 19:37:27 Added to do list for updating my resumes
+2026-01-20 19:47:27 Moved resumes to another folder
+2026-01-20 20:06:18 Created first draft of CV
+2026-01-21 15:25:21 Jumping barely works now
+2026-01-21 17:47:11 Compiled release version thta is very small
+2026-01-21 18:18:56 Updated spec to change to being a fighting game
+2026-01-23 09:51:17 Published multiple files
+2026-01-23 09:55:41 Published multiple files
+2026-01-23 10:15:42 Published multiple files
+2026-01-25 01:10:46 Removed build from version control and learned how to do eve...
+2026-01-25 01:13:30 Removed binaries
+2026-01-25 01:15:56 Initial commit
+2026-01-26 00:44:25 Updated 2026-01-26
+2026-01-28 08:45:26 Updated 2026-01-28
+2026-01-28 14:51:36 Updated GPA
+2026-01-28 14:51:52 Reverted GPA change
+2026-01-28 14:56:25 Updated GPA (closes #1)
+2026-01-28 14:57:58 Merge pull request #8 from AndrewRoddy/main
+2026-01-28 14:58:41 Merge pull request #9 from AndrewRoddy/1-update-education-gp...
+2026-01-28 16:35:36 Allowed multiple sections in each column. (#10 closed)
+2026-01-28 16:39:20 Moved GPA section (Closes #10)
+2026-01-28 16:52:28 Fixed meetures page loading while not in view
+2026-01-28 16:52:39 Seperated experience into its own block
+2026-01-28 17:03:26 Stop ad block from changing my page
+2026-01-28 17:05:46 Fixed adblock (Closes #6)
+2026-01-28 17:17:04 Added AAC, KSU NTS, HacKSU
+2026-01-28 17:17:59 Updated positions (Closes #2)
+2026-01-29 11:27:30 Updated README
+2026-01-29 15:46:28 Hides installation log
+2026-01-29 15:46:52 Attempts to speed up compile time
+2026-01-29 15:47:03 More speed tests
+2026-01-29 15:56:20 Made the game compile much faster
+2026-01-30 15:44:56 Allowed moving and jumping
+2026-01-30 19:11:53 Changed jumping to be 2.5D
+2026-01-30 19:13:29 Finished adding WASD (Closes #1)
+2026-01-30 19:19:59 Branch test
+2026-01-30 19:20:32 Merge branch 'test'
+2026-02-02 14:37:08 Renamed Window
+2026-02-02 15:02:16 Added tap jump (Closes #4)
+2026-02-02 15:02:38 Merge branch 'tap-jump'
+2026-02-02 15:18:55 Changed comment
+2026-02-03 08:52:34 2.3.2026
+2026-02-03 11:23:34 Moved player controls to a seperate file
+2026-02-03 11:38:12 Moved setup file into a different file
+2026-02-03 11:56:28 Updated the readme
+2026-02-03 11:57:21 Merge branch 'seperate-files'
+2026-02-03 11:58:39 Seperated files (Closes #10)
+2026-02-03 15:19:08 Created backup
+2026-02-03 15:19:56 Fixed date of AAC to devember (Closes #6)
+2026-02-03 15:20:18 Merge branch 'aac-date'
+2026-02-03 16:41:31 Added obsidain vimrc file :)
+2026-02-03 16:45:17 Update README.md
+2026-02-03 17:44:25 Updated my vim rc
+2026-02-03 17:50:53 Updated vimrc
+2026-02-04 14:22:41 Moved the camera and made the platform slimmer
+2026-02-04 14:27:21 Made the platofrm wider and centered it (Closes #9)
+2026-02-04 14:50:16 the player can hold shift to slow walk
+2026-02-04 14:54:10 User cannot slow walk in the air
+2026-02-04 14:54:53 Merge branch 'slow-walk'
+2026-02-04 15:11:47 Added slow walking #6
+2026-02-04 15:12:12 Added shift to slow walk (Closes #6)
+2026-02-04 16:42:45 Updated resume
+2026-02-04 16:52:09 Update README.md
+2026-02-04 16:54:11 Update interests and learning focus in README
+2026-02-06 11:17:55 Added prismo to website
+2026-02-06 11:26:05 Adds Prismo image
+2026-02-06 11:26:13 Adds image to the website
+2026-02-06 11:27:30 Finalized prismo icon (Closes #3)
+2026-02-06 11:27:47 Merge branch 'Add-Prismo'
+2026-02-06 11:43:51 Added image for the narr0w icon
+2026-02-06 11:48:42 Added narr0w to the website
+2026-02-06 11:49:00 Merge branch 'add-narrow'
+2026-02-06 18:35:37 Shows example code by default
+2026-02-06 18:37:26 Reset camera by default
+2026-02-06 18:37:29 Merge branch 'main' of https://github.com/HacKSUHappyCoders/...
+2026-02-06 18:48:04 Makes the item in the correct position by default
+2026-02-06 18:52:10 Moved styles to styles.css
+2026-02-06 19:06:16 Moved code mosaic image thing
+2026-02-06 19:14:18 Makes the spiral slightly tighter
+2026-02-06 19:14:49 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 19:19:11 Made zoom in and out faster
+2026-02-06 21:20:16 Made camera pan a little bit better
+2026-02-06 21:20:19 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 21:46:46 Fixed the cards being squashed (Closes #13)
+2026-02-06 21:59:51 Made buildings not appear
+2026-02-06 21:59:53 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 22:09:54 Added big data test
+2026-02-06 22:09:57 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 22:21:35 Makes buildings follow the spiral rotation wise (Closes #15)
+2026-02-06 22:21:37 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 22:29:47 Update spiral locations (Closes #17)
+2026-02-06 23:00:35 Updated expanded spiral
+2026-02-06 23:35:09 Makes buildings an equal length appart (Closes #18)
+2026-02-06 23:35:11 Merge branch 'visual-stuff' of https://github.com/HacKSUHapp...
+2026-02-06 23:53:46 Made views liquid glass (Closes #19)
+2026-02-07 10:16:48 Added close button to the controls tab
+2026-02-07 10:31:40 Added Shwo Controls button (Closes #24)
+2026-02-07 10:38:16 Merge branch 'controls-button'
+2026-02-07 10:40:57 Removed close inpsector button (Closes #27)
+2026-02-07 10:46:44 Fixed camera pan #25
+2026-02-07 10:47:22 Merge branch 'main' of https://github.com/HacKSUHappyCoders/...
+2026-02-07 11:52:06 Added favicon svg
+2026-02-07 11:54:56 Added favicon to browser top
+2026-02-07 12:23:17 Added white logo
+2026-02-07 12:23:40 Added favicon to the text in the name
+2026-02-07 12:23:58 Finished fulling adding favicon
+2026-02-07 12:24:20 Finalized adding the favicon (Closes #30)
+2026-02-07 12:39:19 Merge branch '30-make-favicon'
+2026-02-07 13:00:30 Created system for making it appear slightly more like a hor...
+2026-02-07 13:16:21 Perfected values for horn spiral (Closes #26)
+2026-02-07 13:16:46 Merge branch 'horn-spiral'
+2026-02-07 13:16:56 Merge branch 'main' of https://github.com/HacKSUHappyCoders/...
+2026-02-07 13:38:22 Made the camera move much cooler for the mosaic
+2026-02-07 13:38:24 Merge branch 'main' of https://github.com/HacKSUHappyCoders/...
+2026-02-09 11:20:36 Added image for spiral
+2026-02-09 11:28:41 Adds information to Spiral
+2026-02-09 11:29:33 Finalized spiral (Closes #17)
+2026-02-09 11:30:38 Merge branch 'add-spiral'
+2026-02-09 11:38:10 Finalized narr0w (Closes #4)
+2026-02-09 19:44:02 Fixes links underline (Closes #12)
+2026-02-09 19:44:34 Merge branch 'fix-link-spacing'
+2026-02-09 20:15:49 Fixes two column width with one column (Closes #16)
+2026-02-09 20:22:36 Merge branch 'column-width'
+2026-02-09 22:07:24 Recovered a very old version of the project
+2026-02-09 22:11:17 Re ordered in order of creation, added dates of every projec...
+2026-02-09 22:11:50 Reformatted date comments
+2026-02-09 22:22:33 Updated Clomp to the final version
+2026-02-09 22:24:14 Added support for godot 4 in gitignore
+2026-02-09 22:25:21 Added simple README
+2026-02-09 22:29:20 Finalized comment formatting
+2026-02-09 22:37:24 Added comments for future editions
+2026-02-09 22:39:55 Added Assembly List Parser image
+2026-02-09 22:47:35 Finished adding Assembly List Parser to the website (Closes ...
+2026-02-09 22:47:56 Merge branch 'list-parser'
+2026-02-09 22:50:48 Added image for the regex engine
+2026-02-11 08:21:56 Added regex engine card
+2026-02-11 08:22:07 Merge branch 'add-regex'
+2026-02-11 08:22:48 Finished adding regex engine (Closes #14)
+2026-02-11 08:30:33 Added requirements.txt
+2026-02-11 08:45:26 Updated pynput for new version
+2026-02-11 09:06:22 Updated pynput
+2026-02-11 09:08:26 Added graphic
+2026-02-11 09:22:52 Updated README
+2026-02-11 09:23:42 Stopped working on a custom font
+2026-02-11 09:26:58 Added terminal mario (Closes #23)
+2026-02-11 09:27:10 Merge branch 'terminal-mario'
+2026-02-11 09:31:44 Updated naming scheme
+2026-02-11 09:31:55 Merge branch 'image-naming'
+2026-02-11 09:32:22 Finished naming scheme (Closes #25)
+2026-02-11 09:42:53 Updated README
+2026-02-11 09:50:23 Updated the gitignore
+2026-02-11 09:50:44 Deleted .vscode folder
+2026-02-11 09:51:00 Finalized updating the gitignore
+2026-02-11 09:52:04 Updated folder name
+2026-02-11 09:52:25 Updated folder name again
+2026-02-11 10:17:25 Checks for output.txt file and creates it if it doesn't exis...
+2026-02-11 10:17:32 Updated readme for new commands
+2026-02-11 11:05:35 Added nul to the gitignore
+2026-02-11 12:02:34 Updated to new myllama version
+2026-02-11 12:05:36 Removes all non ascii characters from the output
+2026-02-11 13:58:44 Now consistently works with command line
+2026-02-11 14:01:18 Updated README
+2026-02-11 14:03:13 Fixed naming scheme from myllama.cpp to main.cpp
+2026-02-11 14:03:50 Finalized main rename (Closes #1)
+2026-02-11 14:04:05 Merge branch 'rename-cpp'
+2026-02-11 14:32:04 Seperated clean output into its own function
+2026-02-11 14:41:44 Fully moves output file into its own function
+2026-02-11 14:43:34 Seperated model name variable
+2026-02-11 14:55:22 Fixes how the length parameter operates
+2026-02-11 15:16:18 Added working configuration file
+2026-02-11 15:47:39 Added README Information
+2026-02-11 15:47:59 Changed word to interface
+2026-02-11 22:45:37 Updated readme
+2026-02-11 22:46:11 Finalized usage of config file (Closes #2)
+2026-02-11 22:46:35 Merge branch 'config-file'
+2026-02-12 15:43:26 Updated readme
+2026-02-12 15:48:20 Makes sure directory is clean before removing first space
+2026-02-12 16:17:58 Added image
+2026-02-12 16:24:21 Added MyLlama to my website
+2026-02-12 16:24:39 Merge branch '24-add-myllama'
+2026-02-12 16:25:48 Finished myllama (Closes #24)
+2026-02-12 16:32:25 Deleted vscode folder
+2026-02-12 16:32:45 Removed .vscode folder
+2026-02-12 16:34:04 Renamed Github Icons
+2026-02-12 16:34:33 Removed Repository Archive Thing
+2026-02-12 16:48:32 Removed strange comments
+2026-02-12 16:49:58 Hiding binaries
+2026-02-12 16:56:08 Doesn't commit binaries
+2026-02-12 16:58:13 Created a makefile
+2026-02-13 11:21:54 Made capital H and L to go to the start or end of the line
+2026-02-13 11:26:33 Made vim start in insert mode
+2026-02-13 11:43:52 Removed workspace form being versioned
+2026-02-13 11:44:14 Added workspace.json to git ignore
+2026-02-13 11:47:52 Added TOKENS.env to be versioned
+2026-02-13 18:34:55 Created MVP with Claude. This MVP has made me realize this i...
+2026-02-14 00:19:47 Clears buffer and properly prints screen without flicker
+2026-02-14 00:20:27 Merge branch 'clear-buffer'
+2026-02-14 17:56:49 Moved images
+2026-02-14 17:57:55 renamed names
+2026-02-14 18:00:37 Merge branch 'fix-images'
+2026-02-14 18:07:59 Add missing .gitmodules file for Cube-Clicker submodule
+2026-02-14 18:09:11 Attempt to deploy page
+2026-02-15 01:05:07 Test issue complete
+2026-02-15 01:06:24 Merge branch 'test-issue'
+2026-02-16 14:35:06 Made platform height based on variable
+2026-02-16 15:02:09 Added rapier to the list of packages
+2026-02-16 15:12:21 Gave the floor and box collision
+2026-02-16 15:13:41 Can fall off platform and stand on block
+2026-02-16 15:14:03 Merge branch 'fall-off'
+2026-02-16 15:27:28 Player respawns after falling off stage
+2026-02-16 15:27:45 Merge branch 'respawn-after-fall'
+2026-02-17 15:22:22 Chrome extension to hide my score while working on Math Home...
+2026-02-17 15:31:48 Hides pearson completed and score
+2026-02-17 15:32:43 Updated README
+2026-02-18 14:09:47 Updated obsidian stuff
+2026-02-18 14:52:20 Made jumping smoother
+2026-02-18 15:00:56 Created second player and system of adding more
+2026-02-18 15:09:40 Removed collision beteen players
+2026-02-18 15:10:54 Added P2, Made player speed faster
+2026-02-18 15:11:05 Merge branch 'add-player-2'
+2026-02-19 11:19:08 Created project README
+2026-02-19 22:09:52 Added UV
+2026-02-19 22:10:06 Added main file and other UV stuff
+2026-02-20 08:55:27 Created chrome extension to download mp3 files
+2026-02-20 08:58:56 Removed popup
+2026-02-20 09:28:00 Updated filenames
+2026-02-20 09:32:06 Fixed errors
+2026-02-21 20:49:19 Moved files to the outside folder
+2026-02-21 20:57:01 Created recognition python file
+2026-02-21 21:00:51 Switched to uv
+2026-02-21 21:14:01 The sound recognition almost works
+2026-02-21 21:17:28 Upgraded visuals
+2026-02-21 21:24:44 Once done playing its correct
+2026-02-21 21:35:37 Removed seconds window
+2026-02-21 21:41:27 Almost perfect
+2026-02-21 21:44:06 Hides warnings
+2026-02-21 21:58:06 Hid pycache
+2026-02-21 22:14:12 Changed to per band
+2026-02-21 23:04:54 Tried to fix everything
+2026-02-21 23:04:55 other files
+2026-02-21 23:07:31 Removed log files
+2026-02-21 23:08:54 Doesn't save the captures wav files or the debug.log files
+2026-02-23 10:22:59 Saved Databases Homework
+2026-02-23 11:43:25 Changed to only include Alt+a and Alt+A as escape
+2026-02-23 14:20:00 Changed around some functions
+2026-02-23 14:54:50 First attempt at network
+2026-02-23 16:53:00 Multiplayer over servers works
+2026-02-24 08:17:48 Moved HW2 over
+2026-02-24 08:28:54 Made local co op work again with multiplayer
+2026-02-24 08:47:35 First attempt at the SQL
+2026-02-24 08:48:02 Added semicolons
+2026-02-24 08:48:37 Removed tailing commas
+2026-02-24 08:50:21 Made money decimals
+2026-02-24 09:05:44 Removed relations
+2026-02-24 09:10:05 Cleaned up things
+2026-02-24 09:16:11 Modified how the .py files works
+2026-02-24 09:31:10 Now runs everything in sql folder
+2026-02-24 10:07:57 Updated README
+2026-02-24 10:08:22 Finished implemting using websockets
+2026-02-24 10:08:34 Merge branch 'web-multiplayer'
+2026-02-24 11:11:06 Created Dockerfile
+2026-02-24 12:46:28 Added relations as comments
+2026-02-24 16:25:15 Created ASCII way of visualizing the ER Diagram
+2026-02-24 16:31:33 Perfected my Key
+2026-02-24 22:10:28 Added assignment 1
+2026-02-24 22:10:35 fixed it right up
+2026-02-24 22:26:52 Moved foreign keys down
+2026-02-24 22:40:15 Created all relations
+2026-02-24 22:44:04 Added more foreign keys
+2026-02-24 22:44:49 Fixed typo
+2026-02-24 22:46:56 Removed name
+2026-02-24 22:52:58 Added if not exists to everything
+2026-02-25 12:04:30 Terminal is working now
+2026-02-25 14:17:17 Finally works properly. Opens powershell too!
+2026-02-25 14:37:29 Made online play over the server work
+2026-02-25 14:48:52 Made it technically work over the web?
+2026-02-25 14:53:40 Updated the version and how to build release ready game
+2026-02-25 16:47:01 Updated the bevy dynamic linking
+2026-02-25 16:47:07 Updated docker file to support server better
+2026-02-26 11:34:12 Moved sql into different files
+2026-02-26 11:34:18 Added platform table
+2026-02-26 11:59:30 Added foreign keys and publisher table and platform table
+2026-02-26 16:35:04 Created simple wake on Lam script
+2026-02-28 19:10:50 Start of project
+2026-02-28 19:20:45 Started using uv
+2026-02-28 19:24:42 Hides environment variables
+2026-02-28 21:18:53 Created function that gets all of the environment variables
+2026-02-28 21:24:00 Updated to make uv work good
+2026-02-28 21:24:04 Made README
+2026-02-28 21:34:48 Made it read from the envirnment variables properly
+2026-02-28 22:11:20 Can pull all current commits
+2026-02-28 23:07:02 Gets all public and private repos
+2026-02-28 23:21:49 Gets all repo names
+2026-02-28 23:41:06 Get all repos
+2026-02-28 23:59:56 Can now pull all of the commits
+2026-03-01 00:57:08 Created possible structure for the future
+2026-03-01 01:06:51 Added notes created and notes modified
+2026-03-01 11:02:18 Created template file
+2026-03-01 11:32:27 Created example template
+2026-03-01 11:32:51 Added template to the git ignore
+2026-03-01 11:33:49 Added order to the README on how the code will operate
+2026-03-01 11:35:23 Added methods of getting the data
+2026-03-01 11:42:40 Added motivation to README
+2026-03-01 11:46:07 Added tagline
+2026-03-01 12:03:49 Updated implementation plan
+2026-03-01 12:09:51 Update README.md
+2026-03-01 12:11:06 Update README.md
+2026-03-01 14:02:39 Changed note refactoring to be workse now
+2026-03-01 14:04:54 Fixed note refactoring
+2026-03-01 15:08:14 Fix grammatical errors in README motivation section
+2026-03-01 15:23:18 Moved readme and gitignore out folders
+2026-03-01 15:23:26 Added homework 3
+2026-03-01 16:01:15 Finished query 1
+2026-03-01 19:05:02 Finished questions 2-5
+2026-03-01 19:36:48 Finished HW 3
+2026-03-01 21:51:43 Edited environment variable example
+2026-03-01 21:53:00 Updated implementation plan
+2026-03-01 22:54:54 Attempted pagination for comit search, 1000 limit makes this...
+2026-03-02 08:49:58 Cleaned up SQL commands
+2026-03-02 12:06:20 Closer to pulling commits properly
+2026-03-03 09:09:33 Updates to .obsidian
+2026-03-03 09:11:04 Backed up CCN
+2026-03-03 09:11:51 Published Youtube notes
+2026-03-03 09:12:07 Published Spanish Notes
+2026-03-03 09:12:33 Published random notes
+2026-03-03 09:12:52 Published Philosophy Notes
+2026-03-03 09:12:57 Published NTS notes
+2026-03-03 09:13:04 Published Linear Algebra Notes
+2026-03-03 09:13:10 Published DB notes
+2026-03-03 09:13:38 Published CS Notes
+2026-03-03 09:14:02 Published Class Notes
+2026-03-03 09:32:28 Changed to every hour and changed the order it goes in
+2026-03-03 09:33:51 Prefers the local
+2026-03-03 09:34:19 Updated 2026-03-03
+2026-03-03 09:36:33 Updated the README
+2026-03-04 17:28:40 A lot of files moved
+2026-03-04 17:56:45 Working databases assignment running
+2026-03-04 17:57:45 Updated example data stuff.
+2026-03-04 18:20:27 Tried a couple times
+2026-03-04 18:27:13 Understand how to write creating databases
+2026-03-05 09:13:35 Uploaded previous examples of queries
+2026-03-05 13:20:10 Finished trying to study
+2026-03-05 16:38:20 Fixed pagination for commits
+2026-03-05 16:53:00 Pulled commit date properly
+2026-03-05 16:58:28 Added time zone but I don't think it does anything
+2026-03-05 17:48:24 Fixed empty response
+2026-03-05 18:14:15 Thinking about how to manually convert to time zone
+2026-03-05 22:02:36 Seperated into github folder and added pytest
+2026-03-05 22:17:57 Moved environment variable getting to a general module
+2026-03-05 22:59:44 Moved github functions to proper place
+2026-03-06 09:31:33 Implemented proper time zone conversion
+2026-03-06 09:31:51 Merge branch 'utc-to-tz'
+2026-03-06 09:32:38 Found I don't own code50 or have any real way to pull it
+2026-03-06 09:33:28 Proper EST Timestamp is actually America/New_York
+2026-03-06 09:40:19 Cuts off the commit message after 60 characters
+2026-03-06 09:50:05 Changed getCommits to return a list of commits
+2026-03-06 09:50:32 deleted from commits.txt
+2026-03-06 10:06:13 Checks for noreply github email
+2026-03-06 10:06:33 Merge branch 'check-for-noreply'
+2026-03-08 22:52:00 Added scan videos button
+2026-03-08 22:54:18 Edited how the console works
+2026-03-08 23:00:35 Revert "Added scan videos button"
+2026-03-08 23:04:17 Revert "Add ability to send messages to the console"
+2026-03-08 23:17:14 Opening and closing console works
+2026-03-08 23:40:02 Scanning videos fully works
+2026-03-08 23:45:28 Hiding videos function works
+2026-03-08 23:56:49 Can hide all of the watch later videos now as well
+2026-03-08 23:58:58 Moved hide scanned videos WL to watchlater.js
+2026-03-09 00:17:27 Saving videos to the watch later list works
+2026-03-09 01:11:07 Scanning all WL works now!
+2026-03-10 15:22:37 Updated 2026-03-10
+2026-03-10 19:22:52 Updated 2026-03-10
+2026-03-10 20:22:53 Updated 2026-03-10
+2026-03-10 20:50:35 Playing game
+2026-03-10 20:52:46 Deleted two save files
+2026-03-10 20:53:07 Deleted both save files
+2026-03-10 20:57:21 Added wood in parts for print statement
+2026-03-11 11:01:43 Changed the single print to use a function
+2026-03-11 11:07:51 Seperated styles into own function
+2026-03-11 12:05:36 Removed excess console stuff
+2026-03-11 15:31:07 Added sort by date added
+2026-03-11 15:31:23 Added sort by date added button and Hide Subscriptions tab v...
+2026-03-11 15:48:29 Cleaned up functions in popup.js
+2026-03-11 16:41:02 Switched open watch later to open playlist
+2026-03-12 19:00:31 Updated 2026-03-12
+2026-03-12 20:00:36 Updated 2026-03-12
+2026-03-12 21:39:10 Finished 0020G
+2026-03-12 22:00:45 Updated 2026-03-12
+2026-03-14 21:19:59 Updated 2026-03-14
+2026-03-14 22:20:03 Updated 2026-03-14
+2026-03-14 23:20:09 Updated 2026-03-14
+2026-03-16 14:18:13 CCN Project 1 Begin
+2026-03-16 14:24:05 Uploaded resources to the project
+2026-03-16 14:24:07 Merge branch 'master' of https://github.com/AndrewRoddy/CCN-...
+2026-03-16 14:24:18 Removed second readme
+2026-03-17 10:01:39 Writes all commits to file
+2026-03-17 10:01:57 Adds commits.txt to the gitignore
+2026-03-17 10:24:38 Located broken repositories
+2026-03-17 12:05:54 Updated how anki folders works
+2026-03-17 16:41:22 Properly gets all repo commits

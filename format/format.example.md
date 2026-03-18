@@ -25,6 +25,8 @@ Sleep Score :
 
 ##### 📂 Notes Mofidied
 
+##### 🃏 Anki Flash Cards
+
 ##### 📺 Netflix Movies Watched
 
 ##### 📺 HBO Movies Watched

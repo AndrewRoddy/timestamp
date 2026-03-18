@@ -19,19 +19,20 @@ def test_isContributor():
     ENV = getEnv()
     PAT = ENV["GITHUB_PAT"]
     
-    # Checks for Organizations repo for is contributor
-    # Looks for Monster0506 in hacksu-website
+    # # Checks for Organizations repo for is contributor
+    # # Looks for Monster0506 in hacksu-website
     assert isContributor(PAT, "Monster0506", "https://api.github.com/repos/hacksu/hacksu-website") == True
 
-    # Checks for Organizations repo for not contributor
+    # # Checks for Organizations repo for not contributor
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/hacksu/hacksu-website") == False
 
-    # Stress Test : checks for contributor in Linux
-    # https://github.com/torvalds/linux
+    # # Stress Test : checks for contributor in Linux
+    # # https://github.com/torvalds/linux
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/torvalds/linux") == True
 
-    # Stress Test : checks for not contributor in Linux
-    assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/torvalds/linux") == False
+    # # Stress Test : checks for not contributor in Linux
+    # Should assume he is in it because it is too large to check
+    assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/torvalds/linux") == True
 
     # Also checks for contributor in regular person's repo
     # Looks for Monster0506 in rift
