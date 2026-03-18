@@ -19,8 +19,7 @@ I think it will be so cool to see that the days I commited more code were the sa
 ##### 👾 GitHub
 **Problem** : The 'OrgName' organization forbids access via a fine-grained personal access tokens if the token's lifetime is greater than 366 days
 Set maximum lifetimes for personal access tokens
-**Solution 1** : Go to the organization settings and uncheck `Fine-grained personal access tokens must expire; Select a maximum lifetime for fine-grained personal access tokens to be allowed to access your organizations.`
-**Solution 2** : Change your fine-grained personal access token to be expire in less than 366 days
+**Solution** : Change your fine-grained personal access token to be expire in less than 366 days
 
 ### Implementation Plan
 Everything we track should be immutable. 

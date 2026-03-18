@@ -17,7 +17,7 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 
     return converted
 
-def getRepos(GITHUB_PAT):
+def getRepos(GITHUB_PAT, GITHUB_USERNAME):
     repo_urls = set()
 
     # Getting stuff from GitHub
@@ -35,7 +35,10 @@ def getRepos(GITHUB_PAT):
     for url in urls:
         r = requests.get(url=url, headers=headers)
         for repo in r.json():
-            repo_urls.add(repo["url"])
+            repo_name = repo["url"]
+            # Skips over repos where the user is not a contributor
+            if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo_name):
+                repo_urls.add(repo_name)
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
@@ -43,20 +46,51 @@ def getRepos(GITHUB_PAT):
 
     return repo_urls
 
+
 def isContributor(
     GITHUB_PAT,
     GITHUB_USERNAME,
     REPO_URL
     ):
-    DEBUG_PRINT = False
+    DEBUG_PRINT = True
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
         'User-Agent' : 'request'
     }  
-    page = 0
+
+    s = requests.Session()
+    s.headers = headers
+
+    page = 1
     url = REPO_URL + f"/contributors?per_page=100&page={page}"
+
+    req = requests.Request('GET', url)
+    r = s.get(url)
+
+    # This is a solution for not being able to get the contributor list
+        # This should basically just not matter because if its in your list you are probably a contributor at that point as these large repos aren't usually in orgs so checking if you are a contributor matters less
+    if not r.json():
+        return False
     
-    return True
+    try:
+        if "The history or contributor list is too large" in r.json()["message"]:
+            print("Repo too large to check, assuming you are a contributor.")
+            return True
+    except TypeError:
+        pass
+    
+
+    # Checks for our user in user list
+    for user in r.json():
+        if str(user["login"]) == GITHUB_USERNAME:
+            if DEBUG_PRINT:
+                print("True", REPO_URL)
+            return True
+
+    if DEBUG_PRINT:
+        print("False", REPO_URL)
+    
+    return False
 
 def getRepoCommits(
     GITHUB_PAT,
@@ -72,6 +106,8 @@ def getRepoCommits(
         'Authorization': f'Bearer {GITHUB_PAT}',
         'User-Agent' : 'request'
     }  
+    s = requests.Session()  # Establishes the session
+    s.headers = headers # Sets the headers
 
     page = 1
     pages = []
@@ -80,20 +116,11 @@ def getRepoCommits(
         url = REPO_URL + f"/commits?per_page=100&page={page}"
         
         # Does the request
-        s = requests.Session()  # Establishes the session
-        s.headers = headers # Sets the headers
-
         req = requests.Request('GET', url) # Sets get request
-
-        # Request needs to be prepared so it can
-            # Access external organization repos (idk why)
-        # prep_req = req.prepare()  # Prepares request
-        # r = s.send(prep_req) # Sends the request
         r = s.get(url)  # Prepares request
-
         
         # Prints the status code to see if broken repo
-        if DEBUG_PRINT and r.status_code != 200:
+        if DEBUG_PRINT:
             print(f"Status Code {r.status_code}")
             if r.status_code == 403:
                 print(f"{r.headers.get('X-RateLimit-Limit')=}")
