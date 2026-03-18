@@ -42,3 +42,8 @@ def test_isContributor():
     # Checks for not contributor in regular person's repo
     assert isContributor(PAT, "jamesTheJamesManManMan", "https://api.github.com/repos/Monster0506/rift") == False
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/Monster0506/rift") == False
+    
+    # Tests out empty repository (This whould always have no contributors)
+    assert isContributor(PAT, "Monster0506", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
+    assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
+    assert isContributor(PAT, "torvalds", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
