@@ -63,12 +63,7 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
             for repo in r.json():
                 repo_name = repo["url"]
                 # Skips over repos where the user is not a contributor
-                if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo_name):
-                    repo_urls.add(repo_name)
-                    if DEBUG_PRINT:
-                        print("🟢", repo_name.split("/")[-2], repo_name.split("/")[-1])
-                elif DEBUG_PRINT:
-                    print("🔴", repo_name.split("/")[-2], repo_name.split("/")[-1])
+                repo_urls.add(repo_name)
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
@@ -109,7 +104,6 @@ def isContributor(
         pass
     except (requests.exceptions.ConnectionError, json.decoder.JSONDecodeError):
         return False
-    
 
     # Checks for our user in user list
     for user in r.json():
@@ -123,13 +117,24 @@ def isContributor(
     
     return False
 
-def getRepoCommits(
-    GITHUB_PAT,
-    GITHUB_EMAIL,
-    GITHUB_USERNAME,
-    TIME_ZONE,
-    REPO_URL
-    ):
+def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
+    repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
+    contributed_repos = []
+
+    DEBUG_PRINT = False
+
+    for repo in repos:
+        if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
+            contributed_repos.append(repo)
+            if DEBUG_PRINT:
+                print("🟢", repo)
+        elif DEBUG_PRINT:
+            print("🔴", repo)
+    
+
+    return contributed_repos
+
+def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_URL):
 
     DEBUG_PRINT = False
 
@@ -197,3 +202,32 @@ def getRepoCommits(
             commits.append(f"{formatted_date} {first_line}")
 
     return commits
+
+def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
+    DEBUG_PRINT = False
+
+    repos = getContributedRepos(GITHUB_PAT, GITHUB_USERNAME)
+
+    commits_list = []
+    count = 0 
+    for repo in repos:
+
+        commits = getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, repo)
+        commits_list.extend(commits)
+        count += len(commits)
+
+        # Prints info about the repos we are pulling
+        if (DEBUG_PRINT == True):
+            print(f"{count:04d} total;", end=" ")
+            print(f"{len(commits):03d} commits;", end=" ")
+
+            repo_name = repo.split("/")[-1] # Gets name after last slash
+            print(repo_name)
+
+    commits_sorted = sorted(commits_list)
+
+    return commits_sorted
+
+# def formatCommits(COMMITS):
+#     for commit in COMMITS:
+#         print(commit)
