@@ -12,20 +12,20 @@ def daterange(start_date: date, end_date: date):
 def main():
     ENV = getEnv() # Holds all environment variables 
 
-    # commits = getAllCommits(
-    #     ENV["GITHUB_PAT"],
-    #     ENV["GITHUB_USERNAME"],
-    #     ENV["GITHUB_EMAIL"],
-    #     ENV["TIME_ZONE"]
-    # )
-
-    commits = getRepoCommits(
+    commits = getAllCommits(
         ENV["GITHUB_PAT"],
         ENV["GITHUB_USERNAME"],
         ENV["GITHUB_EMAIL"],
-        ENV["TIME_ZONE"],
-        "https://api.github.com/repos/AndrewRoddy/timestamp"
-    ) 
+        ENV["TIME_ZONE"]
+    )
+
+    # commits = getRepoCommits(
+    #     ENV["GITHUB_PAT"],
+    #     ENV["GITHUB_USERNAME"],
+    #     ENV["GITHUB_EMAIL"],
+    #     ENV["TIME_ZONE"],
+    #     "https://api.github.com/repos/AndrewRoddy/timestamp"
+    # ) 
     
     formatted = formatCommits(commits)
 
