@@ -47,3 +47,28 @@ def test_isContributor():
     assert isContributor(PAT, "Monster0506", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
     assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
+
+def test_formatCommits():
+    commits = [
+        "2025-10-15 00:23:58 Fixed bug where time does not updated while tabbed out",
+        "2025-10-15 00:59:01 User can show or hide circles by clicking",
+        "2025-10-15 01:20:18 Sends notification when break time is up",
+        "2025-10-15 11:50:25 Added a lot of new ideas in ToDo",
+        "2025-10-16 13:28:57 Added more to ToDo and created settings button component",
+        "2025-10-16 16:22:20 Made the UI slightly better",
+        "2025-10-16 16:51:03 Added settings button that doesn't do anything yet",
+        "2025-10-16 16:57:35 Attempts to fix image icons",
+        "2025-10-17 09:35:35 Assembly Studying",
+        "2025-10-17 10:30:47 Completed 1a",
+        "2025-10-17 11:40:03 Added favicon to tab",
+        "2025-10-17 11:44:05 Part 1b complete",
+        "2025-10-18 00:23:37 Updated formatting in spaces",
+        "2025-10-18 02:05:22 Updated program counters, yeah, we have plural"
+    ]
+    formatted = formatCommits(commits)
+    assert formatted["2025-10-15"] == [
+        [["00:23:58"], ["Fixed bug where time does not updated while tabbed out"]],
+        [["00:59:01"], ["User can show or hide circles by clicking"]],
+        [["01:20:18"], ["Sends notification when break time is up"]],
+        [["11:50:25"], ["Added a lot of new ideas in ToDo"]],
+        ]
