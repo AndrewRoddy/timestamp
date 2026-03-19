@@ -254,7 +254,9 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
             
             commits.append([date, time, first_line, repo_name])
 
-    return commits
+    commits_sorted = sorted(commits)
+
+    return commits_sorted
 
 def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
 
@@ -304,5 +306,10 @@ def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
     return commits_sorted
 
 def formatCommits(COMMITS):
-    for commit in COMMITS:
-        print(commit)
+    # for commit in COMMITS:
+    #     print(commit)
+    
+    formatted = {}
+    formatted["2026-02-28"] = "19:10:50 (timestamp) Start of project\n19:20:45 (other repo) Started using uv"
+
+    return formatted

@@ -20,7 +20,7 @@ def main():
     ) 
     
     for commit in commits:
-        print(f"{commit[0]} {commit[1]} ({commit[3]}) {commit[2]} ")
+        print(f"[[\"{commit[0]}\"], [\"{commit[1]}\"], [\"{commit[2]}\"], [\"{commit[3]}\"]],")
 
     # repos = getRepos(ENV["GITHUB_PAT"], ENV["GITHUB_USERNAME"])
     # for repo in repos:
