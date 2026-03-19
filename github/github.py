@@ -4,6 +4,7 @@ import json
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, MofNCompleteColumn
 
 def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
     # Converts from iso to datetime
@@ -33,6 +34,24 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
         'https://api.github.com/user/repos?type=all&per_page=100' # private repos
     ]
     
+    progress = Progress( # Prepares loading bar
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        MofNCompleteColumn()
+    )
+    progress.start() # Starts loading bar
+
+    # Sets total
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(urls)
+    )
+    
+    # Updates to show public repos
+    print("Getting Repos...")
+    progress.update(task, description="[cyan]Public Repos...")
+
     # Does the request on both URLs
     for url in urls:
 
@@ -44,31 +63,35 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
             r = requests.get(url=url_page, headers=headers)
 
-            # Prints the status code to see if broken repo
-            if DEBUG_PRINT:
-                if r.status_code == 403:
-                    print(f"{r.headers.get('X-RateLimit-Limit')=}")
-                    print(f"{r.headers.get('X-RateLimit-Remaining')=}")
-                    print(f"{r.headers.get('X-RateLimit-Reset')=}")
-                    print(f"{r.json().get('message')=}")
-            
+            if DEBUG_PRINT and r.status_code == 403:
+                print(f"{r.headers.get('X-RateLimit-Limit')=}")
+                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
+                print(f"{r.headers.get('X-RateLimit-Reset')=}")
+                print(f"{r.json().get('message')=}")
+
             # Checks the status code, if we are good, doesn't break
             if (
                 r.status_code == 422 or
                 r.status_code == 403 or
                 r.status_code == 404 or
-                not r.json()):
+                not r.json()
+                ):
                 break
 
             for repo in r.json():
                 repo_name = repo["url"]
                 # Skips over repos where the user is not a contributor
-                if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo_name):
-                    repo_urls.add(repo_name)
-                    if DEBUG_PRINT:
-                        print("🟢", repo_name.split("/")[-2], repo_name.split("/")[-1])
-                elif DEBUG_PRINT:
-                    print("🔴", repo_name.split("/")[-2], repo_name.split("/")[-1])
+                repo_urls.add(repo_name)
+
+        # Updates to show Private repos 
+        progress.update(task, description="[cyan]Private Repos...")
+        progress.update(task, advance=1)
+
+
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
+    progress.stop()
+    print()
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
@@ -109,7 +132,6 @@ def isContributor(
         pass
     except (requests.exceptions.ConnectionError, json.decoder.JSONDecodeError):
         return False
-    
 
     # Checks for our user in user list
     for user in r.json():
@@ -123,15 +145,52 @@ def isContributor(
     
     return False
 
-def getRepoCommits(
-    GITHUB_PAT,
-    GITHUB_EMAIL,
-    GITHUB_USERNAME,
-    TIME_ZONE,
-    REPO_URL
-    ):
+def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
+    repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
+    contributed_repos = []
+    
+    # Prepares loading bar
+    progress = Progress( 
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        MofNCompleteColumn()
+    )
+
+    # Loading Bar Parts
+    print("Confirming you are a contributor...")
+    progress.start() # Starts loading bar
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(repos) # Sets total
+    )
+
+    
+    for repo in repos:
+
+        # Prints repo name before bar
+        # Repo names all at same length
+        repo_name = "[cyan]" + repo.split("/")[-1][:12] + "..."
+        while len(repo_name) < 21:
+            repo_name += "."
+        progress.update(task, description=repo_name)
+
+        # Checks if contributor
+        if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
+            contributed_repos.append(repo)
+        progress.update(task, advance=1)
+    
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
+    progress.stop()
+    print()
+
+    return contributed_repos
+
+def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_URL):
 
     DEBUG_PRINT = False
+    repo_name = REPO_URL.split("/")[-1]
 
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
@@ -184,16 +243,73 @@ def getRepoCommits(
                 ):
                 continue
 
-            date = commit["commit"]["author"]["date"]
-            formatted_date = utcToZone(TIME_ZONE, date)
+            utc_date = commit["commit"]["author"]["date"]
+            tz_date = utcToZone(TIME_ZONE, utc_date)
+            date = tz_date.split(" ")[0]
+            time = tz_date.split(" ")[1]
+
 
             msg = commit["commit"]["message"]
             first_line = msg.split("\n")[0]
             
-            if len(first_line) > 60:
-                first_line = first_line[:60]
-                first_line += "..."
+            commits.append([date, time, first_line, repo_name])
 
-            commits.append(f"{formatted_date} {first_line}")
+    commits_sorted = sorted(commits)
 
-    return commits
+    return commits_sorted
+
+def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
+
+    repos = getContributedRepos(GITHUB_PAT, GITHUB_USERNAME)
+
+    # Prepares loading bar
+    progress = Progress( 
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        MofNCompleteColumn()
+    )
+
+    # Loading Bar Parts
+    print("Getting all commits...")
+    progress.start() # Starts loading bar
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(repos) # Sets total
+    )
+
+    commits_list = []
+    count = 0 
+    for repo in repos:
+
+        commits = getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, repo)
+        commits_list.extend(commits)
+        count += len(commits)
+
+        # Repo names all at same length
+        repo_name = "[cyan]" + repo.split("/")[-1][:12] + "..."
+        while len(repo_name) < 21:
+            repo_name += "."
+
+        # Updates description
+        progress.update(task, description=repo_name)
+        progress.update(task, advance=1)
+
+
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
+    progress.stop()
+    print()
+
+    commits_sorted = sorted(commits_list)
+
+    return commits_sorted
+
+def formatCommits(COMMITS):
+    # for commit in COMMITS:
+    #     print(commit)
+    
+    formatted = {}
+    formatted["2026-02-28"] = "19:10:50 (timestamp) Start of project\n19:20:45 (other repo) Started using uv"
+
+    return formatted
