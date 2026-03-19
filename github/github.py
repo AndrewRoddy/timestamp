@@ -306,10 +306,14 @@ def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
     return commits_sorted
 
 def formatCommits(COMMITS):
-    # for commit in COMMITS:
-    #     print(commit)
-    
     formatted = {}
-    formatted["2026-02-28"] = "19:10:50 (timestamp) Start of project\n19:20:45 (other repo) Started using uv"
+
+    for commit in COMMITS:
+        commit_list = f"{commit[1]} ({commit[3]}) {commit[2]}"
+        if commit[0] not in formatted:
+            formatted[commit[0]] = commit_list
+        else:
+            formatted[commit[0]] = f"{formatted[commit[0]]}\n{commit_list}"
+
 
     return formatted
