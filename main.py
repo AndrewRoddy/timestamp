@@ -5,16 +5,19 @@ def main():
     ENV = getEnv() # Holds all environment variables 
 
     # Maybe figure out bubble tea
-
-    commits = getAllCommits(
+    repos = getContributedRepos(
         ENV["GITHUB_PAT"],
         ENV["GITHUB_USERNAME"],
-        ENV["GITHUB_EMAIL"],
-        ENV["TIME_ZONE"]
     )
+    # commits = getAllCommits(
+    #     ENV["GITHUB_PAT"],
+    #     ENV["GITHUB_USERNAME"],
+    #     ENV["GITHUB_EMAIL"],
+    #     ENV["TIME_ZONE"]
+    # )
 
-    for commit in commits:
-        print(commit)
+    # for commit in commits:
+    #     print(commit)
     
 
     # with open("commits.txt", "a", encoding="utf-8") as file:
@@ -24,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-d

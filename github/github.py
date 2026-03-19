@@ -122,7 +122,7 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     contributed_repos = []
 
     DEBUG_PRINT = False
-
+    
     for repo in repos:
         if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
             contributed_repos.append(repo)
