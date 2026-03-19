@@ -4,7 +4,7 @@ import json
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
-from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeElapsedColumn
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, MofNCompleteColumn
 
 def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
     # Converts from iso to datetime
@@ -34,11 +34,7 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
         'https://api.github.com/user/repos?type=all&per_page=100' # private repos
     ]
     
-    # with Progress() as progress:
-        # task = progress.add_task(
-        #     "[yellow]Getting Repos...", 
-        #     total = len(repos)
-        # )
+    
     # Does the request on both URLs
     for url in urls:
 
@@ -125,15 +121,18 @@ def isContributor(
 def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
     contributed_repos = []
-
-    progress = Progress(
+    
+    progress = Progress( # Prepares loading bar
         TextColumn("[progress.description]{task.description}"),
         BarColumn(),
         TaskProgressColumn(),
-        TimeElapsedColumn()
+        MofNCompleteColumn()
     )
 
-    progress.start()
+    
+    progress.start() # Starts loading bar
+
+    # Sets total
     task = progress.add_task(
         "[yellow]Starting...", 
         total = len(repos)
@@ -144,8 +143,8 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
 
         # Prints repo name before bar
         # Repo names all at same length
-        repo_name = "[cyan]" + repo.split("/")[-1][:10] + "..."
-        while len(repo_name) < 19:
+        repo_name = "[cyan]" + repo.split("/")[-1][:12] + "..."
+        while len(repo_name) < 21:
             repo_name += "."
         progress.update(task, description=repo_name)
 
@@ -154,6 +153,8 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
             contributed_repos.append(repo)
         progress.update(task, advance=1)
     
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
     progress.stop()
 
     return contributed_repos
