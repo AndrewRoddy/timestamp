@@ -9,6 +9,7 @@ def main():
         ENV["GITHUB_PAT"],
         ENV["GITHUB_USERNAME"],
     )
+    
     # commits = getAllCommits(
     #     ENV["GITHUB_PAT"],
     #     ENV["GITHUB_USERNAME"],

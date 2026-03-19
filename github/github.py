@@ -4,6 +4,7 @@ import json
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
+from rich.progress import Progress
 
 def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
     # Converts from iso to datetime
@@ -44,20 +45,17 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
             r = requests.get(url=url_page, headers=headers)
 
-            # Prints the status code to see if broken repo
-            if DEBUG_PRINT:
-                if r.status_code == 403:
-                    print(f"{r.headers.get('X-RateLimit-Limit')=}")
-                    print(f"{r.headers.get('X-RateLimit-Remaining')=}")
-                    print(f"{r.headers.get('X-RateLimit-Reset')=}")
-                    print(f"{r.json().get('message')=}")
-            
             # Checks the status code, if we are good, doesn't break
             if (
                 r.status_code == 422 or
                 r.status_code == 403 or
                 r.status_code == 404 or
-                not r.json()):
+                not r.json()
+                ):
+                print(f"{r.headers.get('X-RateLimit-Limit')=}")
+                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
+                print(f"{r.headers.get('X-RateLimit-Reset')=}")
+                print(f"{r.json().get('message')=}")
                 break
 
             for repo in r.json():
@@ -121,16 +119,26 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
     contributed_repos = []
 
-    DEBUG_PRINT = False
-    
-    for repo in repos:
-        if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
-            contributed_repos.append(repo)
-            if DEBUG_PRINT:
-                print("🟢", repo)
-        elif DEBUG_PRINT:
-            print("🔴", repo)
-    
+    with Progress() as progress:
+        task = progress.add_task(
+            "[yellow]Starting...", 
+            total = len(repos)
+        )
+
+        print("Checking if contributor...")
+        for repo in repos:
+
+            # Prints repo name before bar
+            # Repo names all at same length
+            repo_name = repo.split("/")[-1][:10]
+            while len(repo_name) < 10:
+                repo_name += " "
+            progress.update(task, description=repo_name)
+
+            # Checks if contributor
+            if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
+                contributed_repos.append(repo)
+            progress.update(task, advance=1)
 
     return contributed_repos
 
