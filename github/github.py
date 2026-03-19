@@ -34,7 +34,24 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
         'https://api.github.com/user/repos?type=all&per_page=100' # private repos
     ]
     
+    progress = Progress( # Prepares loading bar
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        MofNCompleteColumn()
+    )
+    progress.start() # Starts loading bar
+
+    # Sets total
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(urls)
+    )
     
+    # Updates to show public repos
+    print("Getting Repos...")
+    progress.update(task, description="[cyan]Public Repos...")
+
     # Does the request on both URLs
     for url in urls:
 
@@ -65,6 +82,16 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
                 repo_name = repo["url"]
                 # Skips over repos where the user is not a contributor
                 repo_urls.add(repo_name)
+
+        # Updates to show Private repos 
+        progress.update(task, description="[cyan]Private Repos...")
+        progress.update(task, advance=1)
+
+
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
+    progress.stop()
+    print()
 
     # Converts URL's to a list then sorts them
     repo_urls = list(repo_urls)
@@ -122,23 +149,23 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
     contributed_repos = []
     
-    progress = Progress( # Prepares loading bar
+    # Prepares loading bar
+    progress = Progress( 
         TextColumn("[progress.description]{task.description}"),
         BarColumn(),
         TaskProgressColumn(),
         MofNCompleteColumn()
     )
 
-    
+    # Loading Bar Parts
+    print("Confirming you are a contributor...")
     progress.start() # Starts loading bar
-
-    # Sets total
     task = progress.add_task(
         "[yellow]Starting...", 
-        total = len(repos)
+        total = len(repos) # Sets total
     )
 
-    print("Checking if contributor...")
+    
     for repo in repos:
 
         # Prints repo name before bar
@@ -156,6 +183,7 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     # Ends loading bar
     progress.update(task, description="[green]Complete!")
     progress.stop()
+    print()
 
     return contributed_repos
 
@@ -229,9 +257,24 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
     return commits
 
 def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
-    DEBUG_PRINT = False
 
     repos = getContributedRepos(GITHUB_PAT, GITHUB_USERNAME)
+
+    # Prepares loading bar
+    progress = Progress( 
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        MofNCompleteColumn()
+    )
+
+    # Loading Bar Parts
+    print("Getting all commits...")
+    progress.start() # Starts loading bar
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(repos) # Sets total
+    )
 
     commits_list = []
     count = 0 
@@ -241,18 +284,25 @@ def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
         commits_list.extend(commits)
         count += len(commits)
 
-        # Prints info about the repos we are pulling
-        if (DEBUG_PRINT == True):
-            print(f"{count:04d} total;", end=" ")
-            print(f"{len(commits):03d} commits;", end=" ")
+        # Repo names all at same length
+        repo_name = "[cyan]" + repo.split("/")[-1][:12] + "..."
+        while len(repo_name) < 21:
+            repo_name += "."
 
-            repo_name = repo.split("/")[-1] # Gets name after last slash
-            print(repo_name)
+        # Updates description
+        progress.update(task, description=repo_name)
+        progress.update(task, advance=1)
+
+
+    # Ends loading bar
+    progress.update(task, description="[green]Complete!")
+    progress.stop()
+    print()
 
     commits_sorted = sorted(commits_list)
 
     return commits_sorted
 
-# def formatCommits(COMMITS):
-#     for commit in COMMITS:
-#         print(commit)
+def formatCommits(COMMITS):
+    for commit in COMMITS:
+        print(commit)
