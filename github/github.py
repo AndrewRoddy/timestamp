@@ -4,7 +4,7 @@ import json
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
-from rich.progress import Progress
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeElapsedColumn
 
 def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
     # Converts from iso to datetime
@@ -34,6 +34,11 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
         'https://api.github.com/user/repos?type=all&per_page=100' # private repos
     ]
     
+    # with Progress() as progress:
+        # task = progress.add_task(
+        #     "[yellow]Getting Repos...", 
+        #     total = len(repos)
+        # )
     # Does the request on both URLs
     for url in urls:
 
@@ -45,6 +50,12 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
             r = requests.get(url=url_page, headers=headers)
 
+            if DEBUG_PRINT and r.status_code == 403:
+                print(f"{r.headers.get('X-RateLimit-Limit')=}")
+                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
+                print(f"{r.headers.get('X-RateLimit-Reset')=}")
+                print(f"{r.json().get('message')=}")
+
             # Checks the status code, if we are good, doesn't break
             if (
                 r.status_code == 422 or
@@ -52,10 +63,6 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
                 r.status_code == 404 or
                 not r.json()
                 ):
-                print(f"{r.headers.get('X-RateLimit-Limit')=}")
-                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
-                print(f"{r.headers.get('X-RateLimit-Reset')=}")
-                print(f"{r.json().get('message')=}")
                 break
 
             for repo in r.json():
@@ -119,26 +126,35 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
     contributed_repos = []
 
-    with Progress() as progress:
-        task = progress.add_task(
-            "[yellow]Starting...", 
-            total = len(repos)
-        )
+    progress = Progress(
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TaskProgressColumn(),
+        TimeElapsedColumn()
+    )
 
-        print("Checking if contributor...")
-        for repo in repos:
+    progress.start()
+    task = progress.add_task(
+        "[yellow]Starting...", 
+        total = len(repos)
+    )
 
-            # Prints repo name before bar
-            # Repo names all at same length
-            repo_name = repo.split("/")[-1][:10]
-            while len(repo_name) < 10:
-                repo_name += " "
-            progress.update(task, description=repo_name)
+    print("Checking if contributor...")
+    for repo in repos:
 
-            # Checks if contributor
-            if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
-                contributed_repos.append(repo)
-            progress.update(task, advance=1)
+        # Prints repo name before bar
+        # Repo names all at same length
+        repo_name = "[cyan]" + repo.split("/")[-1][:10] + "..."
+        while len(repo_name) < 19:
+            repo_name += "."
+        progress.update(task, description=repo_name)
+
+        # Checks if contributor
+        if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
+            contributed_repos.append(repo)
+        progress.update(task, advance=1)
+    
+    progress.stop()
 
     return contributed_repos
 
