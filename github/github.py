@@ -190,6 +190,7 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
 def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_URL):
 
     DEBUG_PRINT = False
+    repo_name = REPO_URL.split("/")[-1]
 
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
@@ -242,17 +243,16 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
                 ):
                 continue
 
-            date = commit["commit"]["author"]["date"]
-            formatted_date = utcToZone(TIME_ZONE, date)
+            utc_date = commit["commit"]["author"]["date"]
+            tz_date = utcToZone(TIME_ZONE, utc_date)
+            date = tz_date.split(" ")[0]
+            time = tz_date.split(" ")[1]
+
 
             msg = commit["commit"]["message"]
             first_line = msg.split("\n")[0]
             
-            if len(first_line) > 60:
-                first_line = first_line[:60]
-                first_line += "..."
-
-            commits.append(f"{formatted_date} {first_line}")
+            commits.append([date, time, first_line, repo_name])
 
     return commits
 
