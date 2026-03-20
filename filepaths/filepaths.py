@@ -25,11 +25,6 @@ def getPath(DAY, OBSIDIAN_PATH, DAILY_NOTES_FOLDER, CUSTOM_FORMAT):
         "ddd":  "%a",
         # Day of Month
         "DD":   "%d",
-        # Time
-        "HH":   "%H",
-        "hh":   "%I",
-        "mm":   "%M",
-        "ss":   "%S",
     }
 
     for key, value in date_dict.items():
