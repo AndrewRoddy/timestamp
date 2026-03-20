@@ -15,6 +15,5 @@ __all__ = [
     "getContributedRepos",
     "getAllCommits",
     "formatCommits"
-    "test"
 ]
 
