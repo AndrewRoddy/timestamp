@@ -26,7 +26,7 @@ def main():
 
     # get today
 
-    bday = ENV["BIRTHDAY"].split("/")
+    bday = ENV["BIRTHDAY"].split("-")
     start_date = date(int(bday[0]), int(bday[1]), int(bday[2]))
     end_date = date.today() - timedelta(1)
     for single_date in dateRange(start_date, end_date):
