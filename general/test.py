@@ -1,7 +1,7 @@
 from . import getEnv
 
 def test_getEnv():
-    ENV = getEnv("general/envTest.env")
+    ENV = getEnv("general/testEnv.env")
     # Required ################
     assert ENV["OBSIDIAN_PATH"]=="C:/VaultName"
     assert ENV["DAILY_NOTES_FOLDER"]=="FolderName"

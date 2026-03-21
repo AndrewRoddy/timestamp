@@ -1,41 +1,67 @@
 from github import getRepoCommits, getContributedRepos, getRepos, getAllCommits, formatCommits
 from general import getEnv
-from filepaths import getPath, dateRange
+from filepaths import getPath, dateRange, checkForSource, makeTemplatedFile
 from datetime import datetime, date, timedelta
-
+import os.path
 
 def main():
-    ENV = getEnv() # Holds all environment variables 
+    ENV = getEnv() # Holds all environment variables
+
+    if ENV["CUSTOM_FORMAT"][-1] == "/":
+        raise Exception("Custom format cannot be a directory.")
+
+    # integrations = [
+        # "🗓️ Calendar",
+        # "🫀 Health",
+        # "💪 Workouts",
+        # "📋 To Do List Tasks",
+        # "👾 GitHub Commits"
+        # "🎮 Steam Achievements",
+        # "🕹️ Retro Achievments",
+        # "⛏️ Minecraft Speedrun Ranked",
+        # "🃏 Anki Flash Cards",
+        # "📺 Netflix Movies Watched",
+        # "📺 HBO Movies Watched",
+        # "📀 YouTube Uploads",
+        # "💿 YouTube Watch History",
+        # "🎵 Spotify Listen History"
+    # ]
 
     # commits = getAllCommits(
-        #     ENV["GITHUB_PAT"],
-        #     ENV["GITHUB_USERNAME"],
-        #     ENV["GITHUB_EMAIL"],
-        #     ENV["TIME_ZONE"]
-        # )
+    #     ENV["GITHUB_PAT"],
+    #     ENV["GITHUB_USERNAME"],
+    #     ENV["GITHUB_EMAIL"],
+    #     ENV["TIME_ZONE"]
+    # )
+    
+    # formatted = formatCommits(commits)
 
-        # commits = getRepoCommits(
-        #     ENV["GITHUB_PAT"],
-        #     ENV["GITHUB_USERNAME"],
-        #     ENV["GITHUB_EMAIL"],
-        #     ENV["TIME_ZONE"],
-        #     "https://api.github.com/repos/AndrewRoddy/timestamp"
-        # ) 
-        
-        # formatted = formatCommits(commits)
+    # bday = ENV["BIRTHDAY"].split("-")
+    # start_date = date(2026, 1, 1)
+    # end_date = date.today() - timedelta(1)
+    # for single_date in dateRange(start_date, end_date):
+    
 
-    # get today
+    single_date = date(2028, 1, 1)
+    day = str(single_date.strftime("%Y-%m-%d"))
+    path = getPath(
+        day, ENV["OBSIDIAN_PATH"],
+        ENV["DAILY_NOTES_FOLDER"],ENV["CUSTOM_FORMAT"]
+    )
 
-    bday = ENV["BIRTHDAY"].split("-")
-    start_date = date(int(bday[0]), int(bday[1]), int(bday[2]))
-    end_date = date.today() - timedelta(1)
-    for single_date in dateRange(start_date, end_date):
-        day = str(single_date.strftime("%Y-%m-%d"))
-        path = getPath(
-            day, ENV["OBSIDIAN_PATH"],
-            ENV["DAILY_NOTES_FOLDER"],ENV["CUSTOM_FORMAT"]
+    if not os.path.isfile(path):
+        makeTemplatedFile(
+            path,
+            ENV["OBSIDIAN_PATH"],
+            ENV["DAILY_NOTE_TEMPLATE"]
         )
-        print(path)
+
+    # SOURCE = "👾 GitHub Commits"
+    # # Makes sure the file exists first
+
+    
+    # checkForSource(SOURCE, path)
+
         # if day in formatted:
         #     print(day)
         #     print(formatted[day], "\n")

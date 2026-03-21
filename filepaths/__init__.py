@@ -1,7 +1,9 @@
-from .filepaths import getPath, dateRange
+from .filepaths import getPath, dateRange, checkForSource, makeTemplatedFile
 
 __all__ = [
     "getPath",
-    "dateRange"
+    "dateRange",
+    "checkForSource",
+    "makeTemplatedFile"
 ]
 
