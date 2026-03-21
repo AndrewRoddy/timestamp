@@ -3,11 +3,12 @@
 
 ##### 🫀 Health
 Steps : 
+Time Asleep : 
+Sleep Score : 
+Water Intake:
 Max Heart Rate : 
 Min Heart Rate : 
 Average HRV : 
-Time Asleep : 
-Sleep Score : 
 
 ##### 💪 Workouts
 
