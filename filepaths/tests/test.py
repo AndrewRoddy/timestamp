@@ -1,4 +1,4 @@
-from . import getPath
+from filepaths import getPath
 
 def test_getPath():
     o_path = "C:/Notes"

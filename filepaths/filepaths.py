@@ -38,7 +38,6 @@ def getPath(DAY, OBSIDIAN_PATH, DAILY_NOTES_FOLDER, CUSTOM_FORMAT):
 
     return path
 
-
 def dateRange(start_date: date, end_date: date):
     days = int((end_date - start_date).days)
     for n in range(days):
@@ -64,3 +63,5 @@ def makeTemplatedFile(new_path, OBSIDIAN_PATH, DAILY_NOTE_TEMPLATE):
     with new_path.open("a", encoding="utf-8") as file:
         with open(template_path, "r", encoding="utf-8") as template:
             file.write(template.read())
+
+# def insertData():
