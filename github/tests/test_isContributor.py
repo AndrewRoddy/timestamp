@@ -11,8 +11,10 @@ def test_isContributor_org_repos():
 
     # Checks for Organizations repo for not contributor
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/hacksu/hacksu-website") == False
-
-def test_isContributor_large_repo():
+    
+def test_isContributor_large_repos():
+    ENV = getEnv()
+    PAT = ENV["GITHUB_PAT"]
     # Stress Test : checks for contributor in Linux
     # https://github.com/torvalds/linux
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/torvalds/linux") == True
@@ -21,6 +23,9 @@ def test_isContributor_large_repo():
     # Should assume he is in it because it is too large to check
     assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/torvalds/linux") == True
 
+def test_isContributor_regular_repos():
+    ENV = getEnv()
+    PAT = ENV["GITHUB_PAT"]
     # Also checks for contributor in regular person's repo
     # Looks for Monster0506 in rift
     # https://github.com/Monster0506/rift
@@ -30,6 +35,9 @@ def test_isContributor_large_repo():
     assert isContributor(PAT, "jamesTheJamesManManMan", "https://api.github.com/repos/Monster0506/rift") == False
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/Monster0506/rift") == False
     
+def test_isContributor_empty_repos():
+    ENV = getEnv()
+    PAT = ENV["GITHUB_PAT"]
     # Tests out empty repository (This whould always have no contributors)
     assert isContributor(PAT, "Monster0506", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
     assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/hacksu/khe-sponsorship") == False
