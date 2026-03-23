@@ -5,7 +5,6 @@ from .github import isContributor
 from .github import getContributedRepos
 from .github import getAllCommits
 from .github import formatCommits
-from . import test
 
 __all__ = [
     "utcToZone",

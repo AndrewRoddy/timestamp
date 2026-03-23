@@ -8,7 +8,7 @@ def test_getPath_default():
         "YYYY/MM-MMMM/YYYY-MM-DD-dddd"
     ) == "C:/Notes/Daily-Notes/2000/12-December/2000-12-31-Sunday.md"
 
-def test_getPath_dayChange():
+def test_getPath_day_change():
     assert getPath(
         "2001-01-01", 
         "C:/Notes", 
@@ -16,7 +16,7 @@ def test_getPath_dayChange():
         "YYYY/MM-MMMM/YYYY-MM-DD-dddd"
     ) == "C:/Notes/Daily-Notes/2001/01-January/2001-01-01-Monday.md"
 
-def test_getPath_formatChange():
+def test_getPath_format_change():
     assert getPath(
         "2001-01-01", 
         "C:/Notes", 
@@ -24,7 +24,7 @@ def test_getPath_formatChange():
         "YYYY/MM/DD"
     ) == "C:/Notes/Daily-Notes/2001/01/01.md"
 
-def test_getPath_pathChange():
+def test_getPath_path_change():
     assert getPath(
         "2001-01-01", 
         "C:/Path/PathPath", 
@@ -32,7 +32,7 @@ def test_getPath_pathChange():
         "YYYY/MM/DD"
     ) == "C:/Path/PathPath/Daily-Notes/2001/01/01.md"
 
-def test_getPath_folderChange():
+def test_getPath_folder_change():
     assert getPath(
         "2001-01-01", 
         "C:/Path/PathPath", 
