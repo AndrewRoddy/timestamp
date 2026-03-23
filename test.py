@@ -1,7 +1,13 @@
 from github.test import test_utcToZone
 from github.test import test_isContributor
 from github.test import test_formatCommits
-from general.test import test_getEnv
+
+from general.tests.test_getEnv import (
+    test_getEnv_obsidian, 
+    test_getEnv_general,
+    test_getEnv_github,
+    test_getEnv_steam,
+)
 
 # filepaths
 from filepaths.tests.test_getPath import (
