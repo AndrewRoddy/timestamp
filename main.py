@@ -1,6 +1,6 @@
 from github import getRepoCommits, getContributedRepos, getRepos, getAllCommits, formatCommits
 from general import getEnv
-from filepaths import getPath, dateRange, checkForSource, makeTemplatedFile
+from filepaths import getPath, dateRange, checkForSource, makeTemplatedFile, hasHeader
 from datetime import datetime, date, timedelta
 import os.path
 
@@ -10,22 +10,8 @@ def main():
     if ENV["CUSTOM_FORMAT"][-1] == "/":
         raise Exception("Custom format cannot be a directory.")
 
-    # integrations = [
-        # "🗓️ Calendar",
-        # "🫀 Health",
-        # "💪 Workouts",
-        # "📋 To Do List Tasks",
-        # "👾 GitHub Commits"
-        # "🎮 Steam Achievements",
-        # "🕹️ Retro Achievments",
-        # "⛏️ Minecraft Speedrun Ranked",
-        # "🃏 Anki Flash Cards",
-        # "📺 Netflix Movies Watched",
-        # "📺 HBO Movies Watched",
-        # "📀 YouTube Uploads",
-        # "💿 YouTube Watch History",
-        # "🎵 Spotify Listen History"
-    # ]
+   
+
 
     # commits = getAllCommits(
     #     ENV["GITHUB_PAT"],
@@ -55,6 +41,11 @@ def main():
             ENV["OBSIDIAN_PATH"],
             ENV["DAILY_NOTE_TEMPLATE"]
         )
+
+    if hasHeader(path, "👾 GitHub Commits"):
+        print("Has Header")
+    else:
+        print("Does not have header")
 
     # SOURCE = "👾 GitHub Commits"
     # # Makes sure the file exists first

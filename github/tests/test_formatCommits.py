@@ -36,7 +36,7 @@ def test_formatCommits_default():
 
     assert formatted["2026-03-06"] == "09:31:33 (the repo) Implemented proper time zone conversion\n09:31:51 (timestamp) Merge branch 'utc-to-tz'"
 
-def test_formatCommits_special_characters():
+def test_formatCommits_special_chars():
     commits = [
         ["2026-03-19", "16:18:19", "This commit is a test to see what I can do here !@#$%^&*()_+<>?:\"{}|,./;'[]\\`~1234567890\\\" \"\" \"\\\"\"", "timestamp"],
         ["2026-03-19", "16:18:43", "Merge branch 'format-commits'", "timestamp"],
