@@ -64,4 +64,14 @@ def makeTemplatedFile(new_path, OBSIDIAN_PATH, DAILY_NOTE_TEMPLATE):
         with open(template_path, "r", encoding="utf-8") as template:
             file.write(template.read())
 
-# def insertData():
+def hasHeader(path, header):
+    with open(path, "r", encoding="utf=8") as file:
+        if header in file.read():
+            return True
+
+    return False
+
+# def insertData(path, header, data):
+#     with path.open("a", encoding="utf=8") as file:
+#         file.write(header)
+#         file.write(data)
