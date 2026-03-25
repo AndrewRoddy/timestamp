@@ -24,7 +24,7 @@ Average HRV :
 
 ##### 📁 Notes Created
 
-##### 📂 Notes Mofidied
+##### 📂 Notes Modified
 
 ##### 🃏 Anki Flash Cards
 
