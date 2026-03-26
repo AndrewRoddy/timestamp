@@ -71,7 +71,7 @@ def hasHeader(path, header):
 
     return False
 
-# def insertData(path, header, data):
-#     with path.open("a", encoding="utf=8") as file:
-#         file.write(header)
-#         file.write(data)
+def insertData(path, header, data):
+    with path.open("a", encoding="utf=8") as file:
+        file.write(header)
+        file.write(data)

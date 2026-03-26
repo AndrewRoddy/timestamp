@@ -10,9 +10,6 @@ def main():
     if ENV["CUSTOM_FORMAT"][-1] == "/":
         raise Exception("Custom format cannot be a directory.")
 
-   
-
-
     # commits = getAllCommits(
     #     ENV["GITHUB_PAT"],
     #     ENV["GITHUB_USERNAME"],

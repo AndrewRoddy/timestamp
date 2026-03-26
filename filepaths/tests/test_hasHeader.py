@@ -2,7 +2,7 @@ from filepaths import hasHeader
 from random import choice
 
 def test_hasHeader_inside():
-    path = "filepaths/tests/temp/test1.md"
+    path = "filepaths/tests/temp/test_hasHeader.md"
     data = """##### 📝 Write - 🕰️ \n\n\n\n1.\n\n#### 👾 GitHub Commits"""
     header = "👾 GitHub Commits"
 
@@ -16,7 +16,7 @@ def test_hasHeader_inside():
         fp.truncate(0)
 
 def test_hasHeader_empty():
-    path = "filepaths/tests/temp/test1.md"
+    path = "filepaths/tests/temp/test_hasHeader.md"
     data = """##### 📝 Write - 🕰️ \n\n\n\n1.\n\n#### 👾 GitHub Commits"""
     header = "👾 GitHub Commits"
 
@@ -28,7 +28,7 @@ def test_hasHeader_empty():
     assert(hasHeader(path, header) == False)
 
 def test_hasHeader_stress_test():
-    path = "filepaths/tests/temp/test1.md"
+    path = "filepaths/tests/temp/test_hasHeader.md"
     data = ""
 
     data = ""

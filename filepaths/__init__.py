@@ -1,10 +1,18 @@
-from .filepaths import getPath, dateRange, checkForSource, makeTemplatedFile, hasHeader
+from .filepaths import (
+    getPath,
+    dateRange,
+    checkForSource,
+    makeTemplatedFile,
+    hasHeader,
+    insertData
+)
 
 __all__ = [
     "getPath",
     "dateRange",
     "checkForSource",
     "makeTemplatedFile",
-    "hasHeader"
+    "hasHeader",
+    "insertData"
 ]
 
