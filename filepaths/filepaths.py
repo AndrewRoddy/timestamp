@@ -72,12 +72,22 @@ def hasHeader(path, header):
     return False
 
 def insertData(path, header, data, header_size=4):
+    text = ""
+    with open(path, "r", encoding="utf=8") as file:
+        text = file.read()
+
     with open(path, "a", encoding="utf=8") as file:
-        file.write("\n")
-        file.write("\n")
+        file.write("\n") # Starts on new line
+
+        # Adds extra space to end of text if not present
+        if text[-1] != "\n":
+            file.write("\n")
+
+        # Adds pound signs and header
         for i in range(header_size):
             file.write("#")
         file.write(" ")
         file.write(header)
-        file.write("\n")
-        file.write(data)
+        
+        file.write("\n") # Newline after header
+        file.write(data) # Adds in actual text
