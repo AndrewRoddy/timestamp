@@ -71,7 +71,13 @@ def hasHeader(path, header):
 
     return False
 
-def insertData(path, header, data):
-    with path.open("a", encoding="utf=8") as file:
+def insertData(path, header, data, header_size=4):
+    with open(path, "a", encoding="utf=8") as file:
+        file.write("\n")
+        file.write("\n")
+        for i in range(header_size):
+            file.write("#")
+        file.write(" ")
         file.write(header)
+        file.write("\n")
         file.write(data)

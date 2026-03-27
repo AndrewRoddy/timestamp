@@ -9,18 +9,25 @@ def test_insertData_default():
     # The path we will be ineserting the data into
     pathC = "filepaths/tests/temp/01C_test_insertData.md"
 
+    # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
         with open(pathC, "w", encoding="utf-8") as fileC:
-            fileC.write(fileB.read())
+            fileC.truncate(0) # Clears the file out
+            fileC.write(fileB.read()) # Copies initial state
 
-    # data = "19:10:50 (timestamp) Start of project\n19:20:45 (other repo) Started using uv"
-    # header = "👾 GitHub Commits"
+    # What we will be inserting
+    data = "19:10:50 (timestamp) Start of project\n19:20:45 (other repo) Started using uv"
+    header = "👾 GitHub Commits"
 
-    # # Checks for github inside
-    # insertData(path, header, data)
+    # Checks for github inside
+    insertData(pathC, header, data)
 
-    # with open(path, "w", encoding="utf-8") as fp:
-    #     fp.truncate(0)
+    with open(pathA, "r", encoding="utf-8") as fileA:
+        with open(pathC, "r", encoding="utf-8") as fileC:
+            print("---Correct---:\n", fileA.read())
+            print("---My Insert---:\n", fileC.read())
+            assert fileA.read() == fileC.read()
+            
 
 # def test_insertData_extra_space():
     # Should add a space below if one is not there
