@@ -1,7 +1,25 @@
 from github import isContributor
 from general import getEnv
+import pytest
 
+import http.client as httplib
 
+def hasInternet(
+    url="www.geeksforgeeks.org",
+    timeout=3
+    ):
+    connection = httplib.HTTPConnection(url,timeout=timeout)
+    try:
+        connection.request("HEAD", "/")
+        connection.close()
+        return True
+    except Exception as exp:
+        return False
+
+internet = hasInternet()
+
+@pytest.mark.skip(reason="Not current")
+@pytest.mark.skipif(internet == False, reason="No Internet")
 def test_isContributor_org_repos():
     ENV = getEnv()
     PAT = ENV["GITHUB_PAT"]
@@ -12,6 +30,8 @@ def test_isContributor_org_repos():
     # Checks for Organizations repo for not contributor
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/hacksu/hacksu-website") == False
     
+@pytest.mark.skip(reason="Not current")
+@pytest.mark.skipif(internet == False, reason="No Internet")
 def test_isContributor_large_repos():
     ENV = getEnv()
     PAT = ENV["GITHUB_PAT"]
@@ -23,6 +43,8 @@ def test_isContributor_large_repos():
     # Should assume he is in it because it is too large to check
     assert isContributor(PAT, "AndrewRoddy", "https://api.github.com/repos/torvalds/linux") == True
 
+@pytest.mark.skip(reason="Not current")
+@pytest.mark.skipif(internet == False, reason="No Internet")
 def test_isContributor_regular_repos():
     ENV = getEnv()
     PAT = ENV["GITHUB_PAT"]
@@ -35,6 +57,8 @@ def test_isContributor_regular_repos():
     assert isContributor(PAT, "jamesTheJamesManManMan", "https://api.github.com/repos/Monster0506/rift") == False
     assert isContributor(PAT, "torvalds", "https://api.github.com/repos/Monster0506/rift") == False
     
+@pytest.mark.skip(reason="Not current")
+@pytest.mark.skipif(internet == False, reason="No Internet")
 def test_isContributor_empty_repos():
     ENV = getEnv()
     PAT = ENV["GITHUB_PAT"]
