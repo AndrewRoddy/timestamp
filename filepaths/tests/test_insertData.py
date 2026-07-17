@@ -8,7 +8,7 @@ def test_insertData_default():
     # The path without the data inserted
     pathB = "filepaths/tests/temp/01B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/temp/test_insertData.md"
+    pathT = "filepaths/tests/temp/01C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
@@ -27,8 +27,8 @@ def test_insertData_default():
         with open(pathT, "r", encoding="utf-8") as fileT:
             fileA_text = fileA.read()
             fileT_text = fileT.read()
-            print("---Correct---:\n", fileA.read())
-            print("---My Insert---:\n", fileT.read())
+            print(f"---Correct---:\n{fileA.read()}")
+            print(f"---My Insert---:\n{fileT.read()}")
             assert fileA.read() == fileT.read()
 
 # Tests the extra space at the top
@@ -39,7 +39,7 @@ def test_insertData_extra_space():
     # The path without the data inserted
     pathB = "filepaths/tests/temp/02B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/temp/test_insertData.md"
+    pathT = "filepaths/tests/temp/02C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
@@ -63,13 +63,13 @@ def test_insertData_extra_space():
             assert fileA_text == fileT_text
 
 # Checks for inserting at a different header level
-# def test_insertData_header_level():
+def test_insertData_header_level():
     # The example correct answer
-    pathA = "filepaths/tests/temp/02A_test_insertData.md"
+    pathA = "filepaths/tests/temp/03A_test_insertData.md"
     # The path without the data inserted
-    pathB = "filepaths/tests/temp/02B_test_insertData.md"
+    pathB = "filepaths/tests/temp/03B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/temp/test_insertData.md"
+    pathT = "filepaths/tests/temp/03C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
@@ -82,7 +82,12 @@ def test_insertData_extra_space():
     header = "👾 GitHub Commits"
 
     # Checks for github inside
-    insertData(pathT, header, data)
+    insertData(
+        path=pathT, 
+        header=header, 
+        data=data, 
+        header_size=6
+    )
 
     with open(pathA, "r", encoding="utf-8") as fileA:
         with open(pathT, "r", encoding="utf-8") as fileT:

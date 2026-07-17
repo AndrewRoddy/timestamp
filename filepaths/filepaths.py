@@ -3,7 +3,6 @@ from datetime import datetime, date, timedelta
 from pathlib import Path
 
 def getPath(DAY, OBSIDIAN_PATH, DAILY_NOTES_FOLDER, CUSTOM_FORMAT):
-
     date = datetime.strptime(DAY, "%Y-%m-%d")
 
     # Splits day up into its values
@@ -77,17 +76,18 @@ def insertData(path, header, data, header_size=4):
         text = file.read()
 
     with open(path, "a", encoding="utf=8") as file:
-        file.write("\n") # Starts on new line
 
-        # Adds extra space to end of text if not present
-        if text[-1] != "\n":
-            file.write("\n")
+        # Adds extra newlines to end of text
+        if text[-2] != "\n": file.write("\n")
+        if text[-1] != "\n": file.write("\n")
 
         # Adds pound signs and header
         for i in range(header_size):
             file.write("#")
+
         file.write(" ")
         file.write(header)
         
         file.write("\n") # Newline after header
         file.write(data) # Adds in actual text
+
