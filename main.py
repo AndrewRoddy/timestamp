@@ -7,42 +7,45 @@ import os.path
 def main():
     ENV = getEnv() # Holds all environment variables
 
+    # Confirms custom format is properly set
     if ENV["CUSTOM_FORMAT"][-1] == "/":
         raise Exception("Custom format cannot be a directory.")
 
+    # Gets all of the user's commits
     # commits = getAllCommits(
-    #     ENV["GITHUB_PAT"],
-    #     ENV["GITHUB_USERNAME"],
-    #     ENV["GITHUB_EMAIL"],
-    #     ENV["TIME_ZONE"]
+        # ENV["GITHUB_PAT"],
+        # ENV["GITHUB_USERNAME"],
+        # ENV["GITHUB_EMAIL"],
+        # ENV["TIME_ZONE"]
     # )
     
     # formatted = formatCommits(commits)
 
-    # bday = ENV["BIRTHDAY"].split("-")
-    # start_date = date(2026, 1, 1)
-    # end_date = date.today() - timedelta(1)
-    # for single_date in dateRange(start_date, end_date):
-    
+    bday = ENV["BIRTHDAY"].split("-")
+    start_date = date(2026, 1, 1)
+    end_date = date.today() - timedelta(1)
 
-    single_date = date(2028, 1, 1)
-    day = str(single_date.strftime("%Y-%m-%d"))
-    path = getPath(
-        day, ENV["OBSIDIAN_PATH"],
-        ENV["DAILY_NOTES_FOLDER"],ENV["CUSTOM_FORMAT"]
-    )
-
-    if not os.path.isfile(path):
-        makeTemplatedFile(
-            path,
+    for single_date in dateRange(start_date, end_date):
+        day = str(single_date.strftime("%Y-%m-%d"))
+        path = getPath(
+            day, 
             ENV["OBSIDIAN_PATH"],
-            ENV["DAILY_NOTE_TEMPLATE"]
+            ENV["DAILY_NOTES_FOLDER"],
+            ENV["CUSTOM_FORMAT"]
         )
+        print("Path: ", path)
 
-    if hasHeader(path, "👾 GitHub Commits"):
-        print("Has Header")
-    else:
-        print("Does not have header")
+    # if not os.path.isfile(path):
+        # makeTemplatedFile(
+            # path,
+            # ENV["OBSIDIAN_PATH"],
+            # ENV["DAILY_NOTE_TEMPLATE"]
+        # )
+
+    # if hasHeader(path, "👾 GitHub Commits"):
+        # print("Has Header")
+    # else:
+        # print("Does not have header")
 
     # SOURCE = "👾 GitHub Commits"
     # # Makes sure the file exists first

@@ -1,7 +1,7 @@
 from general import getEnv
 
 def test_getEnv_obsidian():
-    ENV = getEnv("general/testEnv.env")
+    ENV = getEnv("general/tests/files/testEnv.env")
 
     # Required ################
     assert ENV["OBSIDIAN_PATH"]=="C:/VaultName"
@@ -12,13 +12,13 @@ def test_getEnv_obsidian():
     assert ENV["DAILY_NOTE_TEMPLATE"]=="FolderName/Template"
 
 def test_getEnv_general():
-    ENV = getEnv("general/testEnv.env")
+    ENV = getEnv("general/tests/files/testEnv.env")
     # Needs to follow the IANA time zone identifier
     assert ENV["TIME_ZONE"]=="America/New_York"
     assert ENV["BIRTHDAY"]=="YYYY-MM-DD"
 
 def test_getEnv_github():
-    ENV = getEnv("general/testEnv.env")
+    ENV = getEnv("general/tests/files/testEnv.env")
 
     ##### 👾 GitHub Commits
     assert ENV["GITHUB_USERNAME"]=="MyUsername"
@@ -30,7 +30,7 @@ def test_getEnv_github():
     assert "GITHUB_LAST_UPDATE" not in ENV
 
 def test_getEnv_steam():
-    ENV = getEnv("general/testEnv.env")
+    ENV = getEnv("general/tests/files/testEnv.env")
     
     ##### 🎮 Steam Achievements
     assert ENV["STEAM_API_KEY"]=="hjaklhfjasdhlfkjadhjkflfa"
