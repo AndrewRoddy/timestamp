@@ -4,11 +4,11 @@ from random import choice
 # Just tests the regular likely implementation
 def test_insertData_default():
     # The example correct answer
-    pathA = "filepaths/tests/files/01A_test_insertData.md"
+    pathA = "filepaths/tests/files/insertData/01A_test_insertData.md"
     # The path without the data inserted
-    pathB = "filepaths/tests/files/01B_test_insertData.md"
+    pathB = "filepaths/tests/files/insertData/01B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/files/01C_test_insertData.md"
+    pathT = "filepaths/tests/files/insertData/01C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
@@ -35,11 +35,11 @@ def test_insertData_default():
 # Adds an extra space if it isn't there yet
 def test_insertData_extra_space():
     # The example correct answer
-    pathA = "filepaths/tests/files/02A_test_insertData.md"
+    pathA = "filepaths/tests/files/insertData/02A_test_insertData.md"
     # The path without the data inserted
-    pathB = "filepaths/tests/files/02B_test_insertData.md"
+    pathB = "filepaths/tests/files/insertData/02B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/files/02C_test_insertData.md"
+    pathT = "filepaths/tests/files/insertData/02C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
@@ -65,11 +65,11 @@ def test_insertData_extra_space():
 # Checks for inserting at a different header level
 def test_insertData_header_level():
     # The example correct answer
-    pathA = "filepaths/tests/files/03A_test_insertData.md"
+    pathA = "filepaths/tests/files/insertData/03A_test_insertData.md"
     # The path without the data inserted
-    pathB = "filepaths/tests/files/03B_test_insertData.md"
+    pathB = "filepaths/tests/files/insertData/03B_test_insertData.md"
     # The path we will be ineserting the data into
-    pathT = "filepaths/tests/files/03C_test_insertData.md"
+    pathT = "filepaths/tests/files/insertData/03C_test_insertData.md"
 
     # Copy over initial state into temp file
     with open(pathB, "r", encoding="utf-8") as fileB:
