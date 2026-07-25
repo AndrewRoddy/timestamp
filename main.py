@@ -46,9 +46,7 @@ def main():
             )
 
         # Checks if file has header
-        if hasHeader(path, "👾 GitHub Commits"):
-            print("Has Header")
-        else:
+        if hasHeader(path, "👾 GitHub Commits") == False:
             print("Does not have header")
 
     # SOURCE = "👾 GitHub Commits"

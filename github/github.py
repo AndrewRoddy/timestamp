@@ -6,8 +6,8 @@ from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
 from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, MofNCompleteColumn
 
+# Converts time from UTC to selected time zone
 def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
-    # Converts from iso to datetime
     dt = datetime.fromisoformat(date)
 
     # Converts to my zone
@@ -18,6 +18,7 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 
     return converted
 
+# Gets all repo URLs that user has access to
 def getRepos(GITHUB_PAT, GITHUB_USERNAME):
     repo_urls = set()
 
@@ -145,6 +146,7 @@ def isContributor(
     
     return False
 
+# Gets all repo URLs that the user has contributed to
 def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
     contributed_repos = []
@@ -187,8 +189,8 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
 
     return contributed_repos
 
+# Gets all commits in repo
 def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_URL):
-
     DEBUG_PRINT = False
     repo_name = REPO_URL.split("/")[-1]
 
@@ -258,8 +260,8 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
 
     return commits_sorted
 
+# Gets all commits made by user
 def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
-
     repos = getContributedRepos(GITHUB_PAT, GITHUB_USERNAME)
 
     # Prepares loading bar
