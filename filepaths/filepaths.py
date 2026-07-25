@@ -50,16 +50,18 @@ def checkForSource(SOURCE, PATH):
     return False
 
 def makeTemplatedFile(new_path, OBSIDIAN_PATH, DAILY_NOTE_TEMPLATE):
+
+    # Builds the path
     template_path = f"{OBSIDIAN_PATH}/{DAILY_NOTE_TEMPLATE}.md"
     new_path = Path(new_path)
     parent = new_path.parent
-
-    DEBUG = False
-    if DEBUG:
-        print(new_path)
     
+    # Creates new directory if necessary
     parent.mkdir(parents=True, exist_ok=True)
+
+    # Opens up the new path
     with new_path.open("a", encoding="utf-8") as file:
+        # Reads the original template file
         with open(template_path, "r", encoding="utf-8") as template:
             file.write(template.read())
 

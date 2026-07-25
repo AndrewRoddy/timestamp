@@ -25,27 +25,31 @@ def main():
     start_date = date(2026, 1, 1)
     end_date = date.today() - timedelta(1)
 
+    # Iterates through all dates within window
     for single_date in dateRange(start_date, end_date):
         day = str(single_date.strftime("%Y-%m-%d"))
+
+        # Gets the note path based on date
         path = getPath(
             day, 
             ENV["OBSIDIAN_PATH"],
             ENV["DAILY_NOTES_FOLDER"],
             ENV["CUSTOM_FORMAT"]
         )
-        print("Path: ", path)
 
-    # if not os.path.isfile(path):
-        # makeTemplatedFile(
-            # path,
-            # ENV["OBSIDIAN_PATH"],
-            # ENV["DAILY_NOTE_TEMPLATE"]
-        # )
+        # Makes templated file if it does not exist
+        if not os.path.isfile(path):
+            makeTemplatedFile(
+                path,
+                ENV["OBSIDIAN_PATH"],
+                ENV["DAILY_NOTE_TEMPLATE"]
+            )
 
-    # if hasHeader(path, "👾 GitHub Commits"):
-        # print("Has Header")
-    # else:
-        # print("Does not have header")
+        # Checks if file has header
+        if hasHeader(path, "👾 GitHub Commits"):
+            print("Has Header")
+        else:
+            print("Does not have header")
 
     # SOURCE = "👾 GitHub Commits"
     # # Makes sure the file exists first
