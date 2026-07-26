@@ -1,6 +1,7 @@
 import os
 import requests
 import json
+import asyncio
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
@@ -21,8 +22,6 @@ def utcToZone(zone="America/New_York", date="1111-11-11T11:11:11Z"):
 # Gets all repo URLs that user has access to
 def getRepos(GITHUB_PAT, GITHUB_USERNAME):
     repo_urls = set()
-
-    DEBUG_PRINT = False
 
     # Getting stuff from GitHub
     headers = { 
@@ -64,12 +63,6 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
             r = requests.get(url=url_page, headers=headers)
 
-            if DEBUG_PRINT and r.status_code == 403:
-                print(f"{r.headers.get('X-RateLimit-Limit')=}")
-                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
-                print(f"{r.headers.get('X-RateLimit-Reset')=}")
-                print(f"{r.json().get('message')=}")
-
             # Checks the status code, if we are good, doesn't break
             if (
                 r.status_code == 422 or
@@ -100,12 +93,16 @@ def getRepos(GITHUB_PAT, GITHUB_USERNAME):
 
     return repo_urls_sorted
 
-def isContributor(
+async def isContributor(
     GITHUB_PAT,
     GITHUB_USERNAME,
-    REPO_URL
+    REPO_URL,
+    PROGRESS,
+    TASK,
+    SEMAPHORE
     ):
-    DEBUG_PRINT = False
+
+    # Generates headers
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
         'User-Agent' : 'request'
@@ -117,12 +114,22 @@ def isContributor(
     page = 1
     url = REPO_URL + f"/contributors?per_page=100&page={page}"
 
-    req = requests.Request('GET', url)
-    r = s.get(url)
+    # Prints repo name before bar (all at same length)
+    repo_name = "[cyan]" + REPO_URL.split("/")[-1][:12] + "..."
+    while len(repo_name) < 21:
+        repo_name += "."
+    PROGRESS.update(TASK, description=repo_name)
     
+    req = requests.Request('GET', url)
 
-    # This is a solution for not being able to get the contributor list
-        # This should basically just not matter because if its in your list you are probably a contributor at that point as these large repos aren't usually in orgs so checking if you are a contributor matters less
+    async with SEMAPHORE:
+        r = s.get(url)
+
+    PROGRESS.update(TASK, advance=1) # Progresses bar
+    
+    # This is a solution for not being able to get the contributor list:
+    #   If its in your list you are probably a contributor at that point 
+    #   as these large repos aren't usually in orgs you would be a part of
     # TypeError -> There isn't an error in the repo so just skip this check
     # ConnectionError/JSONDecodeError -> For when repo is archived or something
     try:
@@ -137,20 +144,15 @@ def isContributor(
     # Checks for our user in user list
     for user in r.json():
         if str(user["login"]) == GITHUB_USERNAME:
-            if DEBUG_PRINT:
-                print("True", REPO_URL)
             return True
 
-    if DEBUG_PRINT:
-        print("False", REPO_URL)
-    
     return False
 
 # Gets all repo URLs that the user has contributed to
-def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
+async def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
     repos = getRepos(GITHUB_PAT, GITHUB_USERNAME)
-    contributed_repos = []
     
+    # LOADING BAR
     # Prepares loading bar
     progress = Progress( 
         TextColumn("[progress.description]{task.description}"),
@@ -166,32 +168,35 @@ def getContributedRepos(GITHUB_PAT, GITHUB_USERNAME):
         "[yellow]Starting...", 
         total = len(repos) # Sets total
     )
-
     
+    # Only runs 10 requests at once
+    sem = asyncio.Semaphore(10)
+
+    flags = []
     for repo in repos:
+        # True or false list of contributor or not
+        flags = await asyncio.gather(
+            *(isContributor(
+                GITHUB_PAT,
+                GITHUB_USERNAME,
+                repo,
+                progress,
+                task,
+                sem
+            ) for repo in repos))
 
-        # Prints repo name before bar
-        # Repo names all at same length
-        repo_name = "[cyan]" + repo.split("/")[-1][:12] + "..."
-        while len(repo_name) < 21:
-            repo_name += "."
-        progress.update(task, description=repo_name)
+    # Pulls all of the contributed repos
+    contributed_repos = list(compress(repos, flags))
 
-        # Checks if contributor
-        if isContributor(GITHUB_PAT, GITHUB_USERNAME, repo):
-            contributed_repos.append(repo)
-        progress.update(task, advance=1)
-    
     # Ends loading bar
     progress.update(task, description="[green]Complete!")
     progress.stop()
     print()
 
-    return contributed_repos
+    return await contributed_repos
 
 # Gets all commits in repo
 def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_URL):
-    DEBUG_PRINT = False
     repo_name = REPO_URL.split("/")[-1]
 
     headers = { 
@@ -211,14 +216,6 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
         req = requests.Request('GET', url) # Sets get request
         r = s.get(url)  # Prepares request
         
-        # Prints the status code to see if broken repo
-        if DEBUG_PRINT:
-            print(f"Status Code {r.status_code}")
-            if r.status_code == 403:
-                print(f"{r.headers.get('X-RateLimit-Limit')=}")
-                print(f"{r.headers.get('X-RateLimit-Remaining')=}")
-                print(f"{r.headers.get('X-RateLimit-Reset')=}")
-                print(f"{r.json().get('message')=}")
         
         # Checks the status code, if we are good, doesn't break
         if (
@@ -262,7 +259,7 @@ def getRepoCommits(GITHUB_PAT, GITHUB_EMAIL, GITHUB_USERNAME, TIME_ZONE, REPO_UR
 
 # Gets all commits made by user
 def getAllCommits(GITHUB_PAT, GITHUB_USERNAME, GITHUB_EMAIL, TIME_ZONE):
-    repos = getContributedRepos(GITHUB_PAT, GITHUB_USERNAME)
+    repos = asyncio.run(getContributedRepos(GITHUB_PAT, GITHUB_USERNAME))
 
     # Prepares loading bar
     progress = Progress( 

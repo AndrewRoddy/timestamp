@@ -12,12 +12,12 @@ def main():
         raise Exception("Custom format cannot be a directory.")
 
     # Gets all of the user's commits
-    # commits = getAllCommits(
-        # ENV["GITHUB_PAT"],
-        # ENV["GITHUB_USERNAME"],
-        # ENV["GITHUB_EMAIL"],
-        # ENV["TIME_ZONE"]
-    # )
+    commits = getAllCommits(
+        ENV["GITHUB_PAT"],
+        ENV["GITHUB_USERNAME"],
+        ENV["GITHUB_EMAIL"],
+        ENV["TIME_ZONE"]
+    )
     
     # formatted = formatCommits(commits)
 
