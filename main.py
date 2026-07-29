@@ -12,12 +12,7 @@ def main():
         raise Exception("Custom format cannot be a directory.")
 
     # Gets all of the user's commits
-    commits = getAllCommits(
-        ENV["GITHUB_PAT"],
-        ENV["GITHUB_USERNAME"],
-        ENV["GITHUB_EMAIL"],
-        ENV["TIME_ZONE"]
-    )
+    commits = getAllCommits(ENV["GITHUB_PAT"], ENV["GITHUB_USERNAME"], ENV["GITHUB_EMAIL"], ENV["TIME_ZONE"])
     
     # formatted = formatCommits(commits)
 
@@ -30,20 +25,11 @@ def main():
         day = str(single_date.strftime("%Y-%m-%d"))
 
         # Gets the note path based on date
-        path = getPath(
-            day, 
-            ENV["OBSIDIAN_PATH"],
-            ENV["DAILY_NOTES_FOLDER"],
-            ENV["CUSTOM_FORMAT"]
-        )
+        path = getPath(day, ENV["OBSIDIAN_PATH"], ENV["DAILY_NOTES_FOLDER"], ENV["CUSTOM_FORMAT"])
 
         # Makes templated file if it does not exist
         if not os.path.isfile(path):
-            makeTemplatedFile(
-                path,
-                ENV["OBSIDIAN_PATH"],
-                ENV["DAILY_NOTE_TEMPLATE"]
-            )
+            makeTemplatedFile(path, ENV["OBSIDIAN_PATH"], ENV["DAILY_NOTE_TEMPLATE"])
 
         # Checks if file has header
         if hasHeader(path, "👾 GitHub Commits") == False:

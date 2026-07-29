@@ -1,7 +1,9 @@
 import os
 import requests
 import json
+
 import asyncio
+import httpx
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
@@ -102,6 +104,12 @@ async def isContributor(
     SEMAPHORE
     ):
 
+    # Prints repo name before bar (all at same length)
+    repo_name = "[cyan]" + REPO_URL.split("/")[-1][:12] + "..."
+    while len(repo_name) < 21:
+        repo_name += "."
+    PROGRESS.update(TASK, description=repo_name)
+
     # Generates headers
     headers = { 
         'Authorization': f'Bearer {GITHUB_PAT}',
@@ -112,39 +120,51 @@ async def isContributor(
     s.headers = headers
 
     page = 1
-    url = REPO_URL + f"/contributors?per_page=100&page={page}"
+    pages = []
+    while (True):
+        # Builds the URL and makes the request
+        url = REPO_URL + f"/contributors?per_page=100&page={page}"
 
-    # Prints repo name before bar (all at same length)
-    repo_name = "[cyan]" + REPO_URL.split("/")[-1][:12] + "..."
-    while len(repo_name) < 21:
-        repo_name += "."
-    PROGRESS.update(TASK, description=repo_name)
-    
-    req = requests.Request('GET', url)
+        # Makes the request
+        async with SEMAPHORE:
+            r = s.get(url)
+        
+        # Checks the status code, if we are good, doesn't break
+        if (
+            r.status_code == 422 or
+            r.status_code == 403 or
+            r.status_code == 404 or
+            not r.json()
+        ):
+            break
 
-    async with SEMAPHORE:
-        r = s.get(url)
+        # This is a solution for not being able to get the contributor list:
+        #   If this repo is in your list you are probably a contributor at that point 
+        #   as these large repos aren't usually in orgs you would be a part of
+        # TypeError -> There isn't an error in the repo so just skip this check
+        # ConnectionError/JSONDecodeError -> For when repo is archived or something
+        try:
+            if "The history or contributor list is too large" in r.json()["message"]:
+                print("Repo too large to check, assuming you are a contributor.")
+                return True
+        except (TypeError):
+            pass
+        except (requests.exceptions.ConnectionError, json.decoder.JSONDecodeError):
+            return False
 
+        pages.append(r)
+        page += 1
+
+
+    # Moves progress bar forwards
     PROGRESS.update(TASK, advance=1) # Progresses bar
-    
-    # This is a solution for not being able to get the contributor list:
-    #   If its in your list you are probably a contributor at that point 
-    #   as these large repos aren't usually in orgs you would be a part of
-    # TypeError -> There isn't an error in the repo so just skip this check
-    # ConnectionError/JSONDecodeError -> For when repo is archived or something
-    try:
-        if "The history or contributor list is too large" in r.json()["message"]:
-            print("Repo too large to check, assuming you are a contributor.")
-            return True
-    except (TypeError):
-        pass
-    except (requests.exceptions.ConnectionError, json.decoder.JSONDecodeError):
-        return False
 
-    # Checks for our user in user list
-    for user in r.json():
-        if str(user["login"]) == GITHUB_USERNAME:
-            return True
+    # Iterates through users in pages
+    for page in pages:
+        for user in page.json():
+            # Checks for user in user list
+            if str(user["login"]) == GITHUB_USERNAME:
+                return True
 
     return False
 
