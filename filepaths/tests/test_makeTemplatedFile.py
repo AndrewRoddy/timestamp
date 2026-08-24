@@ -1,4 +1,5 @@
 from filepaths import makeTemplatedFile
+from filepaths import insertData
 
 # Just tests the regular likely implementation
 def test_makeTemplatedFile_default():
